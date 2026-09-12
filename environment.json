@@ -1,0 +1,16 @@
+{
+  "python": "3.12",
+  "client": {
+    "openai": "3.3.1"
+  },
+  "server": {
+    "vllm": "0.28.0",
+    "torch": "2.13.0",
+    "transformers": "5.5.3",
+    "huggingface-hub": "1.28.0"
+  },
+  "hardware": "2 x NVIDIA RTX PRO 6000 Blackwell 96 GB; one server per GPU",
+  "precision": "BF16",
+  "model_revision": "main at execution; exact weight commit hashes were not archived",
+  "reproducibility_limit": "Single runs; GPU kernels, scheduling and model revisions can change outputs."
+}
