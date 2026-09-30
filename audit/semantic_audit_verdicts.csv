@@ -1,0 +1,1945 @@
+item_id,file,doc,tuple_index,verdict,codes
+afb7bc66f6e8,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0563,0,INVALIDA,C1 S1
+5772c51c5c0f,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0205,0,VALIDA,
+7e7625ecc2ea,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0781,0,VALIDA,
+69e30338d623,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1854,0,INVALIDA,A1 S1
+67c46be0ffb5,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1181,0,INVALIDA,A1
+e131dbcb89c7,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0989,0,VALIDA,
+2db04c8a174e,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0289,0,PARCIAL,S2
+dfabec269397,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1202,0,INVALIDA,A1 S1
+bdc4491cf0e6,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1766,1,PARCIAL,P1
+ac91359b937c,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1106,0,PARCIAL,S2
+7ce717caef1a,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0331,0,INVALIDA,P1 S1
+22368df033ce,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1441,0,PARCIAL,P1
+73cba1d4346d,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0232,0,INVALIDA,A1 S1
+1d850fa9574b,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0232,3,INVALIDA,S1
+c12d17cd5e64,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1196,0,PARCIAL,C1
+78da39e5768a,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0496,1,VALIDA,
+622271e67f92,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1615,0,PARCIAL,C1
+9a02f60b8975,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0177,0,INVALIDA,A1 C1 S2
+56c3428c4a8d,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1102,0,VALIDA,
+e60fff72186c,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0809,0,PARCIAL,S2
+e7e31bf32acc,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0826,0,PARCIAL,C1
+afecc415bf43,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1311,0,PARCIAL,C1 P1
+0f230ec931dd,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0316,0,VALIDA,
+68283f5666b0,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1056,0,VALIDA,
+e8a064db5311,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0049,0,PARCIAL,S2
+72eeba70227a,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0210,0,VALIDA,
+fcff15e41e98,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0379,0,PARCIAL,C1
+66c0b66fa826,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1378,0,INVALIDA,S1
+aaf8c96adf1b,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0942,0,INVALIDA,S1
+282ca6a74d34,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1101,0,PARCIAL,P1 S2
+2e44101db42b,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0991,0,INVALIDA,A1 S2
+c073a1414320,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1446,0,PARCIAL,A4
+7b92e531eacb,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1608,0,PARCIAL,S2
+aa04d73bfaaa,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1281,0,VALIDA,
+94e53a5e96de,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1788,0,PARCIAL,C1 P1 S2
+96d574a41393,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0576,1,INVALIDA,S1
+e6d85fa58d7f,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0475,0,INVALIDA,C1 S1
+d023b56b3539,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1546,0,VALIDA,
+09ca654d28f1,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1304,0,INVALIDA,O1 S1
+8f4f56747b29,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1418,0,VALIDA,
+c4114451444c,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1174,0,INVALIDA,A1
+c09eae6d49e2,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0957,0,PARCIAL,S2
+656c044d7e34,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0918,0,VALIDA,
+3312632c76d8,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0125,0,INVALIDA,A1
+c52ffd7d882f,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1395,0,VALIDA,
+d4d46642f1c5,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0075,0,PARCIAL,S2
+d03a10acc756,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0156,1,INVALIDA,A1
+4e4a0de632e7,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1002,0,INVALIDA,S1
+eca74c009408,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_0851,0,VALIDA,
+cf22617fbffe,Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz,ex_1870,0,INVALIDA,A1
+349ac8322fd1,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0931,0,VALIDA,
+474768c4ed2e,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0781,0,PARCIAL,H1
+dec3b4229d4b,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0299,0,VALIDA,
+e0b29fa0fe5d,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1854,0,INVALIDA,A2 H1 S1
+e71c4fd3097f,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1557,0,PARCIAL,H1 P1 S2
+16f63ea74bdb,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1329,0,INVALIDA,A1
+0db4efce7553,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0993,0,PARCIAL,A4 H1
+487373e1c872,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0359,3,INVALIDA,H1 O1
+eba5fd95a63e,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1337,0,VALIDA,
+3041ec1be903,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0928,0,PARCIAL,H1 S2
+0e2427590a20,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0928,1,INVALIDA,A1 H1
+a1687bf2616d,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0064,0,PARCIAL,H1
+bc9488c9b8d0,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1207,0,VALIDA,
+0f042669c688,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0827,1,PARCIAL,H1
+1e3debf49993,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0496,0,INVALIDA,A1
+d8126d38dd04,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0320,0,INVALIDA,A1
+988877bf195b,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0761,0,PARCIAL,H1 S2
+994ea7d3e00a,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1691,0,VALIDA,
+974a594d5d4e,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0220,0,PARCIAL,H1 S2
+baaabba69c03,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1102,0,INVALIDA,A1 H1 S2
+271570467bea,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1597,0,VALIDA,
+955c5d90a2be,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0513,0,INVALIDA,H1 S1
+2bf73603a4fa,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0809,0,PARCIAL,H1 P1 S2
+74d2cfa9991f,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1311,2,PARCIAL,H1 P1 S2
+bd00274ec0f3,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0964,0,INVALIDA,A1 H1 S1
+c1ce147d25ea,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0049,0,PARCIAL,H1 S2
+d870657136db,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0837,0,PARCIAL,H1 S2
+9eebe0307c0f,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0585,0,INVALIDA,A1 H1
+70b633ecea64,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1740,0,INVALIDA,A3 H1 S1
+086beaebf1e4,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0159,0,PARCIAL,H1 S2
+244abbaa4f00,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1608,0,VALIDA,
+d5a93d5062b9,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1489,0,PARCIAL,H1
+64b05ada5f24,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1634,1,VALIDA,
+54ed4b247577,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0446,0,INVALIDA,H1 S1
+74e8342d881c,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0657,0,VALIDA,
+1aa5f15aee00,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0598,0,PARCIAL,H1
+46e9e1e5350c,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0515,0,VALIDA,
+c8f82d09b10a,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0642,0,PARCIAL,H1
+5b4bfef93b7b,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1157,0,INVALIDA,A1
+ef27d4453e4f,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0324,0,INVALIDA,S1
+ef8de388feae,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0313,0,PARCIAL,H1
+176303e60ec7,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0811,0,INVALIDA,A1 H1 S1
+80f355218748,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0975,1,PARCIAL,H1
+176644ae609d,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0079,0,VALIDA,
+d0caff7a5106,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1647,0,PARCIAL,H1
+e7ffea89afb1,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0481,0,PARCIAL,H1
+cc17c53ad766,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0127,0,PARCIAL,H1 S2
+eb65b0d9ffb5,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_1827,1,INVALIDA,A1 H1
+de7471ea3777,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0567,0,PARCIAL,H1
+0b07753aba44,Qwen__Qwen2.5-0.5B-Instruct.full.ssa.json.gz,ex_0567,1,PARCIAL,H1 S2
+1fe97374fa5c,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0366,0,PARCIAL,C1
+43ff244d2915,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0299,0,INVALIDA,A3 P1 S2
+69e30338d623,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1854,0,INVALIDA,A1 S1
+67c46be0ffb5,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1181,0,INVALIDA,A1
+e131dbcb89c7,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0989,0,VALIDA,
+2db04c8a174e,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0289,0,PARCIAL,S2
+e05f33b55db2,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1756,0,VALIDA,
+bdc4491cf0e6,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1766,1,PARCIAL,P1
+e42df87b0b38,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0132,0,INVALIDA,A1 C1 S2
+4efcf79b3741,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1762,0,VALIDA,
+672ffffb9451,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1317,0,VALIDA,
+4f878c56948e,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0928,0,INVALIDA,A1
+c12d17cd5e64,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1196,0,PARCIAL,C1
+78da39e5768a,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0496,1,VALIDA,
+8a3850ab39ce,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1361,0,INVALIDA,A1
+8b785d6b0a18,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0315,0,VALIDA,
+9a02f60b8975,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0177,0,INVALIDA,A1 C1 S2
+37786db4393a,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1597,0,VALIDA,
+2db5115155bb,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1175,0,PARCIAL,C1
+f5d97eb63990,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1872,0,INVALIDA,A1
+e60fff72186c,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0809,0,PARCIAL,S2
+cd25032fc259,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0015,0,INVALIDA,S1
+bc336db7fd3e,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0837,0,PARCIAL,S2
+72eeba70227a,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0210,0,VALIDA,
+e0b7224abde9,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0018,0,INVALIDA,A1 C1
+87486952d0da,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1769,0,INVALIDA,S1
+2395a84eb021,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0186,0,INVALIDA,O1
+fcff15e41e98,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0379,0,PARCIAL,C1
+b0bf479eabb3,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1740,0,VALIDA,
+74a2ce444223,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1419,0,INVALIDA,S1
+64e9e3cf02fa,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1419,1,PARCIAL,A4 S2
+282ca6a74d34,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1101,0,PARCIAL,P1 S2
+6ee359f3e767,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0466,0,VALIDA,
+94e53a5e96de,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1788,0,PARCIAL,C1 P1 S2
+dba2275cec08,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0755,0,VALIDA,
+35c6b2e1317c,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0170,0,PARCIAL,S2
+d023b56b3539,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1546,0,VALIDA,
+b4e8b179ce06,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0812,0,VALIDA,
+09bb0a886048,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1137,0,INVALIDA,A1
+5a0b340aa1f1,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0305,0,VALIDA,
+60036698f45f,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0291,0,PARCIAL,S2
+656c044d7e34,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0918,0,VALIDA,
+d9bb3f9e9c9b,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0774,0,INVALIDA,A1 S1
+26f3264df2b8,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1021,0,VALIDA,
+41f50d909963,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1577,0,INVALIDA,A3 P1
+5641b2f6fc1d,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1257,0,INVALIDA,S1
+8d0fe4634259,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0794,1,PARCIAL,A4 C1
+a61bd12c2171,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0156,0,PARCIAL,A4 C1
+858b3166226e,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_0127,0,PARCIAL,S2
+a08fc125f40b,Qwen__Qwen2.5-0.5B-Instruct.no_retry.asqp.json.gz,ex_1827,0,VALIDA,
+79d438b5c21d,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0383,0,PARCIAL,H1
+6e3bf86818aa,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0141,0,INVALIDA,A1 S2
+dec3b4229d4b,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0299,0,VALIDA,
+e0b29fa0fe5d,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1854,0,INVALIDA,A2 H1 S1
+7c5c8f89de51,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1563,0,VALIDA,
+33e1b3943822,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0160,0,INVALIDA,H1 S1
+e71c4fd3097f,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1557,0,PARCIAL,H1 P1 S2
+81b177720fbb,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1333,0,INVALIDA,H1 S1
+c13ad11a1b99,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1333,1,PARCIAL,A4
+7d19cc926908,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1762,2,INVALIDA,A1 H1 S1
+42a065a2b5b1,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1554,0,INVALIDA,A1 H1 P1
+3041ec1be903,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0928,0,PARCIAL,H1 S2
+0e2427590a20,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0928,1,INVALIDA,A1 H1
+ea4fbbb53987,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1441,0,PARCIAL,H1 P1
+dd73cb3a30fa,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0356,0,PARCIAL,H1 S2
+bdc37d40b259,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1465,0,PARCIAL,H1
+ebbd40ef59dc,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1465,1,VALIDA,
+ec9359e2b6ba,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1311,1,VALIDA,
+74d2cfa9991f,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1311,2,PARCIAL,H1 P1 S2
+225ba4b7deef,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0757,0,PARCIAL,A4 H1
+d6aa7cd942ea,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1516,0,PARCIAL,H1 S2
+87325bc279a9,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1862,0,PARCIAL,H1 S2
+d904fbdbe02f,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0186,0,INVALIDA,H1 O1
+fc2b657cb7f9,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0255,0,PARCIAL,H1
+70b633ecea64,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1740,0,INVALIDA,A3 H1 S1
+a28c321b4e52,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1767,0,PARCIAL,H1 S2
+b49351c193f8,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0542,0,PARCIAL,H1 P1
+099c74c819cd,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1026,0,INVALIDA,H1 S1
+400ba156b494,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1876,0,INVALIDA,H1 S1
+e98e906d6571,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1634,0,PARCIAL,H1
+0bdb90c36c1c,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0501,0,INVALIDA,H1 O1
+01f2a5aa2de0,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1020,0,VALIDA,
+4a9e0c06cfad,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0376,0,INVALIDA,A1
+1174b9bc445d,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0170,0,PARCIAL,H1 S2
+23befb5042ab,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0002,0,INVALIDA,H1 S1
+46e9e1e5350c,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0515,0,VALIDA,
+d4f1f6aaed19,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0497,0,INVALIDA,A3
+86a157ed935d,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0966,0,PARCIAL,H1
+c8f82d09b10a,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0642,0,PARCIAL,H1
+127278b74e25,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0642,1,PARCIAL,H1
+ef27d4453e4f,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0324,0,INVALIDA,S1
+ef8de388feae,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0313,0,PARCIAL,H1
+a5612ae9de38,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0814,0,INVALIDA,A1 H1 S1
+ec8b00b6c636,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0618,1,INVALIDA,A1 H1 S1
+80f355218748,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0975,1,PARCIAL,H1
+176644ae609d,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0079,0,VALIDA,
+02df26cf760b,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0079,1,PARCIAL,H1 S2
+d779e8ff2d48,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_0794,0,INVALIDA,S1
+fa9991621534,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1472,0,PARCIAL,H1
+02fc9f600a74,Qwen__Qwen2.5-0.5B-Instruct.no_retry.ssa.json.gz,ex_1870,0,PARCIAL,P1
+bc7ed822f948,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1692,2,VALIDA,
+09a2f74d8dcb,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1316,1,VALIDA,
+651572e21970,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0771,0,PARCIAL,A4
+cdbdbda8b7d8,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0801,1,INVALIDA,A3 S1
+51cbef37ad0b,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0009,0,INVALIDA,S1
+61785936ec80,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0262,1,INVALIDA,A1 S1
+779f828e4002,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0730,3,PARCIAL,A4 P1 S2
+f2b815bfde29,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0228,0,INVALIDA,O1
+578771de0e0b,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1497,0,INVALIDA,A1 S1
+5997ef3bd7b0,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1379,0,VALIDA,
+3540ccea8596,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0045,2,INVALIDA,A1
+0c84ea609360,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1061,3,VALIDA,
+a7933bcd34c8,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0533,3,INVALIDA,A1 S1
+82e6b172c59b,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1558,2,VALIDA,
+8d8df3d57bd6,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1479,2,INVALIDA,A3 O1
+a4f2d353cc1f,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1776,1,PARCIAL,P1
+a97b91c53b28,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0950,0,PARCIAL,S3
+52876f459026,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0231,3,INVALIDA,A1
+7dac065f7309,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1872,3,INVALIDA,S1
+a037e1ecfd36,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0721,1,VALIDA,
+b0d51fcac40b,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0683,1,VALIDA,
+c531d85959da,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0240,0,VALIDA,
+052c946974a1,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0678,4,INVALIDA,A1 S1
+3dbc73780bf9,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1670,3,INVALIDA,O1
+01ca25c8040c,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0891,1,VALIDA,
+bf566dd8a5aa,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0210,2,VALIDA,
+c32cef212c62,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0892,1,VALIDA,
+87486952d0da,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1769,6,INVALIDA,S1
+8bc278fc49ac,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1740,1,INVALIDA,A1 S2
+b50e10e17907,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1767,1,PARCIAL,C1
+136f2c85b01d,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0466,1,VALIDA,
+103ed61c74ea,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1297,2,VALIDA,
+73fac6bd4aec,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0421,2,VALIDA,
+b97ce343f1f2,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0836,0,PARCIAL,S2
+1209fe50b015,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0376,0,INVALIDA,A3
+c8668352a3e0,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0056,1,INVALIDA,A1
+cc07ac8551e8,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0170,0,PARCIAL,A4
+a881b928163e,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0598,1,INVALIDA,A1 S1
+c835af621f18,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1652,1,PARCIAL,P1
+92275ecbe350,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1503,0,INVALIDA,A3 S1
+97e82d2dc895,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0291,2,INVALIDA,A1 S3
+33e11462665a,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0618,0,INVALIDA,A2
+b1f8f338ac90,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_1182,0,PARCIAL,S2
+d3c645bbe65e,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0901,2,VALIDA,
+6f08c1cf9f0d,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0213,1,INVALIDA,A3
+cad5f1341502,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0785,0,INVALIDA,A1 S1
+da079f2a9d84,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0794,9,INVALIDA,S1
+978b7cb0cbe3,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0075,1,INVALIDA,O1
+c9b26fa806a6,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0282,1,INVALIDA,A3 O1 S1
+ea4530086a1f,Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz,ex_0050,0,VALIDA,
+7738eee1ed84,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0403,1,PARCIAL,A4 S2
+71511f6643ae,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1500,0,PARCIAL,S2
+0914ad154c32,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1106,0,PARCIAL,S2
+b64446955037,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1099,1,PARCIAL,H1 S2
+c9ded8a2d11f,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1762,0,VALIDA,
+141bafe7d494,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0833,5,INVALIDA,A1 S1
+257aa23bb13e,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0655,2,INVALIDA,A1
+dcb4e08f4012,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0211,0,PARCIAL,S2
+cc72622eed6e,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0306,0,INVALIDA,A3 S1
+34620d394d26,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0928,5,PARCIAL,S2
+f5ecb860ddc0,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1835,2,VALIDA,
+ff82ad566d32,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1539,0,PARCIAL,S2
+de0975ac343f,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1275,0,INVALIDA,A1
+788b5448291c,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0416,1,INVALIDA,H1 S1
+951f8e4699a1,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0827,2,VALIDA,
+4b2ca6b74d4c,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0208,0,PARCIAL,S2
+f70a05deeb14,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1770,2,PARCIAL,S2
+f63c91711018,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1558,1,INVALIDA,A1 S1
+d2892aa3aeee,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1479,0,VALIDA,
+fc1b20591d3a,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0513,5,INVALIDA,A4 P1 S1
+d764e222e8c4,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0758,0,PARCIAL,H1 S2
+bad0a27d83a0,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1512,0,PARCIAL,H1
+dc796cd3cb7a,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1311,2,VALIDA,
+6f369114e9bf,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0316,0,VALIDA,
+5958b15fa8a9,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0174,0,PARCIAL,S2
+cbbcd214527f,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1679,2,VALIDA,
+4141b3a6c4ad,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0158,3,INVALIDA,A1 P1
+58d6f97f31df,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0585,1,INVALIDA,A1 S1
+c6836d66b1e8,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1740,1,INVALIDA,A1
+51a1ff4fbb1a,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1842,1,INVALIDA,A1
+34aeeea81e2f,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0970,0,INVALIDA,A1 O1
+db6965130e10,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0970,3,INVALIDA,A1 S1
+084447af8f01,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0581,2,PARCIAL,P1 S2
+30905a1aabac,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1608,6,PARCIAL,S2
+c15f603ce597,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1638,3,PARCIAL,S3
+7ecf541ccc0a,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0806,0,INVALIDA,S1
+847e4f6ad24e,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1560,2,PARCIAL,S2
+ae2b8731d0bc,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0376,3,PARCIAL,H1 S2
+4faea8074d66,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0056,1,VALIDA,
+78d60442ed15,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0922,0,INVALIDA,S1
+6eb167c34ec9,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1304,0,INVALIDA,O1
+eda35629a846,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1844,0,VALIDA,
+1abd68460227,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1690,2,VALIDA,
+50e1316abb19,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1454,1,INVALIDA,S1
+844aea3955dc,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0173,2,PARCIAL,A4 H1
+7c656f14369c,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0884,0,INVALIDA,O1
+d8cca59b549b,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0413,0,PARCIAL,S2
+244c2d7c90ad,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_0415,2,PARCIAL,S2
+cf0a6c4eb3ac,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1647,3,VALIDA,
+189c85ff595f,Qwen__Qwen2.5-1.5B-Instruct.full.ssa.json.gz,ex_1257,0,INVALIDA,S1
+7f8c171f3abf,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0366,0,INVALIDA,A1
+6aecc671863c,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1316,0,PARCIAL,C1
+1d120543fbf3,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0478,3,INVALIDA,O1 S1
+94ccf6ca437f,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1500,1,INVALIDA,A1 P1 S2
+7f6e46dcdd21,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1500,5,VALIDA,
+5771f328a6d0,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1772,2,PARCIAL,C1
+dc6fc0ad5214,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0132,3,INVALIDA,O1
+e42df87b0b38,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0132,4,INVALIDA,A1 C1 S2
+2e7dba352f7d,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0730,1,INVALIDA,O1 S1
+6a691c8e22e6,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0500,0,INVALIDA,C1 S1
+c93ee3214c76,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0119,1,PARCIAL,A4
+4b74ea7fe3ca,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0858,0,VALIDA,
+93d3884facc3,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1061,3,PARCIAL,C1
+4cba6d6fb1b1,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1441,1,VALIDA,
+c4a1460002cf,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0227,0,INVALIDA,S1
+1fba8025a9d2,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1881,1,INVALIDA,A2 S1
+62a8538a6c7a,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0787,2,VALIDA,
+05d799afc8d7,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0151,0,PARCIAL,A4 C1 S2
+e825c5b5e593,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1102,2,INVALIDA,A1 S2
+6239c29f2bcb,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1872,0,PARCIAL,S2
+e8cb07ff46a3,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0672,1,VALIDA,
+9c4368417657,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0553,0,INVALIDA,A1 S1
+8bd21190e110,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1292,0,INVALIDA,S1
+d7fc2beb34e4,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1126,1,INVALIDA,A1
+41a26307019d,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0852,0,PARCIAL,C1
+c3999e466d19,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0440,0,VALIDA,
+0676652b93fe,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0585,0,INVALIDA,A3
+b3c5add80051,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0542,0,VALIDA,
+33df45811455,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1087,2,INVALIDA,A1 S1
+e2b4bb9aeee1,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0696,0,PARCIAL,C1
+09bd17cfafb5,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1608,0,VALIDA,
+16c713d625de,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1665,1,INVALIDA,A2
+aa04d73bfaaa,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1281,0,VALIDA,
+006826823453,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1425,0,PARCIAL,C1
+9d10ca3f4ae6,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0118,2,INVALIDA,A1 P1
+ee5a6dbdee3e,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1824,4,VALIDA,
+06f454af384f,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1824,5,INVALIDA,C1 P1 S1
+cb200c8f7079,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1481,0,INVALIDA,S1
+652e8e419655,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0760,0,VALIDA,
+ec45e1159d12,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0693,0,INVALIDA,O1
+bc08e14b8ff5,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1745,0,INVALIDA,S1
+fbdf612c459d,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0697,0,PARCIAL,S2
+fd91585971b4,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0603,0,VALIDA,
+adc8fab600d3,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0393,0,INVALIDA,C1 S1
+4a2e89d9caa7,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1647,0,VALIDA,
+7766bba9236e,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1002,1,INVALIDA,A1
+e2a7e371873b,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1002,2,VALIDA,
+19641cc226bc,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0115,0,VALIDA,
+740efb5527c8,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_0481,3,INVALIDA,S1
+128f9aa795da,Qwen__Qwen2.5-1.5B-Instruct.no_retry.asqp.json.gz,ex_1472,0,VALIDA,
+5422acb3a541,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0248,0,INVALIDA,A1 S1
+26c18e2f0a9c,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0366,2,PARCIAL,S2
+9676ed437dff,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0123,1,VALIDA,
+4543ee45da6b,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0945,1,INVALIDA,A2
+9317ee2a8c0f,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0833,0,PARCIAL,H1
+1a723852f840,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0538,4,VALIDA,
+9a0fefe29f1f,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0001,0,PARCIAL,H1 S2
+3a0edcbf88f0,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1061,0,PARCIAL,P1
+60a1eb038f1b,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0728,0,VALIDA,
+a8a724e71fed,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1441,0,INVALIDA,P1 S1
+c1f0e143f5b3,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1441,8,VALIDA,
+8d6f53b07405,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0571,0,PARCIAL,S2
+e24f40adf924,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1835,0,INVALIDA,A3
+7380450c8390,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0167,1,INVALIDA,O1
+655d01a51288,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0151,1,PARCIAL,A4 S2
+2bfaa063c9d8,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0232,1,INVALIDA,A1 P1 S1
+1d108f4c9e66,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0448,0,INVALIDA,O1
+026ed236e8b3,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1615,0,VALIDA,
+df290869559c,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1274,1,INVALIDA,A3 H1 S2
+87077362e854,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1532,2,VALIDA,
+ec9359e2b6ba,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1311,2,VALIDA,
+2ec05c618d53,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1324,0,INVALIDA,H1 S1
+9018407522cf,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1282,0,PARCIAL,H1 S2
+3410aeb2cca7,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0210,7,PARCIAL,A4
+9847e3d03b93,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0255,2,INVALIDA,O1
+92e94c3360ba,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1059,0,VALIDA,
+0f9be6e0fe7c,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0542,2,INVALIDA,A1 S1
+88f404516c51,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0091,0,INVALIDA,S1
+4d0550be071c,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0343,2,PARCIAL,A4 P1
+8c551e200e4c,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1537,1,VALIDA,
+b94e68eebcaa,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0118,1,INVALIDA,A1 P1
+2709ad3eec0a,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0026,0,VALIDA,
+b88cb3a41962,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1800,1,INVALIDA,A1
+5eb217b34e66,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0056,2,PARCIAL,S2
+9cef6670298c,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0461,1,INVALIDA,A2
+ba36b01d6ff1,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0238,1,INVALIDA,A2
+70121fd7d8df,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0475,0,VALIDA,
+18f65fea87da,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0789,0,PARCIAL,A4
+99e57c8ed7a1,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0812,0,INVALIDA,O1
+030a5a4c988f,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0313,3,VALIDA,
+5cadeaed86b3,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1454,0,INVALIDA,O1
+54215d05fd36,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0597,2,VALIDA,
+eb66070fa2fa,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1191,2,VALIDA,
+a3f24808870f,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1146,0,VALIDA,
+4545f9eda6b2,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_1603,0,VALIDA,
+9d0646a96489,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0401,1,INVALIDA,A1
+715f255f2f2b,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0753,0,INVALIDA,S1
+37f578750b2c,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0050,0,PARCIAL,S2
+bf959e5c6bc5,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0851,2,VALIDA,
+ae65e11beeed,Qwen__Qwen2.5-1.5B-Instruct.no_retry.ssa.json.gz,ex_0247,0,INVALIDA,H1 S1
+8336fd2d2ffe,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1749,7,INVALIDA,A1
+78bc18d0f418,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1426,1,VALIDA,
+54e03b77a45a,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0530,0,VALIDA,
+f6fda3621bdb,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1563,2,INVALIDA,A1
+ed10ea33f8c2,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1329,1,INVALIDA,P1 S1
+1f2e2ac25348,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1464,1,INVALIDA,S1
+3c9af7a8d362,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1464,4,VALIDA,
+27185b68627a,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0478,1,INVALIDA,S1
+a2e53227c1e1,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1500,0,INVALIDA,A1 P1
+16cdaca700b9,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0406,3,VALIDA,
+aacf0d08a8a1,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0522,0,INVALIDA,S1
+5e81c10aa807,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0730,3,PARCIAL,S2
+fc186eff593f,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0745,3,INVALIDA,S1
+e6f40ae3d467,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0078,0,INVALIDA,S1
+13c1ceb13ad6,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1762,1,INVALIDA,A1 P1
+e4da15388687,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1866,3,PARCIAL,P1 S2
+4a8c82279fb3,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0045,0,INVALIDA,A1
+627117c62414,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0119,0,VALIDA,
+02e98ffc2ca1,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0902,0,VALIDA,
+24c331ed3077,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0001,2,PARCIAL,S2
+aece49527478,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0773,7,VALIDA,
+fa12e35883c0,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0234,3,INVALIDA,S1
+f36ebf2c7f4b,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1092,1,INVALIDA,A2 S1
+a8540f08b354,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1207,4,VALIDA,
+88b599f8b3e4,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0293,0,PARCIAL,A4
+d362121cb4c7,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0958,0,VALIDA,
+55c9d4c18d38,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1361,0,INVALIDA,S1
+0ff36b2187e1,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1361,3,VALIDA,
+f30488c3731e,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1228,0,VALIDA,
+79fc2f6ae1ba,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0240,0,PARCIAL,C1 S2
+739dcc9f386b,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0489,1,INVALIDA,A1 S1
+f1fa0c151058,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1072,2,INVALIDA,A1
+de37be829618,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0892,1,PARCIAL,S2
+b659d1a1481b,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0431,0,INVALIDA,S1
+c46a76796aab,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0542,1,INVALIDA,C1 S1
+23eafc5a8e69,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1026,0,INVALIDA,O1
+1aa3aa425c3b,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0614,9,PARCIAL,A4
+9680001c70fa,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0755,3,INVALIDA,A1
+0279885e3c2b,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0168,2,INVALIDA,A1 S1
+dfca16eecdb5,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0642,4,PARCIAL,A4 C1 P1
+d8eade0cdb27,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1137,0,INVALIDA,S1
+f2676c4988b4,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0395,0,VALIDA,
+d208c636ec0e,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0313,3,VALIDA,
+fc678268fa12,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0975,2,VALIDA,
+3308b830ceff,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1146,6,INVALIDA,A1 P1 S1
+750d236dcbe5,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1577,2,VALIDA,
+26d60f4f0292,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1257,0,VALIDA,
+1d68a9fd62f5,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_0794,1,PARCIAL,S2
+ee398737d762,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1758,1,VALIDA,
+1650ecfa1141,Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz,ex_1712,0,VALIDA,
+85eb7b37192d,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1426,1,PARCIAL,H1
+13a2a23ddfc2,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0298,1,PARCIAL,H1
+a46b9376b7cf,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0009,1,PARCIAL,H1
+5afbcd03e49e,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0932,0,INVALIDA,A2 H1
+10ec99f38768,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0863,0,VALIDA,
+d9c231f8b1d0,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1491,1,PARCIAL,H1 S2
+12743124bd05,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0730,2,INVALIDA,A1
+92658bdc643f,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0191,3,PARCIAL,A4 H1
+8b0835b39174,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0359,8,INVALIDA,A1 H1
+b1ca6740af15,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1009,0,INVALIDA,A1 S1
+d14ab709531c,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0389,3,PARCIAL,P1
+4e51d245368f,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0234,1,VALIDA,
+d6e1f04b72bb,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1466,0,VALIDA,
+7ee03c5f2864,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1835,0,INVALIDA,H1 S1
+3c3e0e920423,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1275,3,INVALIDA,A1
+855f68beffe4,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0051,1,PARCIAL,S3
+64f397ca534c,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0005,0,INVALIDA,S1
+7c2711b6a021,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0496,4,INVALIDA,S1
+81d69612d373,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0100,3,INVALIDA,P1 S1
+3b11e46b6ad2,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1102,4,PARCIAL,H1 S2
+fe947f136e6a,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1125,0,PARCIAL,H1
+d384cf7dbd91,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0316,2,PARCIAL,A4 H1
+c424d06e0418,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0427,4,INVALIDA,A1 S1
+ebc894026e23,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0837,0,INVALIDA,H1 S1
+9c6fcb06c8c1,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1755,1,PARCIAL,H1
+ab08fdedd64e,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0432,1,INVALIDA,H1 S1
+fe38c2ea8ac0,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0614,7,PARCIAL,H1
+9a3d58a4da97,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1322,2,VALIDA,
+ba3db482cf5e,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0126,2,PARCIAL,A4 H1
+e97ef72a0efd,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1556,0,PARCIAL,H1 S2
+1d5f30adac39,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0099,4,PARCIAL,A4 H1
+e9dc5d12d27f,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1705,0,PARCIAL,H1 S2
+9d142b1146ea,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1560,2,VALIDA,
+2c8210681d80,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1560,5,PARCIAL,H1
+a089f8cd509d,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0238,1,PARCIAL,H1
+5eae1c8774a2,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0238,2,PARCIAL,H1
+76fec145dd40,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1790,3,PARCIAL,H1
+9d0803b7fe99,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0475,3,PARCIAL,H1 P1 S2
+9a6a4d69ece2,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0515,1,VALIDA,
+b39e693e7cde,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1050,2,PARCIAL,H1
+a65e7f83bcc0,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0812,0,PARCIAL,H1 S2
+329e72cb29a2,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0899,5,INVALIDA,A1
+5601159e8cce,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1518,1,PARCIAL,A4
+8a64e3c63d02,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1218,2,PARCIAL,H1
+78af08af91fb,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0424,3,INVALIDA,A1 P1
+d81bc6af5f47,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0618,2,PARCIAL,P1
+cf3451624f23,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0736,0,INVALIDA,A2
+19131512d6b8,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0774,2,PARCIAL,H1
+d0caff7a5106,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_1647,1,PARCIAL,H1
+0735b6e9a204,Qwen__Qwen2.5-3B-Instruct.full.ssa.json.gz,ex_0481,4,PARCIAL,H1
+c8e609ca0058,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0289,1,INVALIDA,A1
+c208cd64f828,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0478,1,INVALIDA,A1
+df0f7e35b99b,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0478,2,VALIDA,
+dc87f0b2dcf5,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1333,0,VALIDA,
+f5ebb024e2b1,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0863,2,VALIDA,
+9bf7bb386176,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0132,0,VALIDA,
+c3b59028664d,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0730,0,VALIDA,
+3ef1b90486e8,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0191,1,VALIDA,
+00ee5aae255f,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1570,2,PARCIAL,A4
+3de174d593b1,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1570,8,VALIDA,
+6acac3bc78e0,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1337,0,VALIDA,
+44a9a45e7f0e,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0139,0,VALIDA,
+f7a1d3a099af,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1465,0,VALIDA,
+76c7d5770729,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1207,1,VALIDA,
+61773c94f52f,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0496,1,VALIDA,
+ba34a7e6415d,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0864,1,PARCIAL,A4
+b09d8ca2a5c0,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1361,0,VALIDA,
+3104d948894e,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0315,2,VALIDA,
+54a30a25cecc,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0687,2,VALIDA,
+b7958faa9b4b,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0687,3,VALIDA,
+7c18f666607b,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0710,0,VALIDA,
+556885147479,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1282,0,VALIDA,
+9c55f31625c1,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1679,0,VALIDA,
+7e5f3872f002,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1679,1,VALIDA,
+3d18f51a18c3,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0440,2,PARCIAL,S2
+1e48ad822be6,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0193,0,INVALIDA,A1
+6f361eba6a1f,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1746,0,VALIDA,
+ce2236a04473,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0942,0,VALIDA,
+6c04c213016e,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0343,0,PARCIAL,C1
+dd3862176174,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0882,1,VALIDA,
+b7921f6a1f78,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0446,0,VALIDA,
+dba9bcb34859,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1560,0,VALIDA,
+cd0b011faf75,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1028,0,VALIDA,
+623899d6a9fe,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0238,3,VALIDA,
+72e2ffa662b4,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0598,0,VALIDA,
+652e8e419655,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0760,0,VALIDA,
+188bb9bd6972,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0515,0,INVALIDA,O1
+f7b138b7f220,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0515,1,INVALIDA,O1
+130a566054cf,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0377,1,VALIDA,
+69e34479017a,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1050,0,VALIDA,
+b7afcff417ef,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1836,0,VALIDA,
+1250a351598a,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0313,0,PARCIAL,S2
+d208c636ec0e,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0313,2,VALIDA,
+a13c028d9f8a,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0811,0,INVALIDA,A1
+b47d9c0d7d3e,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1334,2,VALIDA,
+5aaab45fed68,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1300,0,INVALIDA,A1
+d5886582b4bd,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0785,2,VALIDA,
+2aaa8108495a,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_0794,0,VALIDA,
+e9287d034e39,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1384,0,VALIDA,
+6ca2b52a2e3a,Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz,ex_1870,1,VALIDA,
+62e6ae46bf3d,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1692,4,VALIDA,
+10ec99f38768,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0863,0,VALIDA,
+18081454ee53,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1422,0,INVALIDA,A1 H1
+6d2c949d4841,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0359,3,PARCIAL,H1
+4f10ca62c142,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0211,1,VALIDA,
+a10f3da38c40,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0085,2,INVALIDA,A1
+b1c0058070e6,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1441,2,VALIDA,
+d08a499c48d8,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1441,5,INVALIDA,A1
+c1e0f9783fef,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0533,0,PARCIAL,H1 S2
+f81558b4e390,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1835,0,PARCIAL,H1
+47cbbbe9bfc3,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0416,1,PARCIAL,H1
+5d455567775e,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1005,0,PARCIAL,H1
+bdc37d40b259,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1465,0,PARCIAL,H1
+143c067e3515,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0005,1,PARCIAL,H1
+0fe40f7f532d,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1220,0,VALIDA,
+65e0b754150d,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1765,0,VALIDA,
+42e4b2462d01,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0808,0,PARCIAL,H1
+16097a8a8be9,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0513,1,PARCIAL,H1
+eb4488b48b2b,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1668,0,PARCIAL,S3
+0938d603e693,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0240,1,PARCIAL,H1 S2
+070855bc5849,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1125,1,INVALIDA,A1
+9c6fcb06c8c1,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1755,1,PARCIAL,H1
+0f2c22dfe478,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0186,0,INVALIDA,H1 O1
+92e9fc7bc03b,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1378,0,INVALIDA,A1 H1
+b5c5945ff208,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1419,2,VALIDA,
+8a5833e2e337,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0343,3,VALIDA,
+ee56986d9018,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1789,0,PARCIAL,H1 P1
+12a23d6e1485,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0614,0,PARCIAL,H1
+cfe26b124526,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0614,1,PARCIAL,H1
+9bd04166225d,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1087,1,PARCIAL,H1
+c34f8b879d9a,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1608,1,PARCIAL,H1
+ae6c9804dd48,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0578,0,PARCIAL,H1
+ab9fd02f4abc,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0578,1,INVALIDA,H1 P1 S1
+998af7f7d4f5,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1834,0,PARCIAL,H1
+e7ed63a528cf,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0598,2,INVALIDA,A3 H1
+7a6089373ac4,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0225,0,PARCIAL,H1
+9de00ff60cbe,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0225,1,PARCIAL,H1
+d3fc5a8e4851,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0642,1,INVALIDA,A3
+24a2495fa456,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1836,0,INVALIDA,A2
+8504cdede541,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1863,0,PARCIAL,H1
+c584461356c0,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1208,2,VALIDA,
+ed2fd1e1c270,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0413,0,PARCIAL,H1
+604020f7d221,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1182,0,VALIDA,
+b0b9f1349c61,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1663,0,INVALIDA,A4 H1 S1
+ec1354090e92,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0213,1,INVALIDA,A3 S1
+f165110165e4,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0794,0,VALIDA,
+e471ba7015e2,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1395,1,PARCIAL,H1
+7634fbf82f00,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1002,4,INVALIDA,H1 S1
+da3a7fba4390,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_1002,5,PARCIAL,H1
+3187c43101b3,Qwen__Qwen2.5-3B-Instruct.no_retry.ssa.json.gz,ex_0483,0,PARCIAL,H1
+6acac3bc78e0,Qwen__Qwen2.5-3B-Instruct.no_tags.asqp.json.gz,ex_1337,0,VALIDA,
+680ec25d99e1,Qwen__Qwen2.5-3B-Instruct.no_tags.asqp.json.gz,ex_1691,0,VALIDA,
+405b9f531806,Qwen__Qwen2.5-3B-Instruct.no_tags.asqp.json.gz,ex_1418,0,VALIDA,
+4b757ed7bf18,Qwen__Qwen2.5-3B-Instruct.no_tags.asqp.json.gz,ex_0774,0,INVALIDA,A1
+eba5fd95a63e,Qwen__Qwen2.5-3B-Instruct.no_tags.ssa.json.gz,ex_1337,0,VALIDA,
+994ea7d3e00a,Qwen__Qwen2.5-3B-Instruct.no_tags.ssa.json.gz,ex_1691,0,VALIDA,
+878617d5ea60,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0885,3,INVALIDA,A1
+28d5191d9678,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0009,1,INVALIDA,A2
+759639d694cd,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0738,1,PARCIAL,A4
+c8faecbbcee8,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0478,1,VALIDA,
+a35f87d6df34,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0993,0,VALIDA,
+001526a6198b,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1491,2,VALIDA,
+a3bbbde7f8b2,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0132,6,VALIDA,
+695960a94113,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0669,2,PARCIAL,S3
+fdfa0923abeb,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0833,4,INVALIDA,A1 S2
+e11608701198,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0306,0,VALIDA,
+742bd443a38a,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1642,0,PARCIAL,C1
+ca262de2c39d,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1624,0,PARCIAL,S3
+6a4dae81f453,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0039,1,PARCIAL,P1
+424800e8e27d,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1196,1,PARCIAL,C1
+8cf80dad936a,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1005,2,VALIDA,
+ff7ae04327de,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0958,6,INVALIDA,A1
+61773c94f52f,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0496,2,VALIDA,
+e4130ae83e4c,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0700,0,VALIDA,
+973799a20f43,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1361,2,VALIDA,
+5b1240f2aa8d,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0315,3,PARCIAL,A4
+8ab3c18fb8d1,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1770,1,VALIDA,
+b7958faa9b4b,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0687,4,VALIDA,
+8fe476bb9d48,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1102,0,VALIDA,
+f0a661f71da2,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0513,4,PARCIAL,A4 C1
+cbb4bc180ffc,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0758,5,INVALIDA,O1
+a1dcb3e03218,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0809,2,VALIDA,
+e8cb07ff46a3,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0672,2,VALIDA,
+3857c277cd5e,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0112,5,VALIDA,
+9d03a15997bc,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0826,1,PARCIAL,A4
+9b72790e3dc5,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0512,2,VALIDA,
+89e3b6567624,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1562,0,VALIDA,
+179f5ba8240c,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0210,5,INVALIDA,S1
+658bd6cba9d6,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1162,4,VALIDA,
+b0bf479eabb3,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1740,5,VALIDA,
+5b463b590fe4,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1101,0,VALIDA,
+b47944000031,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0343,2,VALIDA,
+acd92568a9c2,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1026,5,INVALIDA,A1
+c21a5257c470,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1254,2,VALIDA,
+07cc557e6b77,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1254,5,INVALIDA,A1
+7132260c949d,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0767,0,PARCIAL,C1
+f68ea3db27bf,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0501,7,VALIDA,
+4d7d374563be,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0026,3,INVALIDA,A1
+8fffa72936b4,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1589,3,VALIDA,
+b4c49db5b99a,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0105,1,PARCIAL,S3
+e9dffdc52b3e,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0811,1,VALIDA,
+63dac5f1a33b,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1334,0,VALIDA,
+2c667652a28b,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0140,0,VALIDA,
+cb63d54e6f8c,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_0510,4,INVALIDA,S1
+3ce7510ac7c2,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1695,0,INVALIDA,A1 P1
+182fdb2a0173,Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz,ex_1134,3,PARCIAL,C1
+65e6e8cd90f5,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0298,1,INVALIDA,A1 H1 S1
+009a7cbd7ea3,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0009,4,VALIDA,
+6c4c9dd0614c,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0321,2,PARCIAL,A4
+3e645297eb3b,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1500,1,PARCIAL,S3
+70713c93fa65,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0745,2,PARCIAL,H1
+d0ec73d3efd7,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0359,1,VALIDA,
+d7a476f3da6b,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0538,3,VALIDA,
+2c6b07ba6a74,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0538,6,INVALIDA,S1
+50dfbdd8ce89,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0538,10,VALIDA,
+43f214c6d639,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0887,5,INVALIDA,A2
+5c8ab8c54f29,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0378,0,VALIDA,
+401a60fc18ed,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0416,6,PARCIAL,A4 H1
+1fa612ea2763,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1318,2,VALIDA,
+919ee2ce8973,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0761,0,PARCIAL,H1
+3ce4d1ec0d80,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0236,0,PARCIAL,H1
+7338e19b5d05,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0292,3,INVALIDA,H1 S1
+38307d8e1a03,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1659,0,INVALIDA,A1 H1
+83921c62e14c,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1361,10,PARCIAL,H1
+f85498fb9e19,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1607,5,INVALIDA,P1 S1
+63cc17a86c3b,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0550,0,INVALIDA,O1
+c0369d760caa,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0177,0,PARCIAL,H1 P1
+a6703bef5640,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1228,0,VALIDA,
+5c0c4e7ac0a3,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0015,12,VALIDA,
+5c0107cb2a39,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0240,0,VALIDA,
+a93ab9ed3792,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0240,1,PARCIAL,S2 S3
+b3a62f2156a5,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1125,2,INVALIDA,O1
+b30b1e581cb4,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1755,2,PARCIAL,A4
+17dae98ad6d3,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1769,1,VALIDA,
+0b2628e05d21,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1059,2,VALIDA,
+5e4d877c8953,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1646,3,VALIDA,
+009fd6188100,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1101,0,PARCIAL,H1 S2
+6043bf66f255,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1101,4,PARCIAL,H1
+c6c288fd170a,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1297,3,VALIDA,
+244abbaa4f00,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1608,2,VALIDA,
+b97733d41e78,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1556,3,VALIDA,
+01f2a5aa2de0,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1020,0,VALIDA,
+0509fbdc867e,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0238,4,VALIDA,
+755d959af705,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1084,6,PARCIAL,H1
+f755b31011aa,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0515,2,INVALIDA,O1
+f33c6f8f29ad,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0365,1,PARCIAL,H1
+34052f78b6de,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0447,4,INVALIDA,O1
+73a0efe0bcbe,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1836,2,INVALIDA,H1 S1
+f14b8c7184f9,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0899,0,VALIDA,
+cfeebf831acc,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1331,3,PARCIAL,S3
+858e6a10762f,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0962,1,INVALIDA,A1
+34edefebee55,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0586,0,PARCIAL,H1
+b4a4a6962d9c,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0603,1,INVALIDA,A3
+da71fd5a1e54,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0415,3,VALIDA,
+adbe13bc7658,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_0213,2,VALIDA,
+78eb6fedc105,Qwen__Qwen2.5-7B-Instruct.full.ssa.json.gz,ex_1395,2,VALIDA,
+19c1f1719e4c,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1692,2,INVALIDA,A3
+4cf1dd9bf631,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0038,1,PARCIAL,A4
+6801739dbb9e,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0008,4,INVALIDA,A3
+3dec513aa477,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0160,0,VALIDA,
+089fb4a90bae,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0160,1,VALIDA,
+96c608b3cdee,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0478,4,INVALIDA,A1
+21c23051ede6,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1491,2,VALIDA,
+a7e00d10b323,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0945,0,VALIDA,
+1c6800439980,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0945,1,INVALIDA,A2
+db1169440804,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1866,0,VALIDA,
+4619a8152ef8,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0588,0,VALIDA,
+fa8d43c67d2b,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1717,0,VALIDA,
+3c8136eee6f3,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1061,3,VALIDA,
+ea5dd1ab7a1d,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0928,5,VALIDA,
+0dc37f1efcb1,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0227,0,VALIDA,
+90850888dddd,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0232,3,VALIDA,
+56f47c7614d3,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0232,6,VALIDA,
+ed7b28ded3e7,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1615,0,VALIDA,
+b5d8b211912e,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1204,5,VALIDA,
+d56dfc7ba82c,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1133,1,VALIDA,
+67a4dbdb7657,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1571,1,VALIDA,
+74e1b71a3363,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0112,2,VALIDA,
+fb3d79db4f90,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0310,0,VALIDA,
+3b15f5ad3305,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0974,0,VALIDA,
+b5468365ed93,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1324,0,VALIDA,
+6dcc626201d0,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0121,0,VALIDA,
+0bdd1169157a,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1740,3,VALIDA,
+db1093a6e48d,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0656,0,PARCIAL,S3
+efa33ffae4dd,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0466,0,VALIDA,
+af3fb157b0d1,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1322,1,VALIDA,
+8e3f19b322ee,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1608,2,INVALIDA,S1
+4a44ae359753,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0099,1,VALIDA,
+f0ccbee6e9c2,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0501,1,VALIDA,
+41990a8a2165,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0755,0,VALIDA,
+429b0ded6f7b,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0238,3,VALIDA,
+b382fda13a98,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0988,2,VALIDA,
+652e8e419655,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0760,0,VALIDA,
+8f601a809cfb,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1304,0,VALIDA,
+467e2897eeb8,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1518,0,VALIDA,
+88a81154e40d,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0016,1,INVALIDA,A3
+2e045b45a94f,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0016,2,VALIDA,
+80e156e26b3c,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1208,0,VALIDA,
+60ca15108fe9,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0173,2,VALIDA,
+fc318830c7c8,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0975,0,VALIDA,
+e4280fff56d5,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1182,2,VALIDA,
+ff4fccefbdf2,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0125,1,VALIDA,
+187edebedeec,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0125,2,PARCIAL,C1
+9a8e20437aa5,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0785,0,VALIDA,
+7ae3f413d410,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_0794,3,VALIDA,
+c9b49f61b200,Qwen__Qwen2.5-7B-Instruct.no_retry.asqp.json.gz,ex_1870,2,INVALIDA,A1
+81aaff183e85,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1692,1,VALIDA,
+76ec4bfa04b8,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0632,1,PARCIAL,H1
+44ba66f9715f,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0530,0,PARCIAL,H1
+58867b4fa313,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0289,4,PARCIAL,H1 S2
+869cdc45062c,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1001,0,VALIDA,
+009a7cbd7ea3,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0009,1,VALIDA,
+ebc53dac6668,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0160,0,VALIDA,
+e6fa2f485252,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0262,2,PARCIAL,H1
+c1d035b24183,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1653,0,VALIDA,
+20bbaed9b161,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0132,5,INVALIDA,A1
+48638c2d2789,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0450,0,VALIDA,
+4ddd91084c12,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0833,1,VALIDA,
+95b1f7485b3e,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1866,4,VALIDA,
+6f94ca06e040,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0030,0,PARCIAL,H1
+22f2fade8e05,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0728,2,VALIDA,
+c7df7a3c46ca,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0928,3,PARCIAL,H1
+d1439a9e5e61,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1441,0,PARCIAL,P1
+f31ef10173fd,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0227,1,VALIDA,
+31d99a10b0f9,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0064,0,VALIDA,
+b749ef6d0cc2,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1148,0,VALIDA,
+6a4b3c735954,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0864,5,VALIDA,
+0fe40f7f532d,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1220,4,VALIDA,
+4c9e87801323,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0448,0,INVALIDA,O1
+d8ea512d4802,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0808,3,VALIDA,
+1e309efc4da1,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1175,0,VALIDA,
+8b693e6de205,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1346,4,INVALIDA,A1 H1
+d77ed00503d4,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0513,0,VALIDA,
+bd4a757d179b,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0231,0,VALIDA,
+70eca4df6aee,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1711,1,INVALIDA,O1
+684e744fd123,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0757,0,VALIDA,
+3f616d91598d,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0585,0,VALIDA,
+12a8589fd002,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0585,1,VALIDA,
+381f60d999a2,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0394,0,VALIDA,
+e4b6bcc69c3a,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0570,1,PARCIAL,P1 S2
+5a8b6ba42bba,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1489,0,VALIDA,
+55e6c524e4f3,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0578,0,VALIDA,
+ca94259b1b2b,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0878,0,VALIDA,
+1244694a4623,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0501,1,PARCIAL,P1
+9616037dbb2e,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0026,0,VALIDA,
+98b7a644e748,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0475,2,VALIDA,
+254b728be82b,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0662,0,VALIDA,
+6096ddee73d4,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0515,3,VALIDA,
+6c4033b24d80,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0101,0,PARCIAL,S3
+9ddd755e5ad3,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0225,1,VALIDA,
+a4adebd2631b,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0693,1,VALIDA,
+9e84595d86d9,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1217,1,VALIDA,
+010d13ecdeb9,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1288,0,VALIDA,
+3eabb2acd902,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0313,0,PARCIAL,H1
+e843faa89784,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_0597,3,VALIDA,
+a5a6cdb7cb1a,Qwen__Qwen2.5-7B-Instruct.no_retry.ssa.json.gz,ex_1406,0,PARCIAL,H1
+4c454651cea2,Qwen__Qwen2.5-7B-Instruct.no_tags.asqp.json.gz,ex_1500,0,PARCIAL,P1 S2
+0a058d8010bd,Qwen__Qwen2.5-7B-Instruct.no_tags.asqp.json.gz,ex_0211,0,VALIDA,
+6acac3bc78e0,Qwen__Qwen2.5-7B-Instruct.no_tags.asqp.json.gz,ex_1337,0,VALIDA,
+9ec980eab367,Qwen__Qwen2.5-7B-Instruct.no_tags.asqp.json.gz,ex_0928,0,VALIDA,
+680ec25d99e1,Qwen__Qwen2.5-7B-Instruct.no_tags.asqp.json.gz,ex_1691,0,VALIDA,
+68283f5666b0,Qwen__Qwen2.5-7B-Instruct.no_tags.asqp.json.gz,ex_1056,0,VALIDA,
+49e0f4fd0d74,Qwen__Qwen2.5-7B-Instruct.no_tags.asqp.json.gz,ex_1418,0,VALIDA,
+698bb311afd5,Qwen__Qwen2.5-7B-Instruct.no_tags.asqp.json.gz,ex_0313,0,VALIDA,
+cb77ecb3e94f,Qwen__Qwen2.5-7B-Instruct.no_tags.ssa.json.gz,ex_1854,0,INVALIDA,A1
+58f5a97621f7,Qwen__Qwen2.5-7B-Instruct.no_tags.ssa.json.gz,ex_1061,0,VALIDA,
+037c78f7b2ee,Qwen__Qwen2.5-7B-Instruct.no_tags.ssa.json.gz,ex_1311,0,VALIDA,
+d479b040c4bb,Qwen__Qwen2.5-7B-Instruct.no_tags.ssa.json.gz,ex_1056,0,VALIDA,
+5759cd92ede4,Qwen__Qwen2.5-7B-Instruct.no_tags.ssa.json.gz,ex_0018,0,VALIDA,
+ad1a45ced3af,Qwen__Qwen2.5-7B-Instruct.no_tags.ssa.json.gz,ex_0313,0,INVALIDA,A1
+537591241ed3,Qwen__Qwen2.5-7B-Instruct.no_tags.ssa.json.gz,ex_0567,0,VALIDA,
+bc7ed822f948,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1692,7,VALIDA,
+8e8aac2acd75,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0563,6,PARCIAL,C1
+eff0dd9aaadc,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1749,2,VALIDA,
+44ed4fef6778,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1749,4,VALIDA,
+5f2fe07489ec,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0422,4,VALIDA,
+09b5b7a923c4,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0205,2,VALIDA,
+8250570f2c23,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0321,7,VALIDA,
+7ce80755a574,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0132,0,VALIDA,
+406f6530a41c,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0669,3,VALIDA,
+b260f2fd2ae1,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0655,6,VALIDA,
+291871e9411b,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1847,6,VALIDA,
+f4578caf92fa,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1168,2,PARCIAL,C1
+110a5ca4ebc5,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0588,4,VALIDA,
+8008af93f402,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0211,10,VALIDA,
+bbf0bb5fd52c,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0234,2,VALIDA,
+a8dce5db346e,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1121,5,PARCIAL,A4
+e3cf400f6229,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0787,0,VALIDA,
+10d55e8e14e6,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0527,9,VALIDA,
+798922f036c1,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1005,0,VALIDA,
+ba270f3e7504,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1361,3,VALIDA,
+7baf2c8ab29e,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1770,8,VALIDA,
+e0ed938d1995,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1558,0,VALIDA,
+955e6a13fef8,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0553,0,INVALIDA,A3
+c531d85959da,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0240,4,VALIDA,
+2c390e0485fa,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0427,4,INVALIDA,A3
+a2bc25c63b1e,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0852,3,VALIDA,
+8d89c7966556,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0431,0,INVALIDA,A2
+cfbdada5e8c0,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0970,1,VALIDA,
+28388eb49169,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0942,1,VALIDA,
+c581f0177521,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0859,3,VALIDA,
+9ff619b4735d,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1254,1,VALIDA,
+94c12bcf7bca,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0520,2,VALIDA,
+6cc0a6cbe690,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0836,8,VALIDA,
+142b6ba7e7ee,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0446,4,VALIDA,
+5efba03945d1,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0755,2,PARCIAL,S3
+4077ff2299fe,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1589,0,VALIDA,
+0e2de73746cb,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0762,2,VALIDA,
+6d0edf344d15,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0872,7,INVALIDA,A2
+e319ad3c9130,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1481,8,VALIDA,
+533b06cc9bae,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1696,2,VALIDA,
+6697f194f529,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1081,2,INVALIDA,S1
+a614eec63aca,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0812,11,PARCIAL,S3
+dcf9a0af8c19,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1747,5,VALIDA,
+3aa8b90c1e90,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1327,6,VALIDA,
+f52885c0ab39,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0324,0,VALIDA,
+af6de9b40b2e,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0291,10,VALIDA,
+ebfe20ae2a9b,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_0035,0,VALIDA,
+b071f53c3bd2,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1877,1,INVALIDA,A2
+309d9c2fdfbe,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1190,1,VALIDA,
+f65892ca4763,Qwen__Qwen3.8-27B.full.asqp.json.gz,ex_1780,0,VALIDA,
+dd0bcefe928a,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0403,8,VALIDA,
+6424536e4c52,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0094,3,VALIDA,
+b0db92437dac,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0299,7,VALIDA,
+61e551599567,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0738,2,INVALIDA,A3 O1
+1ad4f48e343f,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0756,1,VALIDA,
+55adb3a81cbe,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0756,3,VALIDA,
+92dff28a2eb5,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0945,5,INVALIDA,A2
+756acbcb6bb6,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0132,10,VALIDA,
+94b0be92a046,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0745,4,VALIDA,
+f8a4027c6ad2,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1285,0,VALIDA,
+468ae2d26ff6,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1739,10,VALIDA,
+40c7718bb7cf,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1554,4,VALIDA,
+4846c611a693,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0675,4,VALIDA,
+70ad61a6ff1b,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0941,2,INVALIDA,A3
+cd89a2501e46,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1064,1,VALIDA,
+48c32a2264ba,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0005,4,VALIDA,
+d88889275d21,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0320,5,VALIDA,
+87a993ee129c,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1144,0,VALIDA,
+083dfc13224c,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0036,4,VALIDA,
+741f99a42f83,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0202,1,VALIDA,
+354a2a187a46,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0550,0,VALIDA,
+6de956a8c8c3,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1574,0,VALIDA,
+bd4a757d179b,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0231,2,VALIDA,
+b6e36982e02b,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0015,1,PARCIAL,A4
+011951cd6d77,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1411,4,VALIDA,
+87fbf93e5499,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1267,2,VALIDA,
+729822acd748,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0852,4,VALIDA,
+764eb7e87789,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0980,3,VALIDA,
+ea5431638e17,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1746,6,VALIDA,
+8c3f972ae45a,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0581,4,VALIDA,
+de7a44c7816d,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0751,2,VALIDA,
+bb779e090075,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0457,0,VALIDA,
+ecfdcd65e220,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1026,1,VALIDA,
+90fd1727dcea,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0878,4,VALIDA,
+3bd44db6f6bc,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0871,6,VALIDA,
+98eb15fc55ef,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0755,13,VALIDA,
+b9425fceda1f,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0668,11,INVALIDA,A1 S1
+45ccd29890dc,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1020,3,VALIDA,
+3e48453a43a7,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0376,2,VALIDA,
+0d5f78c05db8,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0698,1,VALIDA,
+445f723b649f,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1481,10,PARCIAL,A4
+8156062fd4ac,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0400,5,VALIDA,
+a4adebd2631b,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0693,1,VALIDA,
+976ebc9ed969,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1208,4,PARCIAL,H1
+3d176445eb69,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1809,5,VALIDA,
+0d2740018bf4,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0393,3,VALIDA,
+c0131b1d5f32,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1300,2,VALIDA,
+b6df361a7bd1,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_0510,5,VALIDA,
+204e7b9233a3,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1695,5,VALIDA,
+92a83a9ae160,Qwen__Qwen3.8-27B.full.ssa.json.gz,ex_1715,1,VALIDA,
+7c33118f6506,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1358,2,VALIDA,
+797357d9e9be,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0047,4,VALIDA,
+285ae4a4a49a,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1316,4,VALIDA,
+0e6ed21d4aed,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0478,3,PARCIAL,C1
+befd571b57a4,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1772,3,VALIDA,
+eff3078d61b4,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1165,4,VALIDA,
+2350d7cccd98,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0297,5,VALIDA,
+e3e38475320e,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1466,0,VALIDA,
+7a4d445df173,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1092,1,VALIDA,
+3a64ea6e37a0,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0232,8,VALIDA,
+2d34e12b7a31,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1196,1,VALIDA,
+4b419843e501,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1465,2,VALIDA,
+d3e7e084e161,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0236,4,VALIDA,
+01918d1c7b0a,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0593,3,INVALIDA,A3
+6b947f0f5e43,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1512,2,VALIDA,
+dd0f4617e5e6,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0553,1,INVALIDA,A3
+54f48b12d630,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0683,0,VALIDA,
+2d6bc227a114,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1125,4,VALIDA,
+ad6dcc657485,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1324,1,VALIDA,
+a4dcd34d428b,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1688,2,VALIDA,
+e1d6c2caf8d0,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0363,4,VALIDA,
+f6ab0e5769c2,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0489,7,VALIDA,
+5c78be5f2fdc,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0210,7,VALIDA,
+4f805496d485,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0379,0,VALIDA,
+a079f3abf035,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1561,5,INVALIDA,A2
+5d8b54fb53a8,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0343,6,VALIDA,
+5b0fa716011d,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0343,7,PARCIAL,C1
+d0e105519f4f,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0578,0,VALIDA,
+f444d96c1514,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0026,5,PARCIAL,S3
+ddd68cada385,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0762,3,VALIDA,
+e786f64c9f20,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0170,0,PARCIAL,A4
+27e91e3ffdcb,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1164,4,VALIDA,
+f4b9c7068d95,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0576,3,VALIDA,
+190a1277df4c,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1115,4,VALIDA,
+54c5fb09b2fc,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1824,6,VALIDA,
+e8cd6c6b2798,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0822,0,VALIDA,
+409e77a191cc,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1310,0,VALIDA,
+9ee984444729,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0697,3,VALIDA,
+edf7e83eb32c,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0890,2,VALIDA,
+2a9b74480e85,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0814,0,VALIDA,
+c4e28ba2c3ef,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0586,0,VALIDA,
+3ed1005a2089,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0671,5,VALIDA,
+e069dd54e424,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0415,4,VALIDA,
+f7f9e001d957,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1182,4,INVALIDA,A3
+ddb418515d18,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1108,0,VALIDA,
+ebd1588d2714,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1395,4,VALIDA,
+9709c0f3f016,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0075,2,VALIDA,
+21a63c5c34d8,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1463,2,INVALIDA,A2
+e7933373cae3,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_0567,2,VALIDA,
+01e00cfeb4ba,Qwen__Qwen3.8-27B.no_retry.asqp.json.gz,ex_1134,0,VALIDA,
+5a24e043dba7,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0205,0,VALIDA,
+295e164e96a9,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0494,2,VALIDA,
+ca96bfb69f51,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0406,1,VALIDA,
+8f7c2f1c0045,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1772,5,VALIDA,
+4e0519a4666f,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1009,4,VALIDA,
+1a28ee602495,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0902,2,VALIDA,
+7f4305d7b813,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0001,16,INVALIDA,A1
+4b307d21f8ac,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0579,7,VALIDA,
+2d4ad6bc30d3,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1717,1,VALIDA,
+6921c7c737ac,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1144,7,VALIDA,
+20df908f9d7c,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0208,1,VALIDA,
+2627ac7e0de2,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0705,4,VALIDA,
+46f7b37bd862,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1631,3,VALIDA,
+b38b97c713f2,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1776,1,PARCIAL,A4
+6506c8328339,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0335,3,VALIDA,
+3f61c3ecf28c,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0112,0,VALIDA,
+f3dbaa31a027,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0826,1,VALIDA,
+825f36171296,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1839,0,VALIDA,
+3585b1963c18,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1311,0,PARCIAL,P1
+a1d38d9dc600,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0974,1,VALIDA,
+f98597d42a57,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1324,1,VALIDA,
+273d864f7e40,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0552,3,VALIDA,
+d02abc056c96,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0585,1,VALIDA,
+1222d1e4ef05,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1277,3,INVALIDA,A1
+a0f2c9d0e2e5,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0431,5,VALIDA,
+b61ff0d30ba5,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0542,0,VALIDA,
+b23f2cb00766,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0091,4,INVALIDA,A3
+e3efe86183ad,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1777,7,VALIDA,
+364fc9e43fd4,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0126,7,VALIDA,
+16169655f3b8,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0836,8,VALIDA,
+96c74571fab4,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0871,5,PARCIAL,S2
+c69b4b8c7c6b,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0056,12,VALIDA,
+70121fd7d8df,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0475,0,VALIDA,
+af177a6eac81,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0966,10,VALIDA,
+595263a22496,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1684,7,VALIDA,
+42042f97c3b4,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1484,7,VALIDA,
+e128d2398891,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0272,1,VALIDA,
+12dae9d67add,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1690,1,VALIDA,
+0b57f85e66e4,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0324,1,VALIDA,
+7edf8e13e69a,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0117,0,VALIDA,
+2dddce774f4e,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0035,10,VALIDA,
+42f54e65a6f6,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0736,4,VALIDA,
+477b221401f1,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0957,7,VALIDA,
+9e70d8a8b2b8,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1257,3,VALIDA,
+88c4d18a98b9,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1257,5,VALIDA,
+26eb8948ccac,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0401,9,VALIDA,
+eb4500e33d84,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_0115,0,VALIDA,
+89363553c74e,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1712,1,VALIDA,
+580a9a16ac67,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1715,0,VALIDA,
+fb8cac31b8c1,Qwen__Qwen3.8-27B.no_retry.ssa.json.gz,ex_1870,1,INVALIDA,A1
+8ec2243e6d8b,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0203,0,INVALIDA,A1 S2
+137cd5da2bd3,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0781,0,VALIDA,
+cb126a2c9611,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1854,2,VALIDA,
+ca84a9c8cea6,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0352,0,VALIDA,
+5b53ac015b2d,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0478,0,PARCIAL,A4
+01399d3b0ef2,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0478,1,INVALIDA,A1 S3
+a9f02352ffea,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0628,0,INVALIDA,A1
+eec2a89e0b95,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0993,0,VALIDA,
+a47534666384,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1106,0,VALIDA,
+fddf142f5879,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0138,1,VALIDA,
+56fbae367fb9,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0359,2,VALIDA,
+ddff188f1519,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1317,3,INVALIDA,A1
+29f2a4c93613,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1441,2,VALIDA,
+99a8eef04b45,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0843,1,PARCIAL,A4
+036e1323e367,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1731,0,INVALIDA,A1
+d0ef6a58efb7,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0527,0,VALIDA,
+9248743bc580,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1148,0,VALIDA,
+2d55293b529f,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1344,0,INVALIDA,A1
+741f11eefb45,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0320,1,VALIDA,
+06967c83d3d9,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1770,1,VALIDA,
+0bed9f7d8b56,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0934,3,VALIDA,
+161aa63c2e26,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0687,1,INVALIDA,A1
+ab64bd1d916f,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1532,1,INVALIDA,A1
+c07393bdd2d0,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1175,2,INVALIDA,A1 S2
+d56dfc7ba82c,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1133,1,VALIDA,
+6ad910990fb2,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0983,2,INVALIDA,A1
+ce58d11ac908,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1872,0,VALIDA,
+cbfcb7eaac47,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1311,2,VALIDA,
+be67fe2e4ba3,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0678,1,INVALIDA,A1
+80d6f5074ea6,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1516,0,VALIDA,
+1add13a61d1e,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0121,0,INVALIDA,A1
+a2cec0201f35,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0218,0,VALIDA,
+69e6b3480c57,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0980,1,VALIDA,
+9188b20baa48,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0018,0,VALIDA,
+b7921f6a1f78,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0446,1,VALIDA,
+dfc03f5278bd,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1425,0,VALIDA,
+349f26b2df51,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1338,0,VALIDA,
+de5cd519e706,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0475,0,VALIDA,
+697148a927bd,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1481,1,PARCIAL,A4
+e884565f9c2b,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1217,2,VALIDA,
+bd7332c8e7cb,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1858,1,VALIDA,
+3bb3677dbeec,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1858,3,VALIDA,
+4c61d0cf1731,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1838,0,INVALIDA,A1
+60783778ca62,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0079,2,VALIDA,
+001db8cdd32d,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1190,1,PARCIAL,A4
+41bd330d6e5c,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0918,2,PARCIAL,S3
+bee48502b2c1,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1097,0,VALIDA,
+27704c5e6058,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_1815,0,PARCIAL,S3
+cbc64ee34f4a,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0127,0,VALIDA,
+61a3586702b9,Qwen__Qwen3.8-27B.no_tags.asqp.json.gz,ex_0420,0,VALIDA,
+6c9f55dba973,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1181,0,PARCIAL,A4
+b1886c0bd2e1,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0289,1,INVALIDA,A1
+5fb764614927,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1601,2,INVALIDA,A1
+67142690df61,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0801,0,VALIDA,
+0326375bbf66,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1464,1,VALIDA,
+f18bfa0f62aa,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1500,0,VALIDA,
+4f296a0b22be,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0669,0,VALIDA,
+8ac73f66e598,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1843,0,INVALIDA,A1
+c786609e30c7,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1847,0,VALIDA,
+fafd2b8520f0,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1847,1,PARCIAL,A4
+f288d8c0cb1c,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1168,2,INVALIDA,A1 S2
+99bd616d557c,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0538,0,PARCIAL,S2
+d14e6dd40fd8,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0327,0,INVALIDA,A1
+eef6dda8e5d4,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0318,0,VALIDA,
+a6c45809bd54,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1881,0,INVALIDA,A1
+981f8bd67362,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1179,1,VALIDA,
+610c00037c3d,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0139,0,INVALIDA,A2
+0c6205174578,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0704,1,INVALIDA,A1
+141a9698ba7e,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0761,1,VALIDA,
+eded6de92542,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1274,1,VALIDA,
+b22c113d32bb,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0934,0,VALIDA,
+4d4aaa47aec8,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0934,1,VALIDA,
+9b9f3914316b,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0231,0,INVALIDA,A1
+2fd597f7a85d,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1512,0,PARCIAL,A4
+4d096596dd0b,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1872,0,VALIDA,
+69e14258f7ed,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0340,0,VALIDA,
+6be7a7754408,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1670,0,VALIDA,
+7732fc7e3ca6,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0585,0,VALIDA,
+23bb514c1fbf,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0585,1,INVALIDA,A1
+fd53effcab4a,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1419,0,VALIDA,
+acca43c2f40f,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1646,0,VALIDA,
+635611004697,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0466,2,VALIDA,
+c8061a9c7882,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0133,1,VALIDA,
+f31390509a10,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1489,1,VALIDA,
+2563725e9093,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1800,0,VALIDA,
+aa0539a85aa3,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1800,1,VALIDA,
+2524850559d0,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0056,0,VALIDA,
+e72c28695204,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0170,0,VALIDA,
+098c829ff23c,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0475,3,VALIDA,
+b1ed04ca4460,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1546,0,VALIDA,
+d1ffbacc7575,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0812,0,VALIDA,
+16625545d960,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1413,0,VALIDA,
+3bb686697a9b,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1208,2,VALIDA,
+1e9556af0886,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0305,0,VALIDA,
+030b8c373a6a,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0890,0,VALIDA,
+4fa71772771f,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1809,0,VALIDA,
+d2dc3b18acc7,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_0173,0,INVALIDA,A1
+3284f35bc5c6,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1350,3,INVALIDA,A1
+040dc5f86309,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1134,2,VALIDA,
+79206a4a5a92,Qwen__Qwen3.8-27B.no_tags.ssa.json.gz,ex_1870,2,PARCIAL,A4
+fdfdf00ee64a,google__gemma-4-31B-it.full.asqp.json.gz,ex_0534,8,VALIDA,
+f637ee016fed,google__gemma-4-31B-it.full.asqp.json.gz,ex_0184,1,VALIDA,
+dfec239f92e1,google__gemma-4-31B-it.full.asqp.json.gz,ex_1795,1,VALIDA,
+d6ccc227d91c,google__gemma-4-31B-it.full.asqp.json.gz,ex_0386,5,PARCIAL,C1
+3fe5ffdb7cd8,google__gemma-4-31B-it.full.asqp.json.gz,ex_0386,8,VALIDA,
+df0f7e35b99b,google__gemma-4-31B-it.full.asqp.json.gz,ex_0478,9,VALIDA,
+7f2fcade3e05,google__gemma-4-31B-it.full.asqp.json.gz,ex_0185,4,VALIDA,
+11197bc6313d,google__gemma-4-31B-it.full.asqp.json.gz,ex_0321,10,VALIDA,
+f5ebb024e2b1,google__gemma-4-31B-it.full.asqp.json.gz,ex_0863,6,VALIDA,
+21c23051ede6,google__gemma-4-31B-it.full.asqp.json.gz,ex_1491,7,VALIDA,
+a9783b8bf514,google__gemma-4-31B-it.full.asqp.json.gz,ex_1500,4,VALIDA,
+a33eb3051235,google__gemma-4-31B-it.full.asqp.json.gz,ex_0500,4,VALIDA,
+094f5adb5d6a,google__gemma-4-31B-it.full.asqp.json.gz,ex_1422,1,VALIDA,
+e3e28eea59bf,google__gemma-4-31B-it.full.asqp.json.gz,ex_1843,3,VALIDA,
+d50d41d87cf3,google__gemma-4-31B-it.full.asqp.json.gz,ex_1847,9,VALIDA,
+5e944cc83eef,google__gemma-4-31B-it.full.asqp.json.gz,ex_1847,10,VALIDA,
+62f71d4f7eee,google__gemma-4-31B-it.full.asqp.json.gz,ex_0538,0,VALIDA,
+5a3336921dab,google__gemma-4-31B-it.full.asqp.json.gz,ex_0306,6,VALIDA,
+87c6ab32778d,google__gemma-4-31B-it.full.asqp.json.gz,ex_0081,4,INVALIDA,A1
+8002f5f30dfd,google__gemma-4-31B-it.full.asqp.json.gz,ex_0098,1,VALIDA,
+22b2b633d88c,google__gemma-4-31B-it.full.asqp.json.gz,ex_1539,3,VALIDA,
+99adffdb8ce3,google__gemma-4-31B-it.full.asqp.json.gz,ex_0378,0,VALIDA,
+3acaa1478c7f,google__gemma-4-31B-it.full.asqp.json.gz,ex_0293,8,PARCIAL,A4
+c0614bd46fda,google__gemma-4-31B-it.full.asqp.json.gz,ex_1760,3,VALIDA,
+06967c83d3d9,google__gemma-4-31B-it.full.asqp.json.gz,ex_1770,4,VALIDA,
+8a9df07db3f8,google__gemma-4-31B-it.full.asqp.json.gz,ex_1716,0,VALIDA,
+d6454cdad494,google__gemma-4-31B-it.full.asqp.json.gz,ex_0687,3,VALIDA,
+f57930222a91,google__gemma-4-31B-it.full.asqp.json.gz,ex_1574,3,INVALIDA,S1
+ed0a4e5ef730,google__gemma-4-31B-it.full.asqp.json.gz,ex_0194,2,VALIDA,
+9e2075708276,google__gemma-4-31B-it.full.asqp.json.gz,ex_0513,9,VALIDA,
+ebeffe2b2040,google__gemma-4-31B-it.full.asqp.json.gz,ex_0502,0,VALIDA,
+96c5d117c1af,google__gemma-4-31B-it.full.asqp.json.gz,ex_0174,6,VALIDA,
+dafb6d5db124,google__gemma-4-31B-it.full.asqp.json.gz,ex_0852,8,VALIDA,
+0b66572cf40b,google__gemma-4-31B-it.full.asqp.json.gz,ex_0891,5,VALIDA,
+7f47fbe0881e,google__gemma-4-31B-it.full.asqp.json.gz,ex_1767,2,VALIDA,
+5077aaa4e912,google__gemma-4-31B-it.full.asqp.json.gz,ex_1561,2,VALIDA,
+e352310835e4,google__gemma-4-31B-it.full.asqp.json.gz,ex_1777,7,VALIDA,
+a4538f39a18b,google__gemma-4-31B-it.full.asqp.json.gz,ex_0261,3,VALIDA,
+9be690171655,google__gemma-4-31B-it.full.asqp.json.gz,ex_0071,6,VALIDA,
+79c8b67b9a73,google__gemma-4-31B-it.full.asqp.json.gz,ex_0668,12,INVALIDA,A1
+8defd2e5fc8c,google__gemma-4-31B-it.full.asqp.json.gz,ex_1878,4,VALIDA,
+db7280c55962,google__gemma-4-31B-it.full.asqp.json.gz,ex_0225,1,VALIDA,
+87086b3a993f,google__gemma-4-31B-it.full.asqp.json.gz,ex_1849,1,VALIDA,
+2b99931a0358,google__gemma-4-31B-it.full.asqp.json.gz,ex_0168,2,VALIDA,
+e7ff9fb78c59,google__gemma-4-31B-it.full.asqp.json.gz,ex_0966,10,VALIDA,
+bc73ba2fca51,google__gemma-4-31B-it.full.asqp.json.gz,ex_0187,2,VALIDA,
+e82473a24906,google__gemma-4-31B-it.full.asqp.json.gz,ex_1712,2,VALIDA,
+6d2e755365a7,google__gemma-4-31B-it.full.asqp.json.gz,ex_1406,1,VALIDA,
+3f500d423d12,google__gemma-4-31B-it.full.asqp.json.gz,ex_1715,3,PARCIAL,A4
+88de56b315c9,google__gemma-4-31B-it.full.asqp.json.gz,ex_1134,6,VALIDA,
+5fc992c5bb8f,google__gemma-4-31B-it.full.ssa.json.gz,ex_0403,8,VALIDA,
+b8c9decea100,google__gemma-4-31B-it.full.ssa.json.gz,ex_0422,2,INVALIDA,A1
+52619b068103,google__gemma-4-31B-it.full.ssa.json.gz,ex_0781,1,INVALIDA,A1
+36548446032e,google__gemma-4-31B-it.full.ssa.json.gz,ex_0352,0,VALIDA,
+dba363498abd,google__gemma-4-31B-it.full.ssa.json.gz,ex_0009,9,VALIDA,
+f4566663da33,google__gemma-4-31B-it.full.ssa.json.gz,ex_1557,4,INVALIDA,A3
+74d26652ec63,google__gemma-4-31B-it.full.ssa.json.gz,ex_1333,6,VALIDA,
+cf7108f1afb4,google__gemma-4-31B-it.full.ssa.json.gz,ex_0562,5,VALIDA,
+1ef1b20ab1cd,google__gemma-4-31B-it.full.ssa.json.gz,ex_1099,0,PARCIAL,H1
+3f12d9eafb4c,google__gemma-4-31B-it.full.ssa.json.gz,ex_0078,5,VALIDA,
+207c829ac146,google__gemma-4-31B-it.full.ssa.json.gz,ex_1847,10,INVALIDA,A3
+f8284c97a5d4,google__gemma-4-31B-it.full.ssa.json.gz,ex_0254,2,VALIDA,
+89aeff6fadfa,google__gemma-4-31B-it.full.ssa.json.gz,ex_0211,12,VALIDA,
+0abd1cce5561,google__gemma-4-31B-it.full.ssa.json.gz,ex_0269,7,VALIDA,
+7b3a1d71767f,google__gemma-4-31B-it.full.ssa.json.gz,ex_0081,2,VALIDA,
+a2282fb95132,google__gemma-4-31B-it.full.ssa.json.gz,ex_0362,1,VALIDA,
+80aacf2a2ec1,google__gemma-4-31B-it.full.ssa.json.gz,ex_0499,2,VALIDA,
+7d663ee49857,google__gemma-4-31B-it.full.ssa.json.gz,ex_1361,2,VALIDA,
+3121391424e6,google__gemma-4-31B-it.full.ssa.json.gz,ex_1607,9,PARCIAL,H1
+149d05be0975,google__gemma-4-31B-it.full.ssa.json.gz,ex_1770,9,VALIDA,
+3b8d5b4ad998,google__gemma-4-31B-it.full.ssa.json.gz,ex_0687,5,PARCIAL,H1
+195184258e59,google__gemma-4-31B-it.full.ssa.json.gz,ex_1631,0,VALIDA,
+e7dad6ffe37c,google__gemma-4-31B-it.full.ssa.json.gz,ex_1204,0,VALIDA,
+618bf237ac2c,google__gemma-4-31B-it.full.ssa.json.gz,ex_0710,7,VALIDA,
+95bb70b9a108,google__gemma-4-31B-it.full.ssa.json.gz,ex_0363,3,VALIDA,
+f62d9e64717f,google__gemma-4-31B-it.full.ssa.json.gz,ex_1862,5,INVALIDA,A3
+29da76bfa09e,google__gemma-4-31B-it.full.ssa.json.gz,ex_1161,5,INVALIDA,A3
+7d096eb701e3,google__gemma-4-31B-it.full.ssa.json.gz,ex_0585,2,VALIDA,
+b6f1ca4ba31c,google__gemma-4-31B-it.full.ssa.json.gz,ex_1000,7,VALIDA,
+1b651e0cc94b,google__gemma-4-31B-it.full.ssa.json.gz,ex_1296,1,PARCIAL,H1
+de0c9f0a6ff5,google__gemma-4-31B-it.full.ssa.json.gz,ex_1556,0,VALIDA,
+e825a83c4c72,google__gemma-4-31B-it.full.ssa.json.gz,ex_0071,4,INVALIDA,A3 H1
+a963b2e008fc,google__gemma-4-31B-it.full.ssa.json.gz,ex_0668,0,VALIDA,
+c636b0858b22,google__gemma-4-31B-it.full.ssa.json.gz,ex_1368,0,VALIDA,
+921c831a2926,google__gemma-4-31B-it.full.ssa.json.gz,ex_1713,3,VALIDA,
+cc4a9765c814,google__gemma-4-31B-it.full.ssa.json.gz,ex_1849,5,VALIDA,
+7163f4a7763b,google__gemma-4-31B-it.full.ssa.json.gz,ex_0168,9,PARCIAL,H1
+28876584f39f,google__gemma-4-31B-it.full.ssa.json.gz,ex_1050,4,VALIDA,
+1a00119dd5b3,google__gemma-4-31B-it.full.ssa.json.gz,ex_0783,4,VALIDA,
+fea41d8d4c16,google__gemma-4-31B-it.full.ssa.json.gz,ex_1863,5,VALIDA,
+c2445c639f1d,google__gemma-4-31B-it.full.ssa.json.gz,ex_0804,10,VALIDA,
+b2a1934dbb6a,google__gemma-4-31B-it.full.ssa.json.gz,ex_1454,2,VALIDA,
+eecc6da33f99,google__gemma-4-31B-it.full.ssa.json.gz,ex_1838,8,INVALIDA,A1
+482cb97fefef,google__gemma-4-31B-it.full.ssa.json.gz,ex_1174,2,VALIDA,
+9620356a2f71,google__gemma-4-31B-it.full.ssa.json.gz,ex_0736,3,PARCIAL,H1
+5c6277d3ed59,google__gemma-4-31B-it.full.ssa.json.gz,ex_0794,9,PARCIAL,H1
+0602ae9c599a,google__gemma-4-31B-it.full.ssa.json.gz,ex_1815,2,VALIDA,
+b2184f30433a,google__gemma-4-31B-it.full.ssa.json.gz,ex_0481,7,VALIDA,
+580a9a16ac67,google__gemma-4-31B-it.full.ssa.json.gz,ex_1715,0,VALIDA,
+e8920f813065,google__gemma-4-31B-it.full.ssa.json.gz,ex_0420,3,PARCIAL,H1
+f84f7c09966a,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1749,6,VALIDA,
+17508fe1e4bd,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0521,7,VALIDA,
+f637ee016fed,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0184,1,VALIDA,
+c8f0707fa10a,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1557,2,VALIDA,
+78d6c3634b7b,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1464,1,VALIDA,
+1f0a13a77a8c,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1202,1,PARCIAL,A4
+f5ebb024e2b1,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0863,6,VALIDA,
+bfaf027ff708,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0730,0,INVALIDA,A1
+9e461b766ffa,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0138,0,VALIDA,
+043ee903d6a4,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1099,1,VALIDA,
+92743a7bef8a,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1866,7,VALIDA,
+a4be0fcac988,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1847,4,VALIDA,
+090ec2e3678c,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0252,1,VALIDA,
+93e538bc5539,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0902,3,VALIDA,
+82c29642060f,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1748,4,VALIDA,
+60fbd5a8bd28,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0085,7,PARCIAL,C1
+1e2c341fec53,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0318,10,VALIDA,
+03502370d202,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0039,5,VALIDA,
+f7a72754e7fb,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0293,5,VALIDA,
+f299f93af35d,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0611,10,VALIDA,
+e801267eb32f,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1306,2,VALIDA,
+b3ff7c492500,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1510,5,VALIDA,
+272558cfa120,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0256,4,PARCIAL,A4
+12eada392b3f,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0100,5,PARCIAL,A4
+75bcee5b3f0d,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1584,0,VALIDA,
+2ffb54fd42d1,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0553,4,VALIDA,
+a2c3c0406437,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1880,1,VALIDA,
+45bed0069ba7,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0230,6,VALIDA,
+934d6d22f34e,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0678,0,VALIDA,
+7bb9f0088e4a,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1054,0,VALIDA,
+413e1a33ecff,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0131,0,VALIDA,
+3701d4e3ff50,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1072,8,INVALIDA,A1
+3a1415d48903,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0585,14,INVALIDA,A1
+a34f16742838,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0480,0,VALIDA,
+5c7a9dc036f6,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0542,6,VALIDA,
+0246ea616608,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1060,7,VALIDA,
+25611100eb81,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0343,13,VALIDA,
+93c94713489c,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0133,4,VALIDA,
+2a977527b035,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0696,1,VALIDA,
+988bfdda522e,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1322,0,VALIDA,
+fe05e19a70c0,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0099,4,VALIDA,
+e97f7fbe9f18,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0026,0,VALIDA,
+b7eb71a5d27a,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0919,3,PARCIAL,A4
+72e2ffa662b4,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0598,0,VALIDA,
+676317a9f438,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1067,5,VALIDA,
+687c44c8880e,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1696,8,PARCIAL,A4
+ebfe20ae2a9b,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0035,0,VALIDA,
+8875055e2896,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0671,2,VALIDA,
+92f3084e658a,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_1300,6,VALIDA,
+4475ff130b09,google__gemma-4-31B-it.no_retry.asqp.json.gz,ex_0753,1,VALIDA,
+7abc75c10216,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0383,3,VALIDA,
+c8aec82f817d,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0563,1,VALIDA,
+3b8e92e9a44d,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1749,6,VALIDA,
+ace2b5ad93fc,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0068,6,VALIDA,
+8a0f163515c9,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0863,6,VALIDA,
+3da266c87638,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1249,2,VALIDA,
+ebdde38079f3,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1180,2,VALIDA,
+916b2048c305,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1285,3,VALIDA,
+4d045e798175,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1762,1,PARCIAL,H1
+8ac73f66e598,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1843,7,INVALIDA,A1
+3fd22de6a020,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0655,2,VALIDA,
+5605503c1f80,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1379,2,VALIDA,
+32f99b578560,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0331,7,INVALIDA,A3 H1 P1
+eeda9498564e,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1317,7,VALIDA,
+f0be3a9242e0,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0579,0,VALIDA,
+053c39d5256c,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0579,5,VALIDA,
+efcb35a80915,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1717,2,VALIDA,
+f3a1ffb16462,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1624,0,PARCIAL,H1
+ca3136d7be51,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0675,7,VALIDA,
+f0773e23dfae,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0318,9,VALIDA,
+6855087f5262,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1184,1,VALIDA,
+c0b3d39c7946,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0293,1,VALIDA,
+af70ed810c1f,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0864,6,VALIDA,
+08fb050e5d6b,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0292,5,VALIDA,
+703cedd868bf,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1615,10,VALIDA,
+83b2f6cacd7b,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0903,5,VALIDA,
+cac45c92889c,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1558,5,INVALIDA,A1
+4388fa81e6c7,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0687,3,VALIDA,
+3b8d5b4ad998,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0687,5,PARCIAL,H1
+3daee2579e57,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1125,6,VALIDA,
+586b524903ba,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0552,3,INVALIDA,A1 A3
+8c5ba724abf9,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0852,2,VALIDA,
+53823c650b24,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1072,7,VALIDA,
+afb3511730a0,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0379,4,INVALIDA,A1
+4cb67b856946,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1446,2,VALIDA,
+2d8cf2d37dc8,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0133,7,INVALIDA,A2
+aea467241bee,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0578,2,VALIDA,
+6df143935007,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0755,4,PARCIAL,A4 H1
+8e4a9d047cd4,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0829,2,PARCIAL,A4
+78f7d1bdc1fb,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0056,5,VALIDA,
+03a370f9b84f,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1028,5,VALIDA,
+010e8bf49f6e,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1713,4,PARCIAL,H1
+ac36f2d73d44,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0922,5,VALIDA,
+8b69f3e16d36,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0760,6,PARCIAL,H1
+10b8324735bf,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1501,2,VALIDA,
+7fddfa6dce38,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0957,3,VALIDA,
+93198f1f3c46,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0393,4,VALIDA,
+523b66421d7c,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0774,5,PARCIAL,H1
+e854c38bcff0,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_0510,7,PARCIAL,A4 H1
+572613198e57,google__gemma-4-31B-it.no_retry.ssa.json.gz,ex_1758,3,INVALIDA,A1
+034de351be29,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0931,0,VALIDA,
+8f07720af652,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1778,0,VALIDA,
+f8ebd7808dd5,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0989,0,VALIDA,
+4837317757d7,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0352,0,VALIDA,
+c99ed3fc3da5,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1563,1,INVALIDA,A1
+6fc826dd5ac4,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0478,4,INVALIDA,O1
+249909dcbf81,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0211,1,VALIDA,
+98b35a5a62b4,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1748,1,VALIDA,
+49ae09fb1c63,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1061,6,VALIDA,
+141338e2a5e6,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0675,1,INVALIDA,A1
+9c0fdf1c81e2,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0675,2,INVALIDA,A1
+99a8eef04b45,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0843,1,PARCIAL,A4
+dd58894cbb55,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1359,0,VALIDA,
+7b0c5d749689,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0232,3,VALIDA,
+d565ebba9478,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0293,0,INVALIDA,A1
+c1578c77b928,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1220,0,INVALIDA,A1
+42f20d4b98bc,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1615,2,VALIDA,
+b11e571bd274,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1615,3,VALIDA,
+5ec4ebac8613,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1565,2,INVALIDA,S1
+8d079e008ea9,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0202,0,VALIDA,
+b03769e80816,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0964,1,VALIDA,
+fd021d346f01,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0210,3,VALIDA,
+08e29678155a,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0585,2,VALIDA,
+9741fe118657,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0431,2,VALIDA,
+7b88e651e74d,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1646,0,VALIDA,
+f3c0c251aded,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1646,1,INVALIDA,A1
+c9063db6f856,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1026,1,INVALIDA,A1
+6a48458b5f0e,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1254,0,VALIDA,
+c276e859ec2a,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0126,0,VALIDA,
+f921a8ec245f,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0099,1,VALIDA,
+746a27157af6,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1788,0,INVALIDA,A1
+a5783fc5730a,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1788,2,VALIDA,
+f0ccbee6e9c2,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0501,3,VALIDA,
+8e66ac5109b4,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0026,0,INVALIDA,A2
+ede9195dfb4b,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1084,2,VALIDA,
+73435a019e7b,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1824,4,VALIDA,
+31b75e4313ea,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1081,0,VALIDA,
+d8b6f556f04c,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1518,0,VALIDA,
+a7c0039f0ce2,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1218,0,VALIDA,
+a8bc7ac8e498,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0173,3,VALIDA,
+b74ef8867715,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1174,1,VALIDA,
+b9931c1d21ce,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1191,3,VALIDA,
+d9163c546288,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1190,3,VALIDA,
+763a334a8d01,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1647,1,VALIDA,
+605b6f31bef7,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0290,0,INVALIDA,A1
+e2a7e371873b,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1002,3,VALIDA,
+2442f175a95a,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1002,5,VALIDA,
+3e5389252304,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_0115,1,VALIDA,
+21513103ed8f,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1827,0,VALIDA,
+85ccf79345a9,google__gemma-4-31B-it.no_tags.asqp.json.gz,ex_1472,1,VALIDA,
+71345c37627c,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1426,0,VALIDA,
+7b465f48e6a8,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0068,0,INVALIDA,A1
+36548446032e,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0352,0,VALIDA,
+a46eb52c1e08,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1316,3,VALIDA,
+6c7021d01ed6,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1772,0,VALIDA,
+2d685745fc11,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1843,2,INVALIDA,A1
+4b40789e776e,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0254,0,VALIDA,
+d0f6f88e91b0,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1748,2,VALIDA,
+1562b143c122,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0030,0,VALIDA,
+b46608c85a35,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0167,1,PARCIAL,A4
+6c2dff8fc0be,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1465,1,VALIDA,
+4fdfaa6fde1f,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0208,1,VALIDA,
+31d245e5b64a,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1102,0,VALIDA,
+4c99176c4b02,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1597,0,VALIDA,
+987f428d4d96,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0593,2,INVALIDA,A3
+c68b73704371,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0513,2,VALIDA,
+ce37394a0efc,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0983,2,VALIDA,
+c665fa4ee367,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1282,0,VALIDA,
+16825bdf1a27,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1362,2,INVALIDA,A1
+294db226817f,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0340,4,INVALIDA,A3
+711ca47c2962,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1126,1,VALIDA,
+6aca785b0d2b,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0363,1,VALIDA,
+7128dd68310b,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0210,4,VALIDA,
+20db341322a0,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0218,1,VALIDA,
+ffa8d93a61c6,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1862,0,VALIDA,
+d68219dc3f7f,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0585,0,INVALIDA,O1
+490beb8e9513,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1740,1,VALIDA,
+2bb8333b5d68,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0431,0,VALIDA,
+4517cb08a54c,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1767,3,VALIDA,
+97813101fc0c,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1608,4,VALIDA,
+4898263354f3,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1638,1,VALIDA,
+b9461208a477,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0767,0,VALIDA,
+e00f7d2f93ec,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0099,0,PARCIAL,H1
+841bebee50e9,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1589,0,VALIDA,
+9c835dbd1dff,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0475,0,VALIDA,
+57b610e72ad6,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1699,0,VALIDA,
+8e055bcab2b8,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1878,1,VALIDA,
+972fc710e2cb,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1481,3,VALIDA,
+22d4de19a2d1,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1863,0,PARCIAL,H1
+5810ae2ffb92,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1863,1,VALIDA,
+4b4123f37d7e,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1484,0,INVALIDA,A1 A2
+eb9238ada428,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1413,1,VALIDA,
+909f6ee969d9,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1331,1,VALIDA,
+cefc81519a7a,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0173,2,PARCIAL,P1
+a49c5523ff95,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0291,0,VALIDA,
+3284f35bc5c6,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1350,0,INVALIDA,A1
+611ec5a35aa0,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0207,1,VALIDA,
+a998e2830c51,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_0774,1,INVALIDA,A1
+4545f9eda6b2,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1603,0,VALIDA,
+b08a67a4e473,google__gemma-4-31B-it.no_tags.ssa.json.gz,ex_1647,3,INVALIDA,A1
+5435e66a4387,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0482,1,INVALIDA,S1
+cc3372d989da,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0299,14,INVALIDA,A3 P1
+cb126a2c9611,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1854,6,VALIDA,
+c477a489a188,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1854,7,INVALIDA,S1
+991ad9281d1c,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1854,8,INVALIDA,A2
+3fe5ffdb7cd8,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0386,0,VALIDA,
+48fee42133c7,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1759,3,PARCIAL,P1
+1dda5398ac7d,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1285,2,VALIDA,
+2b9ce92c4dd5,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1762,4,INVALIDA,A1
+3c9501aadbb6,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0833,9,VALIDA,
+f5daa4ce0b21,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0119,8,VALIDA,
+9fa1475b8888,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0269,13,VALIDA,
+b6c81d0d9fc5,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0633,2,PARCIAL,S3
+ab44600d1000,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0030,5,VALIDA,
+05c7b381ff37,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1624,11,INVALIDA,A1
+fd02a1f05c49,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1466,6,VALIDA,
+05cbfa51843a,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1722,1,VALIDA,
+355140638e13,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1722,7,VALIDA,
+00de50f91f8d,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0958,7,VALIDA,
+b031aa3643b9,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1822,0,VALIDA,
+89c372f88d18,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0704,6,INVALIDA,A1
+f0b06648a682,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0840,4,VALIDA,
+4f256bb07d97,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1274,11,INVALIDA,A1
+3e5608a36d53,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1776,3,VALIDA,
+a794e363e058,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0513,4,VALIDA,
+3b130a82a082,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0335,2,VALIDA,
+45bed0069ba7,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0230,7,VALIDA,
+d6d148a75671,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1516,6,INVALIDA,S1
+388df0137897,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0432,4,VALIDA,
+98e8ea64012a,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0255,15,VALIDA,
+ead3db126cd7,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0431,3,INVALIDA,S1
+1d6267b888dc,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0970,4,PARCIAL,S2
+45f091fb0fd4,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1646,0,INVALIDA,A1
+eb57eb43b4db,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0394,0,VALIDA,
+1c285edb9223,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1537,9,VALIDA,
+8d2fcedbb3d2,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1020,1,VALIDA,
+b5a8c423714c,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0170,4,VALIDA,
+6e1be1b7bef4,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1360,5,VALIDA,
+69877073cc5c,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0002,3,INVALIDA,A1 O1
+2162ee25ee06,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1524,6,VALIDA,
+ce9eb4ad6154,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0791,0,PARCIAL,A4
+8fe23aa3900b,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0181,2,INVALIDA,A1
+5d693ba55e05,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0447,3,VALIDA,
+d2b7e7855c0e,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1484,3,VALIDA,
+31bbe9ea511e,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1413,5,VALIDA,
+59da3ba56310,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1288,8,VALIDA,
+bae149a692c8,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1182,0,PARCIAL,S2
+27bcbbe4cadc,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1350,3,VALIDA,
+41f50d909963,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_1577,8,INVALIDA,A3 P1
+a66c9a7f1beb,unsloth__gemma-3-12b-it.full.asqp.json.gz,ex_0779,1,VALIDA,
+024b59012b9b,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1416,0,VALIDA,
+e8c2e4ea6483,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0931,7,PARCIAL,H1
+f71b271ed857,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0068,8,VALIDA,
+a03b734c9824,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1438,3,VALIDA,
+0518806eac7b,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0801,2,VALIDA,
+461bc56c7562,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1314,1,VALIDA,
+5df8c6ef8e75,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1685,0,VALIDA,
+98433c7dec85,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0730,5,VALIDA,
+fb0010fb8740,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0331,1,INVALIDA,A2
+e1e0c70e2944,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0371,0,INVALIDA,A3 P1
+e935d372d7e5,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0538,14,PARCIAL,A4
+62576e89cdc0,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0167,2,VALIDA,
+ac7b91f60ef1,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0039,12,VALIDA,
+f02a0f8ea1a6,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1098,6,VALIDA,
+c4abfd0b59a8,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1274,0,VALIDA,
+53dba13e9b46,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0295,3,VALIDA,
+b3c94ce44ec4,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0627,9,VALIDA,
+d8ea512d4802,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0808,9,VALIDA,
+36d16177b5a5,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1776,6,INVALIDA,A2
+e8cd092a7c5a,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0281,2,INVALIDA,S1
+b541698416e9,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1872,2,VALIDA,
+2b2ccc55ca34,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0112,2,INVALIDA,A3
+5e14bbf9e847,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1867,5,INVALIDA,A1
+c9b6724eabec,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0891,4,INVALIDA,A1
+376a2e64426c,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0440,11,VALIDA,
+f3efddb9748f,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1161,2,VALIDA,
+2ecec4410c23,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1246,6,PARCIAL,A4
+84828a493c8c,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1378,1,VALIDA,
+5e7479756aad,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1419,0,VALIDA,
+a37897c80fc9,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1000,6,VALIDA,
+afa7de24dcc2,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0696,1,VALIDA,
+ce18374c1e0e,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0836,4,VALIDA,
+7dbc7ba24b20,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0261,0,VALIDA,
+80d1a82f503d,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1665,4,VALIDA,
+0a007f73ea5a,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0501,9,PARCIAL,S2
+41e3eab89fdc,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0446,4,INVALIDA,A2
+7f696c796cff,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0192,5,VALIDA,
+7e18ed5b3087,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0829,4,VALIDA,
+e602396e4209,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1360,5,VALIDA,
+3c9462bbdbb4,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1524,1,VALIDA,
+0dc1ab4d2849,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0515,11,VALIDA,
+92218d4a9593,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0225,6,VALIDA,
+2b21baecd569,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1849,1,INVALIDA,A2
+030c98a9c585,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1863,1,VALIDA,
+42042f97c3b4,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1484,4,VALIDA,
+6789a19b687f,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1218,8,VALIDA,
+3d176445eb69,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1809,11,VALIDA,
+c59520fcac8a,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0618,11,PARCIAL,A4 S3
+fa6e2e7f209a,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_0393,5,PARCIAL,S3
+be6068017327,unsloth__gemma-3-12b-it.full.ssa.json.gz,ex_1384,8,VALIDA,
+fe9507eaa086,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0248,1,INVALIDA,A2
+4bba4def8b3c,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0203,6,VALIDA,
+a8ff890129a9,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0494,0,VALIDA,
+987686c708e1,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0969,0,VALIDA,
+11f45444b4c0,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0528,7,VALIDA,
+2ab31bcca8ce,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0132,3,VALIDA,
+0897ba99e454,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0132,9,INVALIDA,A1
+9d26f03e3623,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0191,0,VALIDA,
+1ef63c64e1af,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0450,2,VALIDA,
+27c384491a06,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0359,5,INVALIDA,A1
+6b21b1584bbe,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1497,0,VALIDA,
+529d1cae3926,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1168,8,VALIDA,
+a7b425b2c422,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1570,3,VALIDA,
+7ca3f17d0d84,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1441,2,INVALIDA,A1
+909fa25e796f,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1359,1,VALIDA,
+090353b1a09f,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0692,0,VALIDA,
+56c85f5ac57d,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0139,2,PARCIAL,S2
+be9dcfbf99fd,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0293,0,PARCIAL,S3
+80f5d1187d8c,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0285,0,VALIDA,
+74500b9f992a,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0808,6,VALIDA,
+037c4fa85012,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1133,2,VALIDA,
+d1b923551690,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0553,4,VALIDA,
+818b408d7cde,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0003,0,VALIDA,
+f4a803a3c0c6,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1282,4,VALIDA,
+8b71243e3bdc,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1562,0,VALIDA,
+55639f31d1bb,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0837,1,INVALIDA,P1 S1
+f9f584a66093,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0210,1,INVALIDA,A3
+4f53fff81ba0,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1072,7,PARCIAL,C1
+e060876ec5a3,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0218,2,VALIDA,
+4f805496d485,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0379,0,VALIDA,
+e8daa4317eb0,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0431,0,VALIDA,
+24b6d108b02c,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0480,0,PARCIAL,C1 S2
+b3e7e8755ba2,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0942,0,VALIDA,
+8f9cda165e50,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0091,0,PARCIAL,C1 S2
+8fb80e14f1be,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1026,1,INVALIDA,O1
+bb72df96eead,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1634,0,PARCIAL,C1
+728aa8813a6c,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0871,3,PARCIAL,C1
+cd0a0ae9370b,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1140,1,PARCIAL,C1
+623899d6a9fe,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0238,3,VALIDA,
+5b8177197d06,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0919,0,PARCIAL,A4
+0c0af1329199,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0515,4,INVALIDA,S1
+4f5ab97e6a31,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0351,4,VALIDA,
+99801f16eee7,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1684,8,VALIDA,
+263af2e7afa5,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1484,6,PARCIAL,C1
+2e3130153460,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0395,1,VALIDA,
+d25ddebb9cfa,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_1629,6,VALIDA,
+c42f027fca91,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0957,0,VALIDA,
+2feb07bc2021,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0597,3,PARCIAL,P1 S2
+e6c2d64e1fa6,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0050,1,VALIDA,
+393b3d0c1c7e,unsloth__gemma-3-12b-it.no_retry.asqp.json.gz,ex_0420,2,INVALIDA,S1
+13bf5fa045ae,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0403,2,PARCIAL,A4
+26c18e2f0a9c,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0366,8,PARCIAL,S2
+6b9724cb4e70,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0781,6,VALIDA,
+2c6102f627c4,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1854,6,INVALIDA,A2
+34a30df9c42d,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0989,5,VALIDA,
+9c5b332fc5cf,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0352,1,VALIDA,
+95d42696ca28,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0185,3,VALIDA,
+8352dda91cb2,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1653,7,INVALIDA,O1
+0ecd2ba183cb,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1653,8,VALIDA,
+2c8675afe91e,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1379,1,VALIDA,
+be4433da8c5c,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0306,3,VALIDA,
+eb3e17d2fbfa,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0327,0,INVALIDA,A1
+d9ea459470bb,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0843,3,VALIDA,
+5e8b9df4f474,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1822,1,VALIDA,
+345e32cf9f8a,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0611,2,VALIDA,
+04708b765506,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0611,4,VALIDA,
+b513a24efbe1,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0448,2,INVALIDA,A3 O1
+7d663ee49857,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1361,2,VALIDA,
+b1cf46078bec,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1691,2,VALIDA,
+4e2f0885e1e5,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0202,1,PARCIAL,H1
+eded6de92542,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1274,2,VALIDA,
+bb4a375d7faa,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1706,4,PARCIAL,P1 S2
+8d49033608b1,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0486,1,INVALIDA,A1
+e8da2c6623a8,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1532,3,VALIDA,
+e8cd092a7c5a,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0281,2,INVALIDA,S1
+f3e09ebe2250,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1571,4,VALIDA,
+9f49dd65efe5,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1872,0,VALIDA,
+fc9e3a43f980,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0964,0,VALIDA,
+ae5b8e7d0521,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0942,1,VALIDA,
+3a0cae22c400,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0091,4,PARCIAL,P1 S2
+c119292f9cfa,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1419,0,VALIDA,
+9ab087c379c9,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1789,3,INVALIDA,O1
+183a97cda44a,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0614,13,VALIDA,
+212d5d11546a,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1788,3,VALIDA,
+007da387f8d6,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0501,0,VALIDA,
+4faea8074d66,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0056,0,VALIDA,
+4ee710259881,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0988,0,INVALIDA,H1 O1
+683b907b8b96,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1824,0,VALIDA,
+a84a8e71ac64,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0187,0,VALIDA,
+880c6e0f6df8,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1137,7,VALIDA,
+b47882777d7e,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0890,2,VALIDA,
+3faffd1e28a6,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1501,0,PARCIAL,S2
+13b9ab8386a3,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0618,2,VALIDA,
+0fb1b6314525,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1735,2,VALIDA,
+6d8dcf399ac9,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0671,1,INVALIDA,S1
+fdabe1fbcf29,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1334,1,VALIDA,
+f94a5027eb0d,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1182,6,VALIDA,
+62f1524db01e,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1300,5,VALIDA,
+36504ca0323b,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_0794,1,INVALIDA,A3
+4df1f21c0305,unsloth__gemma-3-12b-it.no_retry.ssa.json.gz,ex_1406,0,VALIDA,
+a9c4a47de42f,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1850,0,INVALIDA,A1
+aef0adde2cc0,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0205,0,VALIDA,
+99343185a608,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0781,0,INVALIDA,O1
+cb126a2c9611,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1854,2,VALIDA,
+cf93a340c3b5,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1438,0,PARCIAL,P1
+968e516a3e1d,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1316,0,PARCIAL,C1
+0bdd734cc61c,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0801,0,VALIDA,
+3c9af7a8d362,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1464,0,VALIDA,
+eb99421d7323,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0528,0,INVALIDA,O1
+3cdecde86f61,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0321,0,INVALIDA,A1
+5ca90f18eae4,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1422,0,PARCIAL,A4
+8047660cf17e,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1843,0,INVALIDA,A1
+76d1cab8c954,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1739,0,VALIDA,
+8ece97905987,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0655,0,VALIDA,
+0e72f56a592b,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1317,0,VALIDA,
+927be201e94b,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0858,0,INVALIDA,A1
+538fe5185874,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1441,0,INVALIDA,A1
+20c156172e06,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1835,0,INVALIDA,A1 S2
+1b2e2ddab786,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1271,0,INVALIDA,A1
+06cf73e87c6e,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0416,0,VALIDA,
+cc8b2cd4c730,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1207,1,PARCIAL,C1
+ff8a83cbb07c,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1822,0,VALIDA,
+82ddf3e72b02,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0474,0,VALIDA,
+303d8b0da21a,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1615,0,VALIDA,
+0bed9f7d8b56,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0934,0,VALIDA,
+248e6aa0c6c2,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0130,0,PARCIAL,C1
+8c855a96d0a6,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0964,0,VALIDA,
+22098595845a,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0552,0,INVALIDA,A1
+d9d651dec586,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0678,0,VALIDA,
+dbd0be9a5b4c,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1072,0,INVALIDA,A1
+fae5fb2c3309,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0432,0,VALIDA,
+aa1e7e33cdff,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0980,0,INVALIDA,A1
+8299c16b8370,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1255,0,INVALIDA,A1
+73be2acc2041,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1162,0,INVALIDA,A3
+55e0b869fa0a,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0343,0,PARCIAL,A4
+1e7817ab82fe,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1297,0,VALIDA,
+09bd17cfafb5,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1608,0,VALIDA,
+a9e788a1c61e,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0966,0,VALIDA,
+8c4e8be14462,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1863,0,PARCIAL,C1
+82f86ef71b88,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1714,0,INVALIDA,A1
+49e0f4fd0d74,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1418,0,VALIDA,
+fd56c6307b77,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0305,0,INVALIDA,A1
+03b9882c6ba0,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0561,0,VALIDA,
+555185af5b22,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1838,0,INVALIDA,A1
+0bde75d94356,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1350,0,INVALIDA,A1
+dd0521c56a60,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1021,0,VALIDA,
+6ccc59b0ceb1,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1647,1,INVALIDA,A1
+3c542af801c3,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_0213,0,INVALIDA,A3
+b356d9428b5e,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1300,0,INVALIDA,A1
+bee48502b2c1,unsloth__gemma-3-12b-it.no_tags.asqp.json.gz,ex_1097,0,VALIDA,
+b50a748497e9,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1850,0,INVALIDA,A1
+a314ecba13ee,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1854,0,VALIDA,
+31c599093a8f,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1438,0,PARCIAL,P1
+3d0509caf6a9,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1316,0,VALIDA,
+ce4f92875d38,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0038,0,INVALIDA,A1
+c050cac2527a,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0528,0,INVALIDA,O1
+e55d3f047f09,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0138,0,VALIDA,
+19c861273a96,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0359,1,VALIDA,
+81b51e1c6e59,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0538,0,VALIDA,
+cd4cdc5c7576,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0858,0,VALIDA,
+89c41a5fa1d6,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0858,1,VALIDA,
+b5c9e85a3a3e,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1441,0,INVALIDA,A1
+553c73f46d9a,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1036,0,INVALIDA,A1
+3d28bbbb9cfc,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0843,0,VALIDA,
+fb773999b21f,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0527,0,VALIDA,
+ebbd40ef59dc,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1465,0,VALIDA,
+cb68371430c8,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1207,0,VALIDA,
+1be7e3fc0a3a,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1822,0,VALIDA,
+174c98c04cc3,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0704,0,VALIDA,
+0c6205174578,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0704,1,INVALIDA,A1
+c09e7f539447,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0916,0,INVALIDA,A1 S1
+6fddb270bd02,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0611,1,VALIDA,
+f32823192e34,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0448,0,INVALIDA,A1 S1
+bcd270af8ace,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1615,0,VALIDA,
+f34ff52cc7f4,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0934,0,VALIDA,
+4e84befa32b7,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0130,0,VALIDA,
+dff563f00aee,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0964,0,VALIDA,
+58c3c80c2b9c,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0678,0,VALIDA,
+32ba878dd229,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0340,0,VALIDA,
+d063a7a96868,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0363,0,VALIDA,
+b30b1e581cb4,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1755,0,PARCIAL,A4
+ca3330f66d6a,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0432,0,VALIDA,
+7f0760ebbf26,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1255,0,INVALIDA,A1
+58b0b2aae66f,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1767,0,INVALIDA,A1
+692de6995e1b,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0466,0,VALIDA,
+4fb9a9399919,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1788,0,VALIDA,
+0295537fae08,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0446,0,VALIDA,
+6f225e39efcc,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0118,0,PARCIAL,A4
+e63586e9debf,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0376,0,INVALIDA,A1
+43987ca08ee1,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_0657,0,VALIDA,
+832aaf0a54c9,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1863,0,PARCIAL,H1
+aaafe9263a28,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1327,0,VALIDA,
+a489557ba012,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1858,0,VALIDA,
+3284f35bc5c6,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1350,0,INVALIDA,A1
+31eddeca6994,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1577,0,VALIDA,
+36418b8729e6,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1300,0,INVALIDA,A1
+353d44d2ccc8,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1002,0,VALIDA,
+5f65a6f4cf89,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1472,0,VALIDA,
+0502b1f6b125,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1134,0,VALIDA,
+5dc3afb8f6fb,unsloth__gemma-3-12b-it.no_tags.ssa.json.gz,ex_1870,0,INVALIDA,A1
+b5637ed48323,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0047,2,PARCIAL,A4
+8d574f1c83d1,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0781,0,INVALIDA,A1
+63e387f588e5,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0289,0,PARCIAL,P1 S2
+b04c1a4199a3,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1438,3,PARCIAL,C1
+923b0e9bc352,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0801,3,VALIDA,
+4a1f854a7b63,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1557,1,VALIDA,
+64f6b70f3f80,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1464,4,INVALIDA,O1
+632d0d0655e1,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1464,5,PARCIAL,C1
+e6edf1082bba,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0321,2,VALIDA,
+8d9c889db4c9,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1500,2,PARCIAL,P1
+e8b8481dd225,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1748,0,VALIDA,
+e39880122ff9,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0327,3,INVALIDA,A1
+6cdc1021753b,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1441,1,INVALIDA,A1
+f8a9b5d4bff3,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0084,1,VALIDA,
+4f4d4407c5da,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0084,2,INVALIDA,S1
+63fc3c40f165,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0234,4,INVALIDA,S1
+ffb24d2cb8d0,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0441,0,VALIDA,
+95ab4c11f21e,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0064,1,INVALIDA,A1
+1b2e2ddab786,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1271,0,INVALIDA,A1
+b7c57a78f72b,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1594,0,VALIDA,
+3882df53ffc9,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1207,4,PARCIAL,C1
+97fe178dfe0c,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1318,0,INVALIDA,A1
+9f441e4c64fa,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1361,5,INVALIDA,A1 S1
+72764dd5de46,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1770,1,PARCIAL,A4
+181d2f9af398,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0256,0,VALIDA,
+8db6dbf064bb,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0130,1,VALIDA,
+9894a8b073d2,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1872,0,VALIDA,
+8473ffc297e4,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0644,0,VALIDA,
+4395dedf2a76,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1411,4,VALIDA,
+9cdfa93db97e,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0049,0,VALIDA,
+3701d4e3ff50,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1072,0,INVALIDA,A1
+070d756c1073,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0432,4,VALIDA,
+09a388bbf756,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0892,1,INVALIDA,S1
+918995882cac,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0892,3,PARCIAL,A4 S2
+43fdc3ae0230,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0431,2,VALIDA,
+77a4b56e4c37,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1059,2,VALIDA,
+56bc7c5f2905,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1842,1,PARCIAL,S2
+1b5c18244c10,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0751,2,VALIDA,
+9dac5fcc269b,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0133,1,PARCIAL,C1
+775eb72cc870,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1871,1,INVALIDA,A1
+d608ae2c9dc3,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1338,2,VALIDA,
+9351bd22ab80,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1589,2,INVALIDA,A1
+970f1e130357,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0576,1,PARCIAL,S2
+4a82e6307ce1,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1518,1,INVALIDA,A1 S1
+823a9a4e47f2,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0089,1,PARCIAL,C1
+fb1f10115ef8,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0313,1,VALIDA,
+bf417ff853fb,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_1858,0,VALIDA,
+cadcef9f803e,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0811,1,VALIDA,
+ee7ec3b551bf,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0384,1,PARCIAL,A4
+3a9f9e39397d,unsloth__gemma-3-4b-it.full.asqp.json.gz,ex_0918,0,VALIDA,
+52eecfcc34e1,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1692,5,VALIDA,
+0c114ed12307,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0663,0,INVALIDA,A1
+ea18336f575d,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0651,1,VALIDA,
+03bc76256864,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0781,0,VALIDA,
+3b36760f3c19,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0289,0,PARCIAL,P1 S2
+0518806eac7b,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0801,1,VALIDA,
+835262bf2f0a,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0969,0,INVALIDA,A1
+89e4b1d0cf90,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1766,1,VALIDA,
+5358b80a5e12,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0863,3,PARCIAL,S2
+eb5ecdbed6e0,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1500,4,VALIDA,
+d646b72bb894,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0359,4,PARCIAL,S2
+07191d4dd5dc,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1866,0,VALIDA,
+30188f4a0006,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0876,1,INVALIDA,A3
+41cf6a8c99ff,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0902,1,VALIDA,
+be4433da8c5c,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0306,2,VALIDA,
+b1c0058070e6,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1441,5,VALIDA,
+f2efa0f0aa5b,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1441,9,INVALIDA,A1
+aa422600394c,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0064,2,VALIDA,
+ecae4b12ceee,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0887,3,INVALIDA,A1
+3169d2212708,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0378,1,PARCIAL,S2
+cb58d42d12a4,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1594,0,VALIDA,
+b537944dfa7c,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0293,0,PARCIAL,A4
+fb7d5b41ec07,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0496,1,VALIDA,
+9d9a95923c6a,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0320,0,VALIDA,
+2d2f53c1f904,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1510,1,VALIDA,
+c270f5f366d4,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0819,1,VALIDA,
+3e7f876b76fc,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0687,2,VALIDA,
+25fa5b9d7e0c,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1532,4,VALIDA,
+da4b1b853704,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1628,0,VALIDA,
+37b9ac4533c2,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0672,1,VALIDA,
+9e97d650eb97,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0340,4,VALIDA,
+9a0316105eb0,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0340,7,VALIDA,
+4d789cb265c0,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0210,8,INVALIDA,O1
+61ad922ab9eb,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0440,2,VALIDA,
+797f671e0a9e,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0218,2,INVALIDA,A1
+431238beb09b,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0585,7,PARCIAL,S2
+8bada36caf20,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0980,1,VALIDA,
+1ce7f19b2766,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1806,0,VALIDA,
+492a442cf22e,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1026,3,INVALIDA,A2
+af70ff847058,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1665,0,VALIDA,
+5964081163a5,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1634,0,VALIDA,
+d8f6144d23a9,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0501,1,PARCIAL,H1
+f377643b64fb,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0376,2,VALIDA,
+299b74143f4c,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0698,0,PARCIAL,H1
+deade4f53654,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1699,2,INVALIDA,A3 P1
+1f3121da3d19,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0351,2,VALIDA,
+c0b4d4d7cce5,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1218,0,VALIDA,
+c2d1a0bbb2a6,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_0890,1,VALIDA,
+b017c3e70336,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1715,3,VALIDA,
+e2951a2da1a6,unsloth__gemma-3-4b-it.full.ssa.json.gz,ex_1134,1,VALIDA,
+faac9dabdfc8,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0781,0,PARCIAL,C1 P1
+2962291bf323,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1181,1,INVALIDA,O1 S1
+2036ab331886,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1491,2,PARCIAL,C1
+e33db7ec98a2,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0869,0,VALIDA,
+30bbca1f0c2c,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0833,0,INVALIDA,O1
+9155bd3adb4b,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1079,0,VALIDA,
+f28cf0fa54e0,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1337,1,PARCIAL,A4
+25dc624e605a,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1687,0,VALIDA,
+29f86ebb6dc2,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0064,0,PARCIAL,A4 C1
+452cbcf4901e,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0787,0,VALIDA,
+0a00c6617dda,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0527,1,VALIDA,
+1072e7e0e4f6,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0139,0,INVALIDA,O1
+80e21e700085,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1207,6,INVALIDA,A2 S1
+ca9d64e75ea4,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0958,0,VALIDA,
+24fe8d1cc67d,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0005,1,PARCIAL,C1
+077a3b7da7ac,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1361,1,PARCIAL,C1
+aa82040adefe,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1558,0,VALIDA,
+82e6b172c59b,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1558,2,VALIDA,
+6075bb5ec973,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0231,1,INVALIDA,S1
+0d44627eae25,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0710,1,INVALIDA,A1 S2
+188feaff550c,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0683,1,VALIDA,
+449ef3e21e43,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0826,1,INVALIDA,A4 S1
+645399557b4a,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0826,2,PARCIAL,A4 C1
+b0f53fa76653,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0240,0,VALIDA,
+c531d85959da,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0240,1,VALIDA,
+7fe4d21ad870,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0512,2,VALIDA,
+f668723b3949,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1282,1,PARCIAL,C1
+5c1f7a0aa675,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1126,3,VALIDA,
+fdb4e6cdb574,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0440,2,VALIDA,
+172a12aa5ea2,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0218,0,VALIDA,
+9394acc03719,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0193,0,INVALIDA,A1 P1 S2
+ed08f53c1f01,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0186,4,INVALIDA,O1
+5ad0d6575168,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0991,0,PARCIAL,A4 S2
+7333ea544a3f,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1608,1,VALIDA,
+e7054d8d1c54,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1634,0,PARCIAL,C1
+7f4b4b95de02,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1834,0,VALIDA,
+22492e7a9190,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0762,1,INVALIDA,O1
+be1d7c28bc1d,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0576,2,PARCIAL,A4 S2
+72e2ffa662b4,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0598,0,VALIDA,
+8a703125164d,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0515,0,VALIDA,
+626057c5aade,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0642,0,VALIDA,
+59da3ba56310,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1288,0,VALIDA,
+4f77bc525ea6,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1208,0,PARCIAL,S2
+d6d581538951,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1858,3,VALIDA,
+d5af248c7cd6,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0393,1,INVALIDA,S1
+a18c9eaddcc9,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1603,0,VALIDA,
+156521f9a46e,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0213,4,VALIDA,
+e7ab5a0b4110,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0794,4,INVALIDA,A3
+e2a7e371873b,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_1002,0,VALIDA,
+1798f7765046,unsloth__gemma-3-4b-it.no_retry.asqp.json.gz,ex_0127,2,VALIDA,
+d9991e89543a,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1692,1,VALIDA,
+ce533b18b5c6,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1420,1,PARCIAL,H1
+deef2e896cf0,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1181,1,VALIDA,
+21b4610a65d2,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0298,0,VALIDA,
+c529564e6449,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1500,0,VALIDA,
+cbb598b4e91e,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0367,0,VALIDA,
+ffbfd4a8c0ef,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0276,0,VALIDA,
+863a31d463a5,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0833,1,PARCIAL,P1
+787da14a24b6,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1079,0,VALIDA,
+86af70e0c6d0,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0234,0,VALIDA,
+8d18e6f75ffe,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0167,1,INVALIDA,H1 O1
+d22e6c5b5603,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0356,1,VALIDA,
+94aff30be8d5,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0232,0,INVALIDA,A1
+483de8e643c7,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1237,0,VALIDA,
+02a5cdb5db43,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0916,1,VALIDA,
+ae7b60aa8d3b,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0100,2,INVALIDA,S1
+28a68c37d442,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0996,2,PARCIAL,S2
+d8ea512d4802,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0808,0,VALIDA,
+947eaa012d87,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0240,1,VALIDA,
+34989b31276c,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1679,4,PARCIAL,A4
+e186e7aa8c2f,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1411,0,INVALIDA,O1
+485440f12db2,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1126,2,VALIDA,
+61ad922ab9eb,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0440,0,VALIDA,
+ca3330f66d6a,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0432,1,VALIDA,
+e2300efb0cc3,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1740,5,VALIDA,
+92e94c3360ba,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1059,1,VALIDA,
+3ab7daf59c5c,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1842,1,INVALIDA,A1
+d0628ef25ad6,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0570,0,PARCIAL,S2
+3576ac47918a,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1608,1,VALIDA,
+5a8b6ba42bba,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1489,0,VALIDA,
+af70ff847058,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1665,0,VALIDA,
+5964081163a5,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1634,0,VALIDA,
+b29064ee2a9b,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1788,1,INVALIDA,O1
+750c04fe39df,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0762,0,VALIDA,
+5d46c29b6fce,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1790,2,VALIDA,
+f652729b58a5,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0475,1,VALIDA,
+cc68bca29fe7,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1304,0,INVALIDA,O1
+0e48d86dcf43,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0812,2,INVALIDA,A1 O1
+64250eb075f8,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1331,1,VALIDA,
+cb2d22f8150d,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0313,0,VALIDA,
+30047c9e205b,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1191,4,VALIDA,
+c04f0e54609c,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1663,0,VALIDA,
+0c9a5bb6e605,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0918,0,VALIDA,
+0ced3254ed9c,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0125,2,VALIDA,
+88c4d18a98b9,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1257,0,VALIDA,
+cf99247f06ce,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1758,0,INVALIDA,A1
+43adb01d9866,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0050,4,PARCIAL,H1
+e7f43a1002b2,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0481,0,VALIDA,
+fd88dcaec99d,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_0483,0,INVALIDA,A3 S1
+40e50608ead3,unsloth__gemma-3-4b-it.no_retry.ssa.json.gz,ex_1870,4,VALIDA,
+aef0adde2cc0,unsloth__gemma-3-4b-it.no_tags.asqp.json.gz,ex_0205,0,VALIDA,
+77feb81479f4,unsloth__gemma-3-4b-it.no_tags.asqp.json.gz,ex_1854,0,VALIDA,
+cf93a340c3b5,unsloth__gemma-3-4b-it.no_tags.asqp.json.gz,ex_1438,0,PARCIAL,P1
+33aa6bfaf2f4,unsloth__gemma-3-4b-it.no_tags.asqp.json.gz,ex_1036,0,INVALIDA,A1
+67107a8bfe7c,unsloth__gemma-3-4b-it.no_tags.asqp.json.gz,ex_1731,0,INVALIDA,A1
+748327dd302b,unsloth__gemma-3-4b-it.no_tags.asqp.json.gz,ex_1275,0,VALIDA,
+cc8b2cd4c730,unsloth__gemma-3-4b-it.no_tags.asqp.json.gz,ex_1207,0,PARCIAL,C1
+0e751c0db347,unsloth__gemma-3-4b-it.no_tags.asqp.json.gz,ex_1411,0,INVALIDA,A1
+71f5105d5685,unsloth__gemma-3-4b-it.no_tags.asqp.json.gz,ex_0186,0,INVALIDA,A2 O1
+5fea8e7938c3,unsloth__gemma-3-4b-it.no_tags.asqp.json.gz,ex_1147,0,INVALIDA,O1
+295092c594f0,unsloth__gemma-3-4b-it.no_tags.asqp.json.gz,ex_0446,0,VALIDA,
+a3871500e39b,unsloth__gemma-3-4b-it.no_tags.asqp.json.gz,ex_1140,0,INVALIDA,A1
+6de949b7fbf3,unsloth__gemma-3-4b-it.no_tags.asqp.json.gz,ex_1858,0,PARCIAL,C1
+a936bbd03cf5,unsloth__gemma-3-4b-it.no_tags.ssa.json.gz,ex_1854,0,VALIDA,
+31c599093a8f,unsloth__gemma-3-4b-it.no_tags.ssa.json.gz,ex_1438,0,PARCIAL,P1
+e55d3f047f09,unsloth__gemma-3-4b-it.no_tags.ssa.json.gz,ex_0138,0,VALIDA,
+3d28bbbb9cfc,unsloth__gemma-3-4b-it.no_tags.ssa.json.gz,ex_0843,0,VALIDA,
+25553cc4cf9e,unsloth__gemma-3-4b-it.no_tags.ssa.json.gz,ex_0256,0,VALIDA,
+681a9525614b,unsloth__gemma-3-4b-it.no_tags.ssa.json.gz,ex_0672,0,VALIDA,
+dff563f00aee,unsloth__gemma-3-4b-it.no_tags.ssa.json.gz,ex_0964,0,VALIDA,
+a21d11ad3923,unsloth__gemma-3-4b-it.no_tags.ssa.json.gz,ex_0210,0,PARCIAL,S2
+cf5b587f2149,unsloth__gemma-3-4b-it.no_tags.ssa.json.gz,ex_1087,0,INVALIDA,A1
+a489557ba012,unsloth__gemma-3-4b-it.no_tags.ssa.json.gz,ex_1858,0,VALIDA,
