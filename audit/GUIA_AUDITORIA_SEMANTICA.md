@@ -170,8 +170,11 @@ Cada taxa vem com intervalo de confiança de Wilson de 95%.
 ## 7. Procedimento
 
 1. **Amostra.** `scripts/semantic_audit_sample.py` sorteia, com semente fixa,
-   até 50 tuplas por run (modelo × tarefa × configuração), uniformemente e sem
-   reposição; runs com menos de 50 tuplas entram inteiros. Tuplas idênticas em
+   100 tuplas por run da configuração auditada (padrão: `full`, isto é, tokens
+   indexados com retentativas; um run é um modelo × tarefa), uniformemente e sem
+   reposição; runs com menos tuplas entram inteiros. Com `--previous`, as tuplas
+   já sorteadas numa amostra anterior são mantidas e a amostra é completada com
+   novas tuplas sorteadas entre as restantes, reaproveitando os vereditos. Tuplas idênticas em
    runs diferentes (mesmo documento, spans, rótulos) são julgadas uma única vez
    e o veredito é propagado. A amostra contém texto original e é gravada fora do
    repositório (`private_runs/`, ignorado pelo git).
@@ -218,8 +221,8 @@ O filtro não substitui o julgamento, mas cobre 100% das tuplas.
 
 ## 9. Limites
 
-- A amostra estima taxas por run com margem de cerca de ±14 pontos
-  percentuais; agregados por modelo e configuração são mais precisos.
+- A amostra estima taxas por run (modelo × tarefa) com margem de cerca de ±10
+  pontos percentuais; os totais por tarefa são mais precisos.
 - A validade é julgada tupla a tupla. Esta auditoria **não** mede cobertura: não
   mede opiniões que o modelo deixou de extrair.
 - Juízes LLM podem ser sistematicamente lenientes ou rigorosos. A revisão
