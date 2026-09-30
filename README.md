@@ -7,7 +7,7 @@ Reproducibility package for structured sentiment annotation: eight models, SSA a
 - Annotation code, sentence segmentation, whitespace token indexing, validation, four synthetic demonstrations and Portuguese task guides.
 - All final generated annotations in `results/*.json.gz`: predicted terms, labels, character offsets, unit outcomes, attempts and timing. `results/manifest.json` provides checksums and summaries.
 - Software and hardware details in `environment.json`.
-- Semantic audit of the retained annotations in `audit/`: the audit guide, the report with one table per model, per-run rates and per-tuple verdicts, produced by `scripts/semantic_audit_sample.py` and `scripts/semantic_audit_report.py`.
+- Semantic audit of the annotations retained under `full` in `audit/`: the audit guide, the report with one table of all models, per-run rates and per-tuple verdicts, produced by `scripts/semantic_audit_sample.py` and `scripts/semantic_audit_report.py`.
 - The manuscript source in `paper/paper.tex`, including the semantic audit appendix generated as `audit/semantic_audit_appendix.tex`.
 
 Original review texts and reference annotations are excluded, except the ten reviews reproduced verbatim in the manuscript appendix *Texts Used in Human Inspection* (`paper/paper.tex`), which also contain names of people mentioned in them. Model-generated terms remain verbatim and can reproduce source fragments and entity names; they are not guaranteed to be de-identified. Document IDs and source checksums allow alignment with separately acquired datasets. Private reviewer comments, databases, credentials, server logs and model weights are not included.
@@ -64,14 +64,14 @@ Offsets count Python Unicode characters, not UTF-8 bytes or model subwords, with
 
 ## Semantic audit
 
-Structural validation checks offsets, not meaning. `audit/GUIA_AUDITORIA_SEMANTICA.md` (Portuguese) defines how each retained tuple is judged as a guest opinion about the hotel: error codes per field, including named places and landmarks used as aspects, and valid, partial and invalid verdicts. Up to 50 tuples per run are sampled (seed 20260930); `audit/RELATORIO_AUDITORIA_SEMANTICA.md` and `audit/por_modelo/` report rates with 95% intervals per model, task and configuration.
+Structural validation checks offsets, not meaning. `audit/GUIA_AUDITORIA_SEMANTICA.md` (Portuguese) defines how each retained tuple is judged as a guest opinion about the hotel: error codes per field, including named places and landmarks used as aspects, and valid, partial and invalid verdicts. The audit covers the `full` configuration (indexed tokens with retries): 100 retained tuples are sampled per model and task (seed 20260930), and `audit/RELATORIO_AUDITORIA_SEMANTICA.md` reports the valid, in-domain and out-of-domain rates of all models in one table, with 95% intervals.
 
 **The verdicts were produced by LLM judges following the guide, not by human annotators.** Treat the rates as model-assisted estimates until a human-reviewed subsample is reported (guide, section 7).
 
 The sample contains original text and is not published. With the datasets obtained separately:
 
 ```bash
-python3 scripts/semantic_audit_sample.py --ssa "$SSA_DATA" --asqp "$ASQP_DATA"
+python3 scripts/semantic_audit_sample.py --ssa "$SSA_DATA" --asqp "$ASQP_DATA" --configs full --per-run 100
 # judge private_runs/semantic_audit/chunks/*.jsonl into private_runs/semantic_audit/judgments/
 python3 scripts/semantic_audit_report.py
 ```
