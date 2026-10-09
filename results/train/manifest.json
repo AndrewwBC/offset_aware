@@ -1,5 +1,22 @@
 [
   {
+    "file": "results/train/Qwen__Qwen2.5-0.5B-Instruct.full.asqp.json.gz",
+    "sha256": "2844029cbcffe11f52f5f756e5e1ec055abd7a085ba0574612627d25b76696a0",
+    "split": "train",
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "task": "asqp",
+    "config": "full",
+    "documents": 763,
+    "elapsed_seconds": 306.54262137413025,
+    "dataset_sha256": "615335780065212b1e155dddc76ee10c2d338b479966ae47a171d398e1d43daa",
+    "units": 3831,
+    "rejected_units": 3695,
+    "empty_units": 6,
+    "retained_tuples": 134,
+    "attempts": 14984,
+    "retained_spans_audited": 268
+  },
+  {
     "file": "results/train/Qwen__Qwen2.5-1.5B-Instruct.full.asqp.json.gz",
     "sha256": "528d0099de92d0c12cbe40d6946a2fcfbafe0367ebe5d6245520e61775ee2c98",
     "split": "train",
@@ -372,6 +389,23 @@
     "retained_tuples": 6359,
     "attempts": 4229,
     "retained_spans_audited": 12718
+  },
+  {
+    "file": "results/train/google__gemma-3-27b-it.no_retry.asqp.json.gz",
+    "sha256": "be0867d4fb5372959f180b3dadc9b75bed402502f3abb7e80601aad66610dcc5",
+    "split": "train",
+    "model": "google/gemma-3-27b-it",
+    "task": "asqp",
+    "config": "no_retry",
+    "documents": 763,
+    "elapsed_seconds": 784.5998055934906,
+    "dataset_sha256": "615335780065212b1e155dddc76ee10c2d338b479966ae47a171d398e1d43daa",
+    "units": 3831,
+    "rejected_units": 300,
+    "empty_units": 519,
+    "retained_tuples": 5629,
+    "attempts": 3831,
+    "retained_spans_audited": 11258
   },
   {
     "file": "results/train/google__gemma-4-31B-it.full.asqp.json.gz",
