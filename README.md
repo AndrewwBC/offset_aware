@@ -65,6 +65,14 @@ python3 run_ablation_direct_v3.py --config no_tags --dataset "$ASQP_DATA" --mode
 
 The historical runner filename is retained; the published direct-offset condition uses no token-ID cues. Release changes remove reference-agreement scoring, allow absent reference labels, restrict the CLI to published ablations and make server paths portable. The earlier results, produced at commit `3dbafa2` and removed from `results/`, used a tokenizer that indexed whitespace-separated tokens, so punctuation stayed attached to words (`más.`). That tokenizer could represent only 65% of the reference spans exactly, since reference spans never start or end with punctuation. The current code indexes only words (`\w+`) in the indexed-token conditions: punctuation stays in the text and offsets but has no token ID, so a selected span can contain inner punctuation (`wi-fi`, `R$ 50`) but can never start or end with it. 99.5% of reference spans are representable; the annotation guide, shared by all three configurations, also instructs the model not to include a period, comma, question mark, exclamation mark or other punctuation at the start or end of a span. Validation does not reject such spans. All runs in `results/train/` and `results/test/` were produced with this code.
 
+## Agreement with the human annotations and tuple review
+
+`scripts/tuple_review_export.py` compares each `full` run with the human annotations: a predicted tuple is equal when category, aspect offsets, opinion offsets and polarity match (test reviews from `ote_acd.csv` have no polarity and match on the other three). Each human tuple matches at most one prediction, and the 33 training reviews without human annotations are left out. `audit/tuple_review_counts.csv` records, per run, the predicted, equal and different tuples. The script also samples 20 differing tuples per model (seed 20261009) into a batch for the Gasann/anotai tuple-review page, where reviewers judge, blind to the model, whether each annotation makes sense. The batch contains review sentences and stays in `private_runs/`.
+
+```bash
+python3 scripts/tuple_review_export.py --train "$ASQP_DATA" --test datasets/test.json
+```
+
 ## Audit offsets with original data obtained separately
 
 ```bash
