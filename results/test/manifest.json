@@ -304,5 +304,22 @@
     "retained_tuples": 987,
     "attempts": 2773,
     "retained_spans_audited": 1974
+  },
+  {
+    "file": "results/test/unsloth__gemma-3-4b-it.no_tags.asqp.json.gz",
+    "sha256": "7c3cac50af835693bfa9bef03ae3fb06353f1c6d1dcd948c608e90d9f5f7e7a4",
+    "split": "test",
+    "model": "unsloth/gemma-3-4b-it",
+    "task": "asqp",
+    "config": "no_tags",
+    "documents": 506,
+    "elapsed_seconds": 174.52337741851807,
+    "dataset_sha256": "4214afea6f51d4f158075aba2caa891ad9184f77f4f4b79bce93094d10114987",
+    "units": 2773,
+    "rejected_units": 2496,
+    "empty_units": 270,
+    "retained_tuples": 7,
+    "attempts": 10914,
+    "retained_spans_audited": 14
   }
 ]
