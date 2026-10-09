@@ -5,8 +5,10 @@ Qwen/Qwen2.5-32B-Instruct,train,full,5664,1397,2903,1364,3436,168,8,6
 Qwen/Qwen2.5-32B-Instruct,test,full,3973,988,2050,935,2313,0,2,4
 Qwen/Qwen3.5-27B,train,full,5785,1320,3080,1385,3436,197,4,6
 Qwen/Qwen3.5-27B,test,full,4091,921,2225,945,2313,0,6,4
-Qwen/Qwen3.6-27B,train,full,5193,1160,2764,1269,3436,159,0,0
+Qwen/Qwen3.6-27B,train,full,5193,1160,2764,1269,3436,159,4,5
+Qwen/Qwen3.6-27B,test,full,3718,815,2007,896,2313,0,6,5
 Qwen/Qwen3.8-27B,train,full,5474,1242,2976,1256,3436,167,7,4
 Qwen/Qwen3.8-27B,test,full,3925,896,2118,911,2313,0,3,6
 google/gemma-4-31B-it,train,full,6183,1295,3308,1580,3436,187,6,8
 google/gemma-4-31B-it,test,full,4372,903,2431,1038,2313,0,4,2
+unsloth/gemma-3-4b-it,train,full,1916,475,859,582,3436,81,0,0
