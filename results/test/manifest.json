@@ -34,6 +34,23 @@
     "retained_spans_audited": 2264
   },
   {
+    "file": "results/test/Qwen__Qwen2.5-7B-Instruct.no_tags.asqp.json.gz",
+    "sha256": "a2aa2cae00a90541819b74a5f0849b2e088bb4dff39287d7a56ba5f84db76110",
+    "split": "test",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "task": "asqp",
+    "config": "no_tags",
+    "documents": 506,
+    "elapsed_seconds": 506.2932198047638,
+    "dataset_sha256": "4214afea6f51d4f158075aba2caa891ad9184f77f4f4b79bce93094d10114987",
+    "units": 2773,
+    "rejected_units": 2084,
+    "empty_units": 675,
+    "retained_tuples": 14,
+    "attempts": 9556,
+    "retained_spans_audited": 28
+  },
+  {
     "file": "results/test/Qwen__Qwen2.5-32B-Instruct.full.asqp.json.gz",
     "sha256": "352e6e52fe6d10cce2528c2e4e70efd73fb51566fdde8135c3127069765ab3a1",
     "split": "test",
@@ -49,6 +66,23 @@
     "retained_tuples": 3973,
     "attempts": 3107,
     "retained_spans_audited": 7946
+  },
+  {
+    "file": "results/test/Qwen__Qwen2.5-32B-Instruct.no_retry.asqp.json.gz",
+    "sha256": "dbdd383885bc0799c5d4f1b8717f89266e139b11b24b6a70e655b1ee51e6cb1c",
+    "split": "test",
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "asqp",
+    "config": "no_retry",
+    "documents": 506,
+    "elapsed_seconds": 776.6137373447418,
+    "dataset_sha256": "4214afea6f51d4f158075aba2caa891ad9184f77f4f4b79bce93094d10114987",
+    "units": 2773,
+    "rejected_units": 219,
+    "empty_units": 564,
+    "retained_tuples": 3459,
+    "attempts": 2773,
+    "retained_spans_audited": 6918
   },
   {
     "file": "results/test/Qwen__Qwen3.5-27B.full.asqp.json.gz",
