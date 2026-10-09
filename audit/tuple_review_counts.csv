@@ -1,5 +1,6 @@
 model,split,config,predicted,identical,similar,different,human_tuples,excluded_unannotated,sampled_similar,sampled_different
-Qwen/Qwen2.5-3B-Instruct,train,full,2188,565,1077,546,3436,47,0,0
+Qwen/Qwen2.5-3B-Instruct,train,full,2188,565,1077,546,3436,47,8,7
+Qwen/Qwen2.5-3B-Instruct,test,full,1568,407,772,389,2313,0,2,3
 Qwen/Qwen2.5-7B-Instruct,train,full,2753,540,1394,819,3436,83,5,4
 Qwen/Qwen2.5-7B-Instruct,test,full,2034,392,1086,556,2313,0,5,6
 Qwen/Qwen2.5-32B-Instruct,train,full,5664,1397,2903,1364,3436,168,8,6

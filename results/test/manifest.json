@@ -1,5 +1,39 @@
 [
   {
+    "file": "results/test/Qwen__Qwen2.5-3B-Instruct.full.asqp.json.gz",
+    "sha256": "23958d0f70b54f6f689fa64c70a0afc1629a5ac31e683962edc88e0880feb7e5",
+    "split": "test",
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "task": "asqp",
+    "config": "full",
+    "documents": 506,
+    "elapsed_seconds": 390.74170207977295,
+    "dataset_sha256": "4214afea6f51d4f158075aba2caa891ad9184f77f4f4b79bce93094d10114987",
+    "units": 2773,
+    "rejected_units": 582,
+    "empty_units": 1008,
+    "retained_tuples": 1568,
+    "attempts": 5942,
+    "retained_spans_audited": 3136
+  },
+  {
+    "file": "results/test/Qwen__Qwen2.5-3B-Instruct.no_retry.asqp.json.gz",
+    "sha256": "c07b825ed0e4c1a46c1a96c075c32e670009aa95d7ca08d48dcf614d5cb293ec",
+    "split": "test",
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "task": "asqp",
+    "config": "no_retry",
+    "documents": 506,
+    "elapsed_seconds": 147.37836337089539,
+    "dataset_sha256": "4214afea6f51d4f158075aba2caa891ad9184f77f4f4b79bce93094d10114987",
+    "units": 2773,
+    "rejected_units": 1462,
+    "empty_units": 745,
+    "retained_tuples": 717,
+    "attempts": 2773,
+    "retained_spans_audited": 1434
+  },
+  {
     "file": "results/test/Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz",
     "sha256": "c35e7dfcc2e5a53f7dce5ab99fb0fca4b33fd1b2d1256ff9139b545a7cf1a307",
     "split": "test",
@@ -85,6 +119,23 @@
     "retained_spans_audited": 6918
   },
   {
+    "file": "results/test/Qwen__Qwen2.5-32B-Instruct.no_tags.asqp.json.gz",
+    "sha256": "6c2969280d41646d05d86e29b06cd35913304fcab07cac923b2292dc021b426a",
+    "split": "test",
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "asqp",
+    "config": "no_tags",
+    "documents": 506,
+    "elapsed_seconds": 2659.081684112549,
+    "dataset_sha256": "4214afea6f51d4f158075aba2caa891ad9184f77f4f4b79bce93094d10114987",
+    "units": 2773,
+    "rejected_units": 2198,
+    "empty_units": 489,
+    "retained_tuples": 88,
+    "attempts": 9390,
+    "retained_spans_audited": 176
+  },
+  {
     "file": "results/test/Qwen__Qwen3.5-27B.full.asqp.json.gz",
     "sha256": "b24663a4d59b0833df12973d3f42730593a1944cb0bb31fbe6ca21c34a2bb7b8",
     "split": "test",
@@ -168,6 +219,23 @@
     "retained_tuples": 3434,
     "attempts": 2773,
     "retained_spans_audited": 6868
+  },
+  {
+    "file": "results/test/Qwen__Qwen3.6-27B.no_tags.asqp.json.gz",
+    "sha256": "d64aef9664e44cb11f26838afa36d5a43b44ce1a4c57f710b43e567280484740",
+    "split": "test",
+    "model": "Qwen/Qwen3.6-27B",
+    "task": "asqp",
+    "config": "no_tags",
+    "documents": 506,
+    "elapsed_seconds": 1929.5511362552643,
+    "dataset_sha256": "4214afea6f51d4f158075aba2caa891ad9184f77f4f4b79bce93094d10114987",
+    "units": 2773,
+    "rejected_units": 1569,
+    "empty_units": 441,
+    "retained_tuples": 960,
+    "attempts": 7701,
+    "retained_spans_audited": 1920
   },
   {
     "file": "results/test/Qwen__Qwen3.8-27B.full.asqp.json.gz",
