@@ -11,7 +11,7 @@ SERVER_LOG="$LOG_DIR/${SAFE_MODEL}.server.log"; RUN_LOG="$LOG_DIR/${SAFE_MODEL}.
 cleanup(){ if [[ -n "${SERVER_PID:-}" ]] && kill -0 "$SERVER_PID" 2>/dev/null;then kill -TERM "$SERVER_PID" 2>/dev/null||true;wait "$SERVER_PID" 2>/dev/null||true;fi; }
 trap cleanup EXIT INT TERM
 CUDA_VISIBLE_DEVICES="$GPU" VLLM_USE_FLASHINFER_SAMPLER=0 "${VLLM:-vllm}" serve "$MODEL" \
- --host 127.0.0.1 --port "$PORT" --max-model-len "${MAX_MODEL_LEN:-8192}" --gpu-memory-utilization 0.85 --max-num-seqs "${MAX_NUM_SEQS:-256}" >"$SERVER_LOG" 2>&1 &
+ --host 127.0.0.1 --port "$PORT" --max-model-len "${MAX_MODEL_LEN:-8192}" --gpu-memory-utilization "${GPU_MEM_UTIL:-0.95}" --max-num-seqs "${MAX_NUM_SEQS:-256}" >"$SERVER_LOG" 2>&1 &
 SERVER_PID=$!
 for _ in $(seq 1 360);do
  curl -fsS "http://127.0.0.1:$PORT/health" >/dev/null&&break
@@ -20,15 +20,13 @@ for _ in $(seq 1 360);do
 done
 curl -fsS "http://127.0.0.1:$PORT/health" >/dev/null
 IFS=',' read -ra CFGS <<<"$CONFIGS"
+DATA="${ASQP_DATA:?Set ASQP_DATA}"
 for CONFIG in "${CFGS[@]}";do
- for TASK in ssa asqp;do
-  [[ "$TASK" == ssa ]]&&DATA="${SSA_DATA:?Set SSA_DATA}"||DATA="${ASQP_DATA:?Set ASQP_DATA}"
-  OUT="$RESULT_DIR/${SAFE_MODEL}.${CONFIG}.${TASK}.json"
-  if [[ "$CONFIG" == full ]];then RUNNER="$ROOT/run_experiment.py";EXTRA=()
-  else RUNNER="$ROOT/run_ablation_direct_v3.py";EXTRA=(--config "$CONFIG");fi
-  "${PYTHON:-python3}" "$RUNNER" "${EXTRA[@]}" --task "$TASK" --dataset "$DATA" --model "$MODEL" \
-   --base-url "http://127.0.0.1:$PORT/v1" --output "$OUT" --limit "$LIMIT" --concurrency "${CONCURRENCY:-200}" 2>&1|tee -a "$RUN_LOG"
- done
+ OUT="$RESULT_DIR/${SAFE_MODEL}.${CONFIG}.asqp.json"
+ if [[ "$CONFIG" == full ]];then RUNNER="$ROOT/run_experiment.py";EXTRA=()
+ else RUNNER="$ROOT/run_ablation_direct_v3.py";EXTRA=(--config "$CONFIG");fi
+ "${PYTHON:-python3}" "$RUNNER" "${EXTRA[@]}" --dataset "$DATA" --model "$MODEL" \
+  --base-url "http://127.0.0.1:$PORT/v1" --output "$OUT" --limit "$LIMIT" --concurrency "${CONCURRENCY:-200}" 2>&1|tee -a "$RUN_LOG"
 done
 cleanup;trap - EXIT INT TERM
 # Cache removal is restricted to this model's directory.

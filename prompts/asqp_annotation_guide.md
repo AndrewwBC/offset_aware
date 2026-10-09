@@ -72,6 +72,11 @@ Use `sentiment.type="explicit"` quando a avaliação estiver lexicalizada no
 trecho. Use `implicit` somente quando o trecho selecionado requer inferência
 contextual para adquirir valor avaliativo.
 
+Nem `aspect` nem `sentiment` incluem pontuação nas bordas. Não selecione ponto
+final, vírgula, interrogação, exclamação ou outro sinal de pontuação no início
+ou no fim do trecho. Em “O quarto era ótimo!”, o aspecto é `quarto` e a
+expressão é `ótimo`, e não `ótimo!`.
+
 ## 5. Polaridade
 
 Use exatamente `POS`, `NEG` ou `NEU`: `POS` para avaliação favorável, `NEG`
@@ -112,4 +117,6 @@ Para cada quádrupla, confirme:
 4. A categoria pertence às seis permitidas e é a mais específica?
 5. A polaridade é compatível com a expressão no contexto?
 6. Todos os aspectos distintos receberam quádruplas separadas?
+7. O aspecto e a expressão começam e terminam em palavra, sem ponto final,
+   vírgula, interrogação ou exclamação nas bordas?
 

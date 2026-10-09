@@ -9,3 +9,4 @@ datasets/
 private_runs/
 logs/
 .cache/
+test_full*/

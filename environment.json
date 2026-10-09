@@ -9,8 +9,15 @@
     "transformers": "5.5.3",
     "huggingface-hub": "1.28.0"
   },
-  "hardware": "2 x NVIDIA RTX PRO 6000 Blackwell 96 GB; one server per GPU",
+  "hardware": {
+    "am": "2 x NVIDIA RTX PRO 6000 Blackwell 96 GB, one server per GPU (GPU0 power-capped at 400 W, GPU1 at 600 W): Qwen2.5-32B, Qwen3.5-27B, Qwen3.6-27B, Qwen3.8-27B, Gemma 3 12B and 27B, Gemma 4 31B",
+    "wheatley": "1 x NVIDIA GeForce RTX 5090 32 GB: Qwen2.5-0.5B, 1.5B, 3B and 7B, Gemma 3 4B"
+  },
   "precision": "BF16",
   "model_revision": "main at execution; exact weight commit hashes were not archived",
-  "reproducibility_limit": "Single runs; GPU kernels, scheduling and model revisions can change outputs."
+  "reproducibility_limit": "Single runs; GPU kernels, scheduling and model revisions can change outputs.",
+  "gpu_memory_utilization": {
+    "value": 0.95,
+    "note": "0.85 for runs started before 2026-10-09 15:22 -03: Gemma 4 31B, Qwen3.8-27B and Qwen3.5-27B (both splits) and Qwen2.5-32B train full and most of train no_retry"
+  }
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the paper's offset-aware annotation pipeline against SSA or ASQP gold data."""
+"""Run the paper's offset-aware ASQP annotation pipeline."""
 
 from __future__ import annotations
 
@@ -25,9 +25,9 @@ ABBREVIATIONS = {
 GUIDE_DIR = Path(__file__).resolve().parent / "prompts"
 
 
-def annotation_guide(task: str) -> str:
+def annotation_guide() -> str:
     """Load the semantic annotation guide appended to each system prompt."""
-    return (GUIDE_DIR / f"{task}_annotation_guide.md").read_text(encoding="utf-8").strip()
+    return (GUIDE_DIR / "asqp_annotation_guide.md").read_text(encoding="utf-8").strip()
 
 
 
@@ -55,36 +55,30 @@ def split_sentences(text: str) -> list[tuple[str, int, int]]:
     return spans or [(text, 0, len(text))]
 
 
+TOKEN = re.compile(r"\w+")
+
+
 def token_map(sentence: str) -> list[dict[str, Any]]:
+    """Index words only; punctuation stays in the offsets but cannot be selected."""
     return [
         {"id": i, "token": m.group(), "start": m.start(), "end": m.end()}
-        for i, m in enumerate(re.finditer(r"\S+", sentence))
+        for i, m in enumerate(TOKEN.finditer(sentence))
     ]
 
 
-def system_prompt(task: str) -> str:
+
+def system_prompt() -> str:
     common = """Você é especialista em análise de sentimento estruturada em português.
 Você receberá uma frase e TAGS de tokens indexados. Extraia TODAS as opiniões.
 Responda somente um objeto JSON {\"annotations\": [...]}.
 Use apenas token_ids existentes, únicos, crescentes e contíguos. O campo term deve ser
-exatamente o trecho formado do primeiro ao último token, incluindo pontuação quando ela
-faz parte do token. Use o menor span semanticamente suficiente. Nunca invente texto.
+exatamente o trecho formado do primeiro ao último token.
+Use o menor span semanticamente suficiente. Nunca invente texto.
 aspect e sentiment devem ter ao menos um token. polarity deve ser POS, NEG ou NEU.
 sentiment.type deve ser explicit ou implicit; use explicit sempre que houver expressão
 avaliativa textual. Se não houver opinião, retorne {\"annotations\": []}.
 """
-    if task == "ssa":
-        task_prompt = """
-Cada anotação tem holder, aspect, sentiment e polarity. Holder é quem expressa a opinião;
-se não estiver expresso, use {\"term\":\"null\",\"token_ids\":[]}.
-Formato: {\"holder\":{\"term\":str,\"token_ids\":[int]},
-\"aspect\":{\"term\":str,\"token_ids\":[int]},
-\"sentiment\":{\"term\":str,\"token_ids\":[int],\"type\":\"explicit\"},
-\"polarity\":\"POS\"}.
-Não confunda sujeito sintático com holder: holder precisa ser o emissor da avaliação.
-"""
-    else:
-        task_prompt = """
+    task_prompt = """
 Cada anotação tem category, aspect, sentiment e polarity. category deve ser exatamente uma
 de: structure, service, location, general, price, others.
 Formato: {\"category\":\"structure\",
@@ -92,36 +86,34 @@ Formato: {\"category\":\"structure\",
 \"sentiment\":{\"term\":str,\"token_ids\":[int],\"type\":\"explicit\"},
 \"polarity\":\"POS\"}.
 """
-    return common + task_prompt + "\nGUIA DE ANOTAÇÃO:\n" + annotation_guide(task)
+    return common + task_prompt + "\nGUIA DE ANOTAÇÃO:\n" + annotation_guide()
 
 
 
 FEW_SHOT_EXAMPLES = [
     ("O hotel e excelente.", [
-        {"holder_ids": [], "aspect_ids": [1], "sentiment_ids": [3], "polarity": "POS", "category": "general"}
+        {"aspect_ids": [1], "sentiment_ids": [3], "polarity": "POS", "category": "general"}
     ]),
     ("Eu achei o quarto pequeno.", [
-        {"holder_ids": [0], "aspect_ids": [3], "sentiment_ids": [4], "polarity": "NEG", "category": "structure"}
+        {"aspect_ids": [3], "sentiment_ids": [4], "polarity": "NEG", "category": "structure"}
     ]),
     ("A localizacao e otima, mas o preco e alto.", [
-        {"holder_ids": [], "aspect_ids": [1], "sentiment_ids": [3], "polarity": "POS", "category": "location"},
-        {"holder_ids": [], "aspect_ids": [6], "sentiment_ids": [8], "polarity": "NEG", "category": "price"}
+        {"aspect_ids": [1], "sentiment_ids": [3], "polarity": "POS", "category": "location"},
+        {"aspect_ids": [6], "sentiment_ids": [8], "polarity": "NEG", "category": "price"}
     ]),
     ("Nos consideramos o atendimento impecavel.", [
-        {"holder_ids": [0], "aspect_ids": [3], "sentiment_ids": [4], "polarity": "POS", "category": "service"}
+        {"aspect_ids": [3], "sentiment_ids": [4], "polarity": "POS", "category": "service"}
     ]),
 ]
 
 
-def few_shot_messages(task: str, use_tags: bool) -> list[dict[str, str]]:
+def few_shot_messages(use_tags: bool) -> list[dict[str, str]]:
     messages: list[dict[str, str]] = []
     for text, specs in FEW_SHOT_EXAMPLES:
         tokens = token_map(text)
         annotations = []
         for spec in specs:
-            def span(ids: list[int], sentiment: bool = False, holder: bool = False) -> dict[str, Any]:
-                if holder and not ids:
-                    return {"term": "null", "token_ids" if use_tags else "location": []}
+            def span(ids: list[int], sentiment: bool = False) -> dict[str, Any]:
                 begin, end = tokens[ids[0]]["start"], tokens[ids[-1]]["end"]
                 result: dict[str, Any] = {"term": text[begin:end]}
                 result["token_ids" if use_tags else "location"] = ids if use_tags else [begin, end]
@@ -133,10 +125,7 @@ def few_shot_messages(task: str, use_tags: bool) -> list[dict[str, str]]:
                 "sentiment": span(spec["sentiment_ids"], sentiment=True),
                 "polarity": spec["polarity"],
             }
-            if task == "ssa":
-                row["holder"] = span(spec["holder_ids"], holder=True)
-            else:
-                row["category"] = spec["category"]
+            row["category"] = spec["category"]
             annotations.append(row)
         user = "FRASE:\n" + text
         if use_tags:
@@ -163,14 +152,13 @@ def parse_json(raw: str) -> dict[str, Any]:
 
 def validate_and_resolve(
     payload: dict[str, Any], tokens: list[dict[str, Any]], sentence: str,
-    sentence_start: int, task: str,
+    sentence_start: int,
 ) -> tuple[list[dict[str, Any]], list[str]]:
     errors: list[str] = []
     rows = payload.get("annotations")
     if not isinstance(rows, list):
         return [], ["annotations precisa ser uma lista"]
     resolved: list[dict[str, Any]] = []
-    span_fields = ("holder", "aspect", "sentiment") if task == "ssa" else ("aspect", "sentiment")
     for row_i, row in enumerate(rows):
         if not isinstance(row, dict):
             errors.append(f"anotação {row_i}: deve ser objeto")
@@ -180,13 +168,12 @@ def validate_and_resolve(
         if polarity not in POLARITIES:
             errors.append(f"anotação {row_i}: polarity inválida {polarity!r}")
         out["polarity"] = polarity
-        if task == "asqp":
-            category = row.get("category")
-            if category not in ASQP_CATEGORIES:
-                errors.append(f"anotação {row_i}: category inválida {category!r}")
-            out["category"] = category
+        category = row.get("category")
+        if category not in ASQP_CATEGORIES:
+            errors.append(f"anotação {row_i}: category inválida {category!r}")
+        out["category"] = category
         bad_row = False
-        for field in span_fields:
+        for field in ("aspect", "sentiment"):
             span = row.get(field)
             if not isinstance(span, dict):
                 errors.append(f"anotação {row_i}: {field} deve ser objeto")
@@ -194,12 +181,6 @@ def validate_and_resolve(
                 continue
             ids = span.get("token_ids")
             term = span.get("term")
-            if task == "ssa" and field == "holder" and (ids == [] or term == "null"):
-                if ids != [] or term != "null":
-                    errors.append(f"anotação {row_i}: holder nulo deve usar term null e token_ids []")
-                    bad_row = True
-                out[field] = {"term": "null", "location": []}
-                continue
             if not isinstance(ids, list) or not ids or not all(isinstance(x, int) for x in ids):
                 errors.append(f"anotação {row_i}: {field}.token_ids inválido")
                 bad_row = True
@@ -228,11 +209,11 @@ def validate_and_resolve(
     return resolved, errors
 
 
-async def annotate_sentence(client: AsyncOpenAI, model: str, task: str, sentence: str,
+async def annotate_sentence(client: AsyncOpenAI, model: str, sentence: str,
                             sentence_start: int, retries: int) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     tokens = token_map(sentence)
     user = "FRASE:\n" + sentence + "\n\nTAGS:\n" + json.dumps(tokens, ensure_ascii=False)
-    messages = ([{"role": "system", "content": system_prompt(task)}] + few_shot_messages(task, True) + [{"role": "user", "content": user}])
+    messages = ([{"role": "system", "content": system_prompt()}] + few_shot_messages(True) + [{"role": "user", "content": user}])
     meta = {"attempts": 0, "rejected": False, "parse_errors": 0, "validation_errors": 0}
     for attempt in range(retries + 1):
         meta["attempts"] += 1
@@ -244,7 +225,7 @@ async def annotate_sentence(client: AsyncOpenAI, model: str, task: str, sentence
             )
             raw = response.choices[0].message.content or ""
             payload = parse_json(raw)
-            resolved, errors = validate_and_resolve(payload, tokens, sentence, sentence_start, task)
+            resolved, errors = validate_and_resolve(payload, tokens, sentence, sentence_start)
             if not errors:
                 return resolved, meta
             meta["validation_errors"] += len(errors)
@@ -258,7 +239,7 @@ async def annotate_sentence(client: AsyncOpenAI, model: str, task: str, sentence
     return [], meta
 
 
-def score_documents(records, task):
+def score_documents(records):
     """Summarize retained output; do not score agreement with reference labels."""
     return {"retained_tuples": sum(len(r["predictions"]) for r in records)}
 
@@ -286,7 +267,7 @@ async def main_async(args: argparse.Namespace) -> None:
         sentence_outputs = []
         async def one(sentence: str, begin: int, end: int) -> dict[str, Any]:
             async with semaphore:
-                anns, meta = await annotate_sentence(client, args.model, args.task, sentence, begin, args.retries)
+                anns, meta = await annotate_sentence(client, args.model, sentence, begin, args.retries)
             return {"text": sentence, "location": [begin, end], "annotations": anns, **meta}
         sentence_outputs = await asyncio.gather(*(one(*span) for span in split_sentences(item["text"])))
         predictions = [ann for sent in sentence_outputs for ann in sent["annotations"]]
@@ -296,9 +277,9 @@ async def main_async(args: argparse.Namespace) -> None:
             records[doc_id] = rec
             if len(records) % args.checkpoint_every == 0 or len(records) == len(items):
                 ordered = [records[k] for k, _ in items if k in records]
-                summary = score_documents(ordered, args.task)
+                summary = score_documents(ordered)
                 summary.update({
-                    "model": args.model, "task": args.task, "config": "full", "documents": len(ordered),
+                    "model": args.model, "task": "asqp", "config": "full", "documents": len(ordered),
                     "sentences": sum(len(x["sentences"]) for x in ordered),
                     "rejected_sentences": sum(s["rejected"] for x in ordered for s in x["sentences"]),
                     "retry_attempts": sum(max(0, s["attempts"] - 1) for x in ordered for s in x["sentences"]),
@@ -316,7 +297,6 @@ async def main_async(args: argparse.Namespace) -> None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--task", choices=("ssa", "asqp"), required=True)
     parser.add_argument("--dataset", required=True)
     parser.add_argument("--model", required=True)
     parser.add_argument("--base-url", default="http://127.0.0.1:8000/v1")

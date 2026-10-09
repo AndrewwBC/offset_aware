@@ -6,41 +6,32 @@ from openai import AsyncOpenAI
 from run_experiment import ASQP_CATEGORIES,POLARITIES,annotate_sentence,annotation_guide,few_shot_messages,parse_json,score_documents,split_sentences
 CONFIGS={"no_retry","no_tags"}
 
-def raw_prompt(task):
+def raw_prompt():
     common="""Voce e especialista em analise de sentimento estruturada em portugues.
 Extraia TODAS as opinioes e responda somente JSON {\"annotations\":[...]}.
 Cada span usa location=[inicio,fim], caracteres relativos ao TEXTO,
 com inicio inclusivo e fim exclusivo; term deve ser exatamente TEXTO[inicio:fim].
 Use o menor span suficiente. polarity: POS, NEG ou NEU. sentiment.type: explicit ou implicit.
 """
-    if task=="ssa":
-        task_prompt="""Campos: holder, aspect, sentiment, polarity. Holder e o emissor;
-se ausente use {"term":"null","location":[]}. Aspect e sentiment nunca sao vazios."""
-    else:
-        task_prompt="""Campos: category, aspect, sentiment, polarity. category e uma de:
+    task_prompt="""Campos: category, aspect, sentiment, polarity. category e uma de:
 structure, service, location, general, price, others. Aspect e sentiment nunca sao vazios."""
-    return common+task_prompt+"\n\nGUIA DE ANOTACAO:\n"+annotation_guide(task).replace("token_ids","location")
+    return common+task_prompt+"\n\nGUIA DE ANOTACAO:\n"+annotation_guide().replace("token_ids","location")
 
-def normalize_raw(payload,text,start,task,enforce):
+def normalize_raw(payload,text,start,enforce):
     rows=payload.get("annotations")
     if not isinstance(rows,list): return [],["annotations precisa ser lista"]
-    resolved,errors=[],[]; fields=("holder","aspect","sentiment") if task=="ssa" else ("aspect","sentiment")
+    resolved,errors=[],[]
     for i,row in enumerate(rows):
         if not isinstance(row,dict): errors.append(f"anotacao {i}: deve ser objeto"); continue
         out,bad={"polarity":row.get("polarity")},[]
         if row.get("polarity") not in POLARITIES: bad.append("polarity invalida")
-        if task=="asqp":
-            out["category"]=row.get("category")
-            if row.get("category") not in ASQP_CATEGORIES: bad.append("category invalida")
-        for field in fields:
+        out["category"]=row.get("category")
+        if row.get("category") not in ASQP_CATEGORIES: bad.append("category invalida")
+        for field in ("aspect","sentiment"):
             span=row.get(field)
             if not isinstance(span,dict):
                 out[field]={"term":"","location":[]}; bad.append(f"{field} deve ser objeto"); continue
             term,loc=span.get("term"),span.get("location")
-            if task=="ssa" and field=="holder" and (term=="null" or loc==[]):
-                out[field]={"term":"null","location":[]}
-                if term!="null" or loc!=[]: bad.append("holder nulo inconsistente")
-                continue
             valid=isinstance(loc,list) and len(loc)==2 and all(isinstance(x,int) for x in loc)
             if valid:
                 begin,end=loc; absolute=[start+begin,start+end]
@@ -53,8 +44,8 @@ def normalize_raw(payload,text,start,task,enforce):
         if not enforce or not bad: resolved.append(out)
     return resolved,errors
 
-async def annotate_raw(client,model,task,text,start,retries,enforce):
-    msgs=[{"role":"system","content":raw_prompt(task)}]+few_shot_messages(task,False)+[{"role":"user","content":"FRASE:\n"+text}]
+async def annotate_raw(client,model,text,start,retries,enforce):
+    msgs=[{"role":"system","content":raw_prompt()}]+few_shot_messages(False)+[{"role":"user","content":"FRASE:\n"+text}]
     meta={"attempts":0,"rejected":False,"parse_errors":0,"validation_errors":0}
     for _ in range(retries+1):
         meta["attempts"]+=1; raw=""
@@ -63,7 +54,7 @@ async def annotate_raw(client,model,task,text,start,retries,enforce):
                 top_p=0.8,presence_penalty=1.0,max_tokens=768,
                 extra_body={"top_k":20,"chat_template_kwargs":{"enable_thinking":False}})
             raw=response.choices[0].message.content or ""
-            resolved,errors=normalize_raw(parse_json(raw),text,start,task,enforce)
+            resolved,errors=normalize_raw(parse_json(raw),text,start,enforce)
             if not enforce or not errors: return resolved,meta
             meta["validation_errors"]+=len(errors); feedback="Corrija:\n- "+"\n- ".join(errors[:20])
         except Exception as exc:
@@ -85,16 +76,16 @@ async def main(args):
         spans=split_sentences(item["text"]) if split else [(item["text"],0,len(item["text"]))]
         async def unit(text,begin,end):
             async with sem:
-                if tags: anns,meta=await annotate_sentence(client,args.model,args.task,text,begin,retries)
-                else: anns,meta=await annotate_raw(client,args.model,args.task,text,begin,retries,enforce)
+                if tags: anns,meta=await annotate_sentence(client,args.model,text,begin,retries)
+                else: anns,meta=await annotate_raw(client,args.model,text,begin,retries,enforce)
             return {"text":text,"location":[begin,end],"annotations":anns,**meta}
         units=await asyncio.gather(*(unit(*span) for span in spans))
         rec={"id":doc_id,"text":item["text"],"gold":item.get("annotations", []),"predictions":[a for u in units for a in u["annotations"]],"sentences":units}
         async with lock:
             records[doc_id]=rec
             if len(records)%10==0 or len(records)==len(items):
-                ordered=[records[k] for k,_ in items if k in records]; summary=score_documents(ordered,args.task)
-                summary.update({"model":args.model,"task":args.task,"config":args.config,"documents":len(ordered),
+                ordered=[records[k] for k,_ in items if k in records]; summary=score_documents(ordered)
+                summary.update({"model":args.model,"task":"asqp","config":args.config,"documents":len(ordered),
                     "units":sum(len(x["sentences"]) for x in ordered),"rejected_units":sum(u["rejected"] for x in ordered for u in x["sentences"]),
                     "retry_attempts":sum(max(0,u["attempts"]-1) for x in ordered for u in x["sentences"]),
                     "elapsed_seconds":time.time()-started,"dataset_sha256":hashlib.sha256(source.read_bytes()).hexdigest()})
@@ -104,7 +95,7 @@ async def main(args):
 
 def args():
     p=argparse.ArgumentParser();p.add_argument("--config",choices=sorted(CONFIGS),required=True)
-    p.add_argument("--task",choices=("ssa","asqp"),required=True);p.add_argument("--dataset",required=True);p.add_argument("--model",required=True)
+    p.add_argument("--dataset",required=True);p.add_argument("--model",required=True)
     p.add_argument("--base-url",required=True);p.add_argument("--output",required=True);p.add_argument("--limit",type=int,default=0)
     p.add_argument("--concurrency",type=int,default=16);p.add_argument("--overwrite",action="store_true");return p.parse_args()
 if __name__=="__main__":asyncio.run(main(args()))

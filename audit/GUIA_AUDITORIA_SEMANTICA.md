@@ -53,8 +53,8 @@ mesmas. Exemplos:
 - **Entorno genérico como atributo da localização → aceito.** Termos comuns que
   descrevem o entorno do hotel (“a rua é barulhenta”, “bairro seguro”, “perto
   da estação de metrô”, “longe do aeroporto”) informam o gestor sobre a
-  localização. Não marque `A2`; avalie a categoria normalmente (`location`
-  em ASQP, ou `structure` quando o ruído da rua é avaliado como isolamento do
+  localização. Não marque `A2`; avalie a categoria normalmente (`location`,
+  ou `structure` quando o ruído da rua é avaliado como isolamento do
   quarto).
 
 ## 3. Critérios por campo
@@ -91,7 +91,7 @@ Spans um pouco maiores ou menores que o ideal, mas que ainda contêm a
 avaliação, são aceitáveis (`S3` só vale para spans claramente excessivos, como
 uma oração inteira ou várias opiniões juntas).
 
-### 3.4 Categoria (`C`, apenas ASQP)
+### 3.4 Categoria (`C`)
 
 Categorias permitidas: `general`, `structure`, `service`, `location`, `price`
 e `others`. Use as definições de `prompts/asqp_annotation_guide.md`: limpeza e
@@ -104,12 +104,6 @@ marque erro.
 
 `POS`, `NEG` ou `NEU` compatível com a expressão **no contexto**, considerando
 negação, ironia e contraste (“não podia ser melhor” é `POS`).
-
-### 3.6 Holder (`H`, apenas SSA)
-
-O holder é quem emite a opinião. `null` é correto quando nenhum emissor está
-expresso na mesma relação de opinião. Marque `H1` quando o holder for o alvo, uma
-entidade que não opina ou um sujeito distante.
 
 ## 4. Códigos de erro
 
@@ -124,9 +118,8 @@ entidade que não opina ou um sujeito distante.
 | `S1` | expressão | A expressão não é avaliativa ou não se refere ao aspecto | invalida |
 | `S2` | expressão | Falta a negação ou o complemento que muda o sentido, ou é só um intensificador | parcial |
 | `S3` | expressão | Span claramente excessivo: oração inteira ou várias opiniões juntas | parcial |
-| `C1` | categoria | Categoria errada (ASQP) | parcial |
+| `C1` | categoria | Categoria errada | parcial |
 | `P1` | polaridade | Polaridade errada | parcial |
-| `H1` | holder | Holder errado (SSA) | parcial |
 | `D1` | tupla | Duplicata semântica de outra tupla do mesmo trecho | parcial |
 
 ## 5. Veredito
@@ -146,7 +139,7 @@ Métricas reportadas:
   uma opinião real sobre o hotel, ainda que com algum campo errado.
 - **Taxa de fora do domínio** = tuplas com `A2` ou `A3` / total. Responde
   diretamente “o nome da rua ou o monumento faz sentido para o dono do hotel?”.
-- Taxas por campo: aspecto, expressão, categoria, polaridade e holder corretos.
+- Taxas por campo: aspecto, expressão, categoria e polaridade corretos.
 
 Cada taxa vem com intervalo de confiança de Wilson de 95%.
 **Tuplas válidas estimadas** = taxa × tuplas retidas do run.
@@ -165,13 +158,12 @@ Cada taxa vem com intervalo de confiança de Wilson de 95%.
 | “O café da manhã era variado.” | (structure, café da manhã, variado, POS) | `PARCIAL` `C1` |
 | “Chegamos às 22h.” | (general, 22h, Chegamos, NEU) | `INVALIDA` `O1` |
 | “Muito bom o atendimento.” | (service, atendimento, Muito, POS) | `PARCIAL` `S2` |
-| “Meu marido adorou o café.” (SSA) | (holder=café, café, adorou, POS) | `PARCIAL` `H1` |
 
 ## 7. Procedimento
 
 1. **Amostra.** `scripts/semantic_audit_sample.py` sorteia, com semente fixa,
    100 tuplas por run da configuração auditada (padrão: `full`, isto é, tokens
-   indexados com retentativas; um run é um modelo × tarefa), uniformemente e sem
+   indexados com retentativas; um run é um modelo), uniformemente e sem
    reposição; runs com menos tuplas entram inteiros. Com `--previous`, as tuplas
    já sorteadas numa amostra anterior são mantidas e a amostra é completada com
    novas tuplas sorteadas entre as restantes, reaproveitando os vereditos. Tuplas idênticas em
@@ -190,11 +182,11 @@ Cada taxa vem com intervalo de confiança de Wilson de 95%.
 4. **Segunda passada de domínio.** Todos os itens marcados com `A2` ou `A3` são
    revistos por um único revisor, que decide apenas se o código se mantém
    (`keep`) ou se o aspecto é entorno genérico aceito pela regra da localização
-   (`drop`, com `C1` quando a categoria ASQP não for `location`). As decisões
+   (`drop`, com `C1` quando a categoria não for `location`). As decisões
    ficam em `ood_decisions.jsonl`, ao lado da amostra, e o relatório as aplica
    sobre os julgamentos originais, que são preservados.
 5. **Relatório.** `scripts/semantic_audit_report.py` junta vereditos e amostra e
-   produz as taxas por run, por modelo × configuração e por tarefa, além da
+   produz as taxas por run e no total, além da
    triagem lexical completa (seção 8).
 6. **Revisão humana.** Se os juízes forem LLMs, pelo menos uma subamostra
    (sugestão: 100 itens estratificados por veredito) deve ser revisada por um
@@ -221,8 +213,8 @@ O filtro não substitui o julgamento, mas cobre 100% das tuplas.
 
 ## 9. Limites
 
-- A amostra estima taxas por run (modelo × tarefa) com margem de cerca de ±10
-  pontos percentuais; os totais por tarefa são mais precisos.
+- A amostra estima taxas por run (modelo) com margem de cerca de ±10
+  pontos percentuais; o total é mais preciso.
 - A validade é julgada tupla a tupla. Esta auditoria **não** mede cobertura: não
   mede opiniões que o modelo deixou de extrair.
 - Juízes LLM podem ser sistematicamente lenientes ou rigorosos. A revisão

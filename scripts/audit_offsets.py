@@ -5,9 +5,7 @@ source=json.loads(raw);n=0
 for r in d['records']:
  text=source[r['id']]['text'];assert hashlib.sha256(text.encode()).hexdigest()==r['source_sha256']
  for annotation in r['predictions']:
-  for field in ['holder','aspect','sentiment']:
-   span=annotation.get(field)
-   if span is None:continue
-   if field=='holder' and span['location']==[]:assert span['term']=='null';continue
+  for field in ['aspect','sentiment']:
+   span=annotation[field]
    b,e=span['location'];assert type(b)==type(e)==int and 0<=b<e<=len(text) and text[b:e]==span['term'];n+=1
 print('Verified retained spans:',n)
