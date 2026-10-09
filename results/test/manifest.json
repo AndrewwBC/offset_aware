@@ -34,6 +34,23 @@
     "retained_spans_audited": 1434
   },
   {
+    "file": "results/test/Qwen__Qwen2.5-3B-Instruct.no_tags.asqp.json.gz",
+    "sha256": "987ea2d35663b610b3ef800b00992c9d1a32d6183a2218e7019727229c9fc856",
+    "split": "test",
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "task": "asqp",
+    "config": "no_tags",
+    "documents": 506,
+    "elapsed_seconds": 204.49043488502502,
+    "dataset_sha256": "4214afea6f51d4f158075aba2caa891ad9184f77f4f4b79bce93094d10114987",
+    "units": 2773,
+    "rejected_units": 465,
+    "empty_units": 2303,
+    "retained_tuples": 5,
+    "attempts": 6061,
+    "retained_spans_audited": 10
+  },
+  {
     "file": "results/test/Qwen__Qwen2.5-7B-Instruct.full.asqp.json.gz",
     "sha256": "c35e7dfcc2e5a53f7dce5ab99fb0fca4b33fd1b2d1256ff9139b545a7cf1a307",
     "split": "test",
