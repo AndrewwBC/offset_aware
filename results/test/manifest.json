@@ -153,6 +153,23 @@
     "retained_spans_audited": 7436
   },
   {
+    "file": "results/test/Qwen__Qwen3.6-27B.no_retry.asqp.json.gz",
+    "sha256": "a2535eeb987f09aefa8c245ab39f37ffa60c12a240466affcb3bda581b31e3db",
+    "split": "test",
+    "model": "Qwen/Qwen3.6-27B",
+    "task": "asqp",
+    "config": "no_retry",
+    "documents": 506,
+    "elapsed_seconds": 700.7659630775452,
+    "dataset_sha256": "4214afea6f51d4f158075aba2caa891ad9184f77f4f4b79bce93094d10114987",
+    "units": 2773,
+    "rejected_units": 155,
+    "empty_units": 491,
+    "retained_tuples": 3434,
+    "attempts": 2773,
+    "retained_spans_audited": 6868
+  },
+  {
     "file": "results/test/Qwen__Qwen3.8-27B.full.asqp.json.gz",
     "sha256": "13bd604d045f60963678373132dff01cb861c5c0fc1005d3db6ababe2eafc774",
     "split": "test",
@@ -253,5 +270,39 @@
     "retained_tuples": 737,
     "attempts": 8623,
     "retained_spans_audited": 1474
+  },
+  {
+    "file": "results/test/unsloth__gemma-3-4b-it.full.asqp.json.gz",
+    "sha256": "50fa08c1cc8879bcdc2dbc7190bc277fe3a72b15f14116ab26db87aa96dc2fb7",
+    "split": "test",
+    "model": "unsloth/gemma-3-4b-it",
+    "task": "asqp",
+    "config": "full",
+    "documents": 506,
+    "elapsed_seconds": 370.06609082221985,
+    "dataset_sha256": "4214afea6f51d4f158075aba2caa891ad9184f77f4f4b79bce93094d10114987",
+    "units": 2773,
+    "rejected_units": 1338,
+    "empty_units": 327,
+    "retained_tuples": 1490,
+    "attempts": 7801,
+    "retained_spans_audited": 2980
+  },
+  {
+    "file": "results/test/unsloth__gemma-3-4b-it.no_retry.asqp.json.gz",
+    "sha256": "5c3fb378e0e81121afe8de51926b423e413e1667cb7aa9fbd34e73b7919c554c",
+    "split": "test",
+    "model": "unsloth/gemma-3-4b-it",
+    "task": "asqp",
+    "config": "no_retry",
+    "documents": 506,
+    "elapsed_seconds": 91.95973539352417,
+    "dataset_sha256": "4214afea6f51d4f158075aba2caa891ad9184f77f4f4b79bce93094d10114987",
+    "units": 2773,
+    "rejected_units": 1968,
+    "empty_units": 53,
+    "retained_tuples": 987,
+    "attempts": 2773,
+    "retained_spans_audited": 1974
   }
 ]

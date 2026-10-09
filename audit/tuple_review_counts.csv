@@ -11,4 +11,5 @@ Qwen/Qwen3.8-27B,train,full,5474,1242,2976,1256,3436,167,7,4
 Qwen/Qwen3.8-27B,test,full,3925,896,2118,911,2313,0,3,6
 google/gemma-4-31B-it,train,full,6183,1295,3308,1580,3436,187,6,8
 google/gemma-4-31B-it,test,full,4372,903,2431,1038,2313,0,4,2
-unsloth/gemma-3-4b-it,train,full,1916,475,859,582,3436,81,0,0
+unsloth/gemma-3-4b-it,train,full,1916,475,859,582,3436,81,7,6
+unsloth/gemma-3-4b-it,test,full,1490,343,662,485,2313,0,3,4
