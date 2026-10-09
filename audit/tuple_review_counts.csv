@@ -1,4 +1,6 @@
 model,split,config,predicted,identical,similar,different,human_tuples,excluded_unannotated,sampled_similar,sampled_different
+Qwen/Qwen2.5-1.5B-Instruct,train,full,1783,250,815,718,3436,39,8,5
+Qwen/Qwen2.5-1.5B-Instruct,test,full,1299,154,632,513,2313,0,2,5
 Qwen/Qwen2.5-3B-Instruct,train,full,2188,565,1077,546,3436,47,8,7
 Qwen/Qwen2.5-3B-Instruct,test,full,1568,407,772,389,2313,0,2,3
 Qwen/Qwen2.5-7B-Instruct,train,full,2753,540,1394,819,3436,83,5,4
@@ -11,8 +13,10 @@ Qwen/Qwen3.6-27B,train,full,5193,1160,2764,1269,3436,159,4,5
 Qwen/Qwen3.6-27B,test,full,3718,815,2007,896,2313,0,6,5
 Qwen/Qwen3.8-27B,train,full,5474,1242,2976,1256,3436,167,7,4
 Qwen/Qwen3.8-27B,test,full,3925,896,2118,911,2313,0,3,6
+google/gemma-3-27b-it,train,full,6156,1525,2957,1674,3436,203,0,0
 google/gemma-4-31B-it,train,full,6183,1295,3308,1580,3436,187,6,8
 google/gemma-4-31B-it,test,full,4372,903,2431,1038,2313,0,4,2
-unsloth/gemma-3-12b-it,train,full,5840,1311,2754,1775,3436,208,0,0
+unsloth/gemma-3-12b-it,train,full,5840,1311,2754,1775,3436,208,5,3
+unsloth/gemma-3-12b-it,test,full,4242,909,2147,1186,2313,0,5,7
 unsloth/gemma-3-4b-it,train,full,1916,475,859,582,3436,81,7,6
 unsloth/gemma-3-4b-it,test,full,1490,343,662,485,2313,0,3,4
