@@ -9,15 +9,17 @@ Aspect and expression are equal when their offsets are; a human tuple without po
 the test set) counts its polarity as equal. Several predictions can match the same human tuple. Reviews
 without human annotations (33 in train) are left out of the comparison.
 
-Each run's tuples are written per level to private_runs/human_comparison/SPLIT/MODEL.CONFIG.LEVEL.asqp.json.gz,
-with the elements each shares with the closest human tuple. They hold no text, but identical tuples reproduce
-human annotations exactly (and similar ones partly), so they stay out of the public repository. Identical tuples are not reviewed; --per-level similar and --per-level different
+Each run's tuples are written per level into the model's folder, --models-out/MODEL/CONFIG/SPLIT.LEVEL.json,
+in the format of the human dataset ({doc_id: {"text", "annotations"}}, reviews in the original order, only
+those with a tuple at that level), each annotation with the elements it shares with the closest human tuple;
+--models-out/MODEL/summary.json holds the counts of every run of the model. These files contain review text
+and reproduce human annotations, so they stay in the ignored datasets/ directory. Identical tuples are not reviewed; --per-level similar and --per-level different
 tuples are sampled per model into the batch for anotai's importTupleReview.js at --out (contains review
 sentences; keep it under private_runs/). Every config in --configs is compared and written; only the runs of
 --sample-configs are sampled and go into the batch. A model is sampled only once all its runs for
 --sample-configs are complete, so re-running never changes a sample.
 """
-import argparse,csv,gzip,hashlib,json,pathlib,random
+import argparse,csv,hashlib,json,pathlib,random
 root=pathlib.Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser()
 p.add_argument('--train',default='datasets/train.json');p.add_argument('--test',default='datasets/test.json')
@@ -26,7 +28,8 @@ p.add_argument('--sample-configs',default='full')
 p.add_argument('--per-level',type=int,default=10);p.add_argument('--seed',default='20261009')
 p.add_argument('--batch',default='offset_aware_v2')
 p.add_argument('--out',default='private_runs/tuple_review/tuple_review.json')
-p.add_argument('--counts',default='audit/tuple_review_counts.csv');a=p.parse_args()
+p.add_argument('--counts',default='audit/tuple_review_counts.csv')
+p.add_argument('--models-out',default='datasets/models');a=p.parse_args()
 
 sample_cfgs=a.sample_configs.split(',')
 datasets={s:json.load(open(root/getattr(a,s))) for s in ['train','test']}
@@ -71,11 +74,12 @@ for model in (root/'models.txt').read_text().split():
         'different':diff,'human_tuples':human,'items':[]}
    rows.append({'model':model,'split':split,'config':cfg,'predicted':run['predicted'],'identical':ident,'similar':sim,
                 'different':diff,'human_tuples':human,'excluded_unannotated':excl})
-   dd=root/'private_runs/human_comparison'/split;dd.mkdir(parents=True,exist_ok=True)
+   dd=root/a.models_out/model.replace('/','__')/cfg;dd.mkdir(parents=True,exist_ok=True)
    for level,xs in levels.items():
-    body={'summary':{**rows[-1],'level':level,'dataset_sha256':d['summary']['dataset_sha256']},
-          'records':[{'id':r['id'],'index':i,'shared_elements':best,**{k:t[k] for k in ['category','aspect','sentiment','polarity']}} for r,i,t,best in xs]}
-    (dd/f.name.replace('.asqp.json',f'.{level}.asqp.json.gz')).write_bytes(gzip.compress(json.dumps(body,ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
+    by={}
+    for r,i,t,best in xs:by.setdefault(r['id'],[]).append({**{k:t[k] for k in ['category','aspect','sentiment','polarity']},'shared_elements':best})
+    body={k:{'text':v['text'],'annotations':by[k]} for k,v in datasets[split].items() if k in by}
+    (dd/f'{split}.{level}.json').write_text(json.dumps(body,ensure_ascii=False,indent=4),encoding='utf-8')
    if cfg in sample_cfgs:runs.append(run);mine.append((run,levels))
  if not complete:continue
  for level in ['similar','different']:
@@ -86,6 +90,9 @@ for r in rows:
  its=next((x['items'] for x in runs if (x['model'],x['split'],x['config'])==(r['model'],r['split'],r['config'])),[])
  for level in ['similar','different']:r[f'sampled_{level}']=sum(it['level']==level for it in its)
 
+for model in (root/'models.txt').read_text().split():
+ mr=[{k:v for k,v in r.items() if k!='model'} for r in rows if r['model']==model]
+ if mr:(root/a.models_out/model.replace('/','__')/'summary.json').write_text(json.dumps({'model':model,'runs':mr},indent=1))
 out=root/a.out;out.parent.mkdir(parents=True,exist_ok=True)
 out.write_text(json.dumps({'batch':a.batch,'runs':runs},ensure_ascii=False,indent=1))
 with open(root/a.counts,'w',newline='') as f:
