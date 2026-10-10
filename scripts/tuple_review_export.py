@@ -9,12 +9,12 @@ Aspect and expression are equal when their offsets are; a human tuple without po
 the test set) counts its polarity as equal. Several predictions can match the same human tuple. Reviews
 without human annotations (33 in train) are left out of the comparison.
 
-Each run's tuples are written per level into the model's folder, --models-out/MODEL/LEVEL/SPLIT.CONFIG.json,
-in the format of the human dataset ({doc_id: {"text", "annotations"}}, reviews in the original order, only
+The tuples of each full run are written per level into the model's folder, --models-out/MODEL/identical/SPLIT.json
+and --models-out/MODEL/not_identical/{similar,different}/SPLIT.json, in the format of the human dataset ({doc_id: {"text", "annotations"}}, reviews in the original order, only
 those with a tuple at that level), each annotation with the elements it shares with the closest human tuple;
 --models-out/MODEL/summary.json holds the counts of every run of the model. Identical tuples are not reviewed; --per-level similar and --per-level different
 tuples are sampled per model into the batch for anotai's importTupleReview.js at --out (contains review
-sentences; keep it under private_runs/). Every config in --configs is compared and written; only the runs of
+sentences; keep it under private_runs/). Every config in --configs is compared and counted; only the runs of
 --sample-configs are sampled and go into the batch. A model is sampled only once all its runs for
 --sample-configs are complete, so re-running never changes a sample.
 """
@@ -73,12 +73,12 @@ for model in (root/'models.txt').read_text().split():
         'different':diff,'human_tuples':human,'items':[]}
    rows.append({'model':model,'split':split,'config':cfg,'predicted':run['predicted'],'identical':ident,'similar':sim,
                 'different':diff,'human_tuples':human,'excluded_unannotated':excl})
-   for level,xs in levels.items():
-    dd=root/a.models_out/model.replace('/','__')/level;dd.mkdir(parents=True,exist_ok=True)
+   for level,xs in levels.items() if cfg=='full' else []:
+    dd=root/a.models_out/model.replace('/','__')/('identical' if level=='identical' else f'not_identical/{level}');dd.mkdir(parents=True,exist_ok=True)
     by={}
     for r,i,t,best in xs:by.setdefault(r['id'],[]).append({**{k:t[k] for k in ['category','aspect','sentiment','polarity']},'shared_elements':best})
     body={k:{'text':v['text'],'annotations':by[k]} for k,v in datasets[split].items() if k in by}
-    (dd/f'{split}.{cfg}.json').write_text(json.dumps(body,ensure_ascii=False,indent=4),encoding='utf-8')
+    (dd/f'{split}.json').write_text(json.dumps(body,ensure_ascii=False,indent=4),encoding='utf-8')
    if cfg in sample_cfgs:runs.append(run);mine.append((run,levels))
  if not complete:continue
  for level in ['similar','different']:
