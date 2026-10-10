@@ -442,6 +442,23 @@
     "retained_spans_audited": 11258
   },
   {
+    "file": "results/train/google__gemma-3-27b-it.no_tags.asqp.json.gz",
+    "sha256": "623ec9e9237ec66b1a23b3608bc71308b222859e6098a2312f7885b8a6ef8b3b",
+    "split": "train",
+    "model": "google/gemma-3-27b-it",
+    "task": "asqp",
+    "config": "no_tags",
+    "documents": 763,
+    "elapsed_seconds": 2969.675192117691,
+    "dataset_sha256": "615335780065212b1e155dddc76ee10c2d338b479966ae47a171d398e1d43daa",
+    "units": 3831,
+    "rejected_units": 3277,
+    "empty_units": 369,
+    "retained_tuples": 206,
+    "attempts": 13722,
+    "retained_spans_audited": 412
+  },
+  {
     "file": "results/train/google__gemma-4-31B-it.full.asqp.json.gz",
     "sha256": "357e467a130d0a6dae8435f737c65397d0400c1e21323a66f7b33b51193a6f4f",
     "split": "train",
