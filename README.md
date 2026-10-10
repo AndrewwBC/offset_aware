@@ -67,10 +67,16 @@ The historical runner filename is retained; the published direct-offset conditio
 
 ## Agreement with the human annotations and tuple review
 
-`scripts/tuple_review_export.py` compares each `full` run with the human annotations: a predicted tuple is equal when category, aspect offsets, opinion offsets and polarity match (test reviews from `ote_acd.csv` have no polarity and match on the other three). Each human tuple matches at most one prediction, and the 33 training reviews without human annotations are left out. `audit/tuple_review_counts.csv` records, per run, the predicted, equal and different tuples. The script also samples 20 differing tuples per model (seed 20261009) into a batch for the Gasann/anotai tuple-review page, where reviewers judge, blind to the model, whether each annotation makes sense. The batch contains review sentences and stays in `private_runs/`.
+`scripts/tuple_review_export.py` compares every run (all three configs) with the human annotations. Each predicted tuple has four elements (category, aspect, expression, polarity) and takes the level of the human tuple in the same review that shares the most elements with it: identical (all four equal), similar (two or three) or different (at most one). Aspect and expression are equal when their offsets are; a human tuple without polarity (test reviews from `ote_acd.csv`) counts its polarity as equal. The 33 training reviews without human annotations are left out. `audit/tuple_review_counts.csv` records, per run, the identical, similar and different tuples. The per-level tuple files of each model reproduce human annotations and stay in `private_runs/human_comparison/`. The script also samples 10 similar and 10 different tuples per model from its `full` runs (seed 20261009) into a batch for the Gasann/anotai tuple-review page, where reviewers judge, blind to the model, whether each annotation makes sense; the batch contains review sentences and stays in `private_runs/`.
 
 ```bash
 python3 scripts/tuple_review_export.py --train "$ASQP_DATA" --test datasets/test.json
+```
+
+`scripts/build_model_datasets.py` writes the annotations of every complete run as a dataset in the format of the human one, `datasets/models/MODEL/CONFIG/{train,test}.json` (same reviews and order, with the model's tuples as annotations). These files contain review text and stay in the ignored `datasets/` directory.
+
+```bash
+python3 scripts/build_model_datasets.py --train "$ASQP_DATA" --test datasets/test.json
 ```
 
 ## Audit offsets with original data obtained separately
