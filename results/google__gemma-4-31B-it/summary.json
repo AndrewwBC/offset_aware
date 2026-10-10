@@ -1,0 +1,77 @@
+{
+ "model": "google/gemma-4-31B-it",
+ "runs": [
+  {
+   "split": "train",
+   "config": "full",
+   "predicted": 6183,
+   "identical": 1295,
+   "similar": 3308,
+   "different": 1580,
+   "human_tuples": 3436,
+   "excluded_unannotated": 187,
+   "sampled_similar": 6,
+   "sampled_different": 8
+  },
+  {
+   "split": "train",
+   "config": "no_retry",
+   "predicted": 5987,
+   "identical": 1264,
+   "similar": 3199,
+   "different": 1524,
+   "human_tuples": 3436,
+   "excluded_unannotated": 182,
+   "sampled_similar": 0,
+   "sampled_different": 0
+  },
+  {
+   "split": "train",
+   "config": "no_tags",
+   "predicted": 992,
+   "identical": 243,
+   "similar": 476,
+   "different": 273,
+   "human_tuples": 3436,
+   "excluded_unannotated": 20,
+   "sampled_similar": 0,
+   "sampled_different": 0
+  },
+  {
+   "split": "test",
+   "config": "full",
+   "predicted": 4372,
+   "identical": 903,
+   "similar": 2431,
+   "different": 1038,
+   "human_tuples": 2313,
+   "excluded_unannotated": 0,
+   "sampled_similar": 4,
+   "sampled_different": 2
+  },
+  {
+   "split": "test",
+   "config": "no_retry",
+   "predicted": 4266,
+   "identical": 895,
+   "similar": 2364,
+   "different": 1007,
+   "human_tuples": 2313,
+   "excluded_unannotated": 0,
+   "sampled_similar": 0,
+   "sampled_different": 0
+  },
+  {
+   "split": "test",
+   "config": "no_tags",
+   "predicted": 737,
+   "identical": 197,
+   "similar": 351,
+   "different": 189,
+   "human_tuples": 2313,
+   "excluded_unannotated": 0,
+   "sampled_similar": 0,
+   "sampled_different": 0
+  }
+ ]
+}

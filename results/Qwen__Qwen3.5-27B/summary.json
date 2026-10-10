@@ -1,0 +1,77 @@
+{
+ "model": "Qwen/Qwen3.5-27B",
+ "runs": [
+  {
+   "split": "train",
+   "config": "full",
+   "predicted": 5785,
+   "identical": 1320,
+   "similar": 3080,
+   "different": 1385,
+   "human_tuples": 3436,
+   "excluded_unannotated": 197,
+   "sampled_similar": 4,
+   "sampled_different": 6
+  },
+  {
+   "split": "train",
+   "config": "no_retry",
+   "predicted": 5495,
+   "identical": 1285,
+   "similar": 2924,
+   "different": 1286,
+   "human_tuples": 3436,
+   "excluded_unannotated": 175,
+   "sampled_similar": 0,
+   "sampled_different": 0
+  },
+  {
+   "split": "train",
+   "config": "no_tags",
+   "predicted": 1219,
+   "identical": 361,
+   "similar": 598,
+   "different": 260,
+   "human_tuples": 3436,
+   "excluded_unannotated": 26,
+   "sampled_similar": 0,
+   "sampled_different": 0
+  },
+  {
+   "split": "test",
+   "config": "full",
+   "predicted": 4091,
+   "identical": 921,
+   "similar": 2225,
+   "different": 945,
+   "human_tuples": 2313,
+   "excluded_unannotated": 0,
+   "sampled_similar": 6,
+   "sampled_different": 4
+  },
+  {
+   "split": "test",
+   "config": "no_retry",
+   "predicted": 3848,
+   "identical": 883,
+   "similar": 2092,
+   "different": 873,
+   "human_tuples": 2313,
+   "excluded_unannotated": 0,
+   "sampled_similar": 0,
+   "sampled_different": 0
+  },
+  {
+   "split": "test",
+   "config": "no_tags",
+   "predicted": 842,
+   "identical": 264,
+   "similar": 405,
+   "different": 173,
+   "human_tuples": 2313,
+   "excluded_unannotated": 0,
+   "sampled_similar": 0,
+   "sampled_different": 0
+  }
+ ]
+}

@@ -1,0 +1,1175 @@
+{
+    "ex_1416": {
+        "text": "Hotel 4 estrelas bem confortavel proximo a Champs Elysees e a duas quadras da estação de metro e a otimos restaurantes,raramente tive que recorrer a taxi para visitar pontos turisticos. O quarto com decoração classica nos agradou bastante. Staffs atenciosos sempre dispostos a atender qualquer solicitação. Recomendo!!",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        307,
+                        316
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        307,
+                        316
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1850": {
+        "text": "Localização maravilhosa, duas quadras da Times, perto de tudo, quase em frente ao terminal urbano, deste terminal você pode ir para todas as atrações, tem uma estação principal do metrô na rua do hotel, esquina com o prédio da New York Times. Quarto grande, banheiro grande, muito limpo, tem uma balada no terraço do hotel Sky Deck. Café da manhã típico (ovos, leite, cereais, sanduíches prontos, banana (verde)) e café Starbucks. Recomendo!",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        431,
+                        440
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        431,
+                        440
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1438": {
+        "text": "Localização do hotel é perfeita, cassino sempre cheiroso, quarto excelente, limpo, e grande. Banheiro idem. Poucas opções para comer, mas para uma refeição rápida, tudo bem. Dá pra ir a pé em todos os lugares, além de um metrô que te leva até o Bellagio ou Luxor e Excalibur. Ficaria novamente com certeza...a diária está com preço ótimo pelo que o hotel oferece e comparando com os outros.",
+        "annotations": [
+            {
+                "category": "structure",
+                "aspect": {
+                    "term": "Banheiro",
+                    "location": [
+                        93,
+                        101
+                    ]
+                },
+                "sentiment": {
+                    "term": "idem",
+                    "location": [
+                        102,
+                        106
+                    ],
+                    "type": "implicit"
+                },
+                "polarity": "NEU",
+                "shared_elements": [
+                    "category"
+                ]
+            }
+        ]
+    },
+    "ex_1601": {
+        "text": "Quarto bem espaçoso, arrumado, banheiro bem limpo. Nos corredores o cheiro de cigarro é bem forte. O hotel fica no centro da avenida, perto de tudo, em frente ao Bellagio, com uma vista muito bonita. Como tem um cassino embaixo do hotel, não se tem controle de quem entra e quem sai, então tome cuidado com a porta de seu quarto, para não ter surpresas desagradáveis (assalto). O check-out foi bem demorado. Mas durante os cinco dias em que estivemos hospedados, tudo correu muito bem. Recomendo.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        486,
+                        495
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        486,
+                        495
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1563": {
+        "text": "Excelente localização ao mesmo custo do Circus-Circus (que fica muito longe). Café da manhã incluso para 2 pessoas (USD 9,00 por pessoa, por dia). Ótimos quartos. Altamente recomendado.  Hotel com muitas piscinas, mas não utilizamos nenhuma devido ao frio. Dali, pode-se fazer praticamente tudo a pé, pois está localizado no coração da Las Vegas Strip.",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "Café da manhã",
+                    "location": [
+                        78,
+                        91
+                    ]
+                },
+                "sentiment": {
+                    "term": "incluso",
+                    "location": [
+                        92,
+                        99
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0009": {
+        "text": "A localização é perfeita, próximo da 5º Avenida e em frente ao Central Park. Os quartos são amplos e bem confortáveis. A decoração é clássica (antiga) e o banheiro também, mas é um hotel antigo, nada que comprometa. A vista para o Central é maravilhosa, e isso já vale a estadia. Os funcionários foram atenciosos e a grande maioria deles foram muito simpáticos também. A nossa reserva incluía o café da manhã na diária. Recomendo.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        420,
+                        429
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        420,
+                        429
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1500": {
+        "text": "Estivemos nesse hotel depois de ficar no All Seasons Mitte Berlim. Por isso acho que a impressao nao foi a melhor. Mas o hotel nao eh ruim, pelo contrario. O tamanho do quarto deixa um pouco a desejar. Nao ha desperdicio de espaco. E o atendimento eh seco. Nao sao mal educados, mas tambem nao se esforcam para serem simpaticos e prestativos. Mas o resto eh padrao. Cafe da manha muito bom, quartos limpos todos os dias, e localizacao boa. Recomendo.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        440,
+                        449
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        440,
+                        449
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0138": {
+        "text": "Hotel muito caro para o que oferece. O pior é a cama, pequena e muito mole, se vá com crianças pense duas vezes antes de ficar nesse hotel, não pode usar o frigobar e tem que pagar pelo uso da internet, mesmo pagando mas 800 reais pela diária. Recepcionistas sem paciência. A localização é muito boa, perto de tudo e tem uma estação de metro do lado.",
+        "annotations": [
+            {
+                "category": "price",
+                "aspect": {
+                    "term": "Hotel",
+                    "location": [
+                        0,
+                        5
+                    ]
+                },
+                "sentiment": {
+                    "term": "muito caro",
+                    "location": [
+                        6,
+                        16
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": []
+            },
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "Recepcionistas",
+                    "location": [
+                        244,
+                        258
+                    ]
+                },
+                "sentiment": {
+                    "term": "sem paciência",
+                    "location": [
+                        259,
+                        272
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": []
+            }
+        ]
+    },
+    "ex_1285": {
+        "text": "otimo atendimento de Didier que é muito atencioso e a localização muito tranquila apesar de ser perto tanto da place des vosges quanto de outras atrações do bairro como o mercado dos enfants rouge.  Didier mesmo prepara um excelente cafe da manhã servido em uma sala muito simpatica.  Os banheiros sao otimos e muito novos  Room Tip: os apartamentos nao sao muito grandes mas sao muito bons. tem elevado do primeiro andar em diante",
+        "annotations": [
+            {
+                "category": "structure",
+                "aspect": {
+                    "term": "elevado",
+                    "location": [
+                        396,
+                        403
+                    ]
+                },
+                "sentiment": {
+                    "term": "elevado",
+                    "location": [
+                        396,
+                        403
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEU",
+                "shared_elements": [
+                    "category"
+                ]
+            }
+        ]
+    },
+    "ex_0359": {
+        "text": "O hotel fica muito bem localizado, na rua da Bastilha, próximo a duas estações de metrô. O serviço é ótimo. O café da manhã é razoável, mas vale a pena. Móveis dos quartos modernos, com máquina de lavar prato, microondas, panelas, todas as facilidades de cozinha. Tudo impecável. O quarto dá tranquilamente para um casal com dois filhos com toda a privacidade! O banheiro também é excelente e moderno. Recomendo. Room Tip: alguns apartamentos tem varandas.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        402,
+                        411
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        402,
+                        411
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0876": {
+        "text": "O hotel é bem localizado, a 2 quarteirões do metrô Louxembourg que tem linha direta com o aeroporto Charles De Gaulle; a 1 quarteirão do Pantheon e da Praça Sorbonne. Pertinho dos bares do Quartier Latin, do Boulevard Saint Michel e do Boulevard Saint Germain, de lá tem se acesso a toda Paris e adjacências. O preço é muito bom e tem vários restaurantes pertos com preços camaradas. Recomendo.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        384,
+                        393
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        384,
+                        393
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0211": {
+        "text": "O hotel e muito bem localizado. Fica muito proximo ao metro e da pra ir a pe a excelentes restaurantes e ate a torre effeil. Tem supermercado, lojas, farmacias e padarias proximas. regiao segura. o inconveniente: o quarto nao tem frigobar, ar condicionado e cofre, mas isso, por incrivel que pareca, nao fez falta. ainda, o hotel e um pouco barulhento, mas todos sao....pense...se localizacao e importante esse local e muito privilegiado. o cafe da manha tambem e bom.",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "regiao",
+                    "location": [
+                        181,
+                        187
+                    ]
+                },
+                "sentiment": {
+                    "term": "segura",
+                    "location": [
+                        188,
+                        194
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": []
+            }
+        ]
+    },
+    "ex_0728": {
+        "text": "Me hospedei pela segunda vez neste hotel em 2011. O serviço e atendimento continuam excelentes. A localização eh perfeita: próxima a bares, restaurantes e metro. Apesar de nao muito grandes, os quartos e banheiros são modernos, bonitos e bem decorados. Em 2012 viajarei para a Escandinavia com uma parada em Paris, ao final da viagem. Me hospedarei no Cadran uma terceira vez com certeza. Recomendo.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        389,
+                        398
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        389,
+                        398
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1822": {
+        "text": "Hotel com ótima localização, perto de vários restaurantes e perto do centro. Café da manhã razoável. Quarto bem aconchegante, só o banheiro é bem simples. Atendimento muito atencioso e educado. Perfeito para um banho e uma ótima noite de sono.",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "Café da manhã",
+                    "location": [
+                        77,
+                        90
+                    ]
+                },
+                "sentiment": {
+                    "term": "razoável",
+                    "location": [
+                        91,
+                        99
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEU",
+                "shared_elements": [
+                    "category"
+                ]
+            }
+        ]
+    },
+    "ex_0704": {
+        "text": "The Benjamim hotel possui bom atendimento, quarto bem decorado e de tamanho satisfatório . O bar do hotel e excelente, e por si só ja e uma boa opção de entretenimento. Nas proximidades podes encontrar boas opções para café da manha, ja que optamos por estadia sem café , pois este não esta incluso na diária. Uma ótima mini cozinha. Recomendo! Não utilizei nem Spa e nem piscina, mas não consegui desmarcar na avaliação abaixo.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        334,
+                        343
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        334,
+                        343
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1565": {
+        "text": "Excelente localização, próximo a Times Square. Hotel antigo, mas muito bem conservado. Os quartos são pequenos, mas atendem a um casal sem problema. A diária não inclui café da manhã, mas há várias opções por perto, uma ao lado do lobby, que é lindo e parece uma boate, com vários sofás e música alta. Tem wifi nas áreas comuns e um atendimento muito bom. Adorei.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Adorei",
+                    "location": [
+                        356,
+                        362
+                    ]
+                },
+                "sentiment": {
+                    "term": "Adorei",
+                    "location": [
+                        356,
+                        362
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1274": {
+        "text": "Para conhecer Paris à pé, até o Rio Sena, a Torre, Louvre, Rodin, nem precisa carro ou metrô. Um café da manhã simples mas da melhor qualidade. Quartos razoáveis com grandes banheiros bem limpos. Preço muito bom para sua qualidade. Ambiente familiar. Falha apenas nos serviços, sem Internet nos quartos, sem Televisão na maioria dos quartos, sem cofre, armário minusculo. Mas no final das contas, excelente, vale a pena. E tratam turista brasileiro muito bem.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Ambiente",
+                    "location": [
+                        232,
+                        240
+                    ]
+                },
+                "sentiment": {
+                    "term": "familiar",
+                    "location": [
+                        241,
+                        249
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1571": {
+        "text": "Excelente localização, fizemos quase todos os passeios a pé (perto de todos os Teatros). O hotel peca por insistir em não arrumar os quartos todos os dias [tem que cobrar], internet paga e muito cara, café da manhã não incluído no preço das diárias. Porém, vale muito a pena. Passamos 07 dias maravilhosos. Quarto grande e bem arejado.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "dias",
+                    "location": [
+                        288,
+                        292
+                    ]
+                },
+                "sentiment": {
+                    "term": "maravilhosos",
+                    "location": [
+                        293,
+                        305
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0964": {
+        "text": "No meio da Strip, ao lado do Paris e em frente do Bellagio. Quarto amplo e confortável. Claro, com ampla janela. Banheiro limpo, bem iluminado e com trocas de toalhas diárias. Sem cheiro de cigarro. Internet paga(14 dólares). Ampla área de piscina. Lojas e fast foods no mesmo andar da piscina. Preço bom. Recomendo.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        306,
+                        315
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        306,
+                        315
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0678": {
+        "text": "Estive com minha filha em outubro neste hotel. A localização é excelente , local privilegiado para compras e para pontos agitados da cidade. Quartos grandes e confortáveis. Café da manhã um pouco caro mas com qualidade. Funcionarios atenciosos. Ficamos no 28º andar mas o acesso é feito muito rápido. Guardam as malas até a sua saída. Ótimo hotel. Recomendo.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        348,
+                        357
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        348,
+                        357
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0489": {
+        "text": "Estive hospedado 5 dias neste hotel pela sua localização, que me era conveniente.  O único elevador existente é velho e lento, pelo que se tiver pressa em descer, o melhor é optar pelas escadas em caracol.  O quarto deve ter 3/4m quadrados, incluindo a casa-de-banho.  Por alguma razão não se pode refrigerar a temperatura abafada do quarto pois passam canos de agua quente pelo chão.  Dormi sempre de janela aberta para conseguir adormecer por via do calor mas acordava às 6:30 com o barulho de transito crescente. A cama é minúscula, a televisao é velha e o quarto cheira a tabaco. Nunca mais!",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Nunca mais",
+                    "location": [
+                        584,
+                        594
+                    ]
+                },
+                "sentiment": {
+                    "term": "Nunca mais",
+                    "location": [
+                        584,
+                        594
+                    ],
+                    "type": "implicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1072": {
+        "text": "Hotel fica muito bem localizado, tudo novinho, banheiro com boa banheira e muito limpo. Ótima cama! Quarto um pouco pequeno, mas com armários que dá para colocar bem duvididos nossas roupas e compras. O café da manhã é caro, mas nas próximidades tem muios lugares para tomar café da manhã barato! Os funcionários se esforçaram muito para entender o nosso ingles. Adoramos!",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Adoramos",
+                    "location": [
+                        363,
+                        371
+                    ]
+                },
+                "sentiment": {
+                    "term": "Adoramos",
+                    "location": [
+                        363,
+                        371
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0218": {
+        "text": "O hotel fica no Quartier Latin, ponto maravilhoso, perto de várias estações de metro e trem. Não precisamos usar táxi em nenhum momento!! O atendimento é ótimo, todos com boa vontade e falando bem inglês. Localização segura, podendo caminhar para jantar e retornar sem problemas. Vista linda para Notre Dame. Recomendo a todos!!!",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Vista",
+                    "location": [
+                        280,
+                        285
+                    ]
+                },
+                "sentiment": {
+                    "term": "linda",
+                    "location": [
+                        286,
+                        291
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0432": {
+        "text": "O pior hotel que dormi na minha vida ! Os quartos nao existem....minimos e o banheiro nao dava nem para respirar de tao pequeno ! Limpeza pessima. Uma pessoa da excursao viu um camundongo passar enquanto tomava um drink no bar do hotel, enfim.....tudo de ruim.... Longe do centro da cidade, porem existe uma estacao de metro proxima.",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "Limpeza",
+                    "location": [
+                        130,
+                        137
+                    ]
+                },
+                "sentiment": {
+                    "term": "pessima",
+                    "location": [
+                        138,
+                        145
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0980": {
+        "text": "Ótima localização e serviço muito bom! Quarto pequeno, porém muito confortável! A academia do hotel possui aparelhos novos! Não conheci a piscina e nem o spa. O hotel é bem próximo da Times Square. O pessoal da recepção indica e chama taxi quando quiser, mesmo de madrugada, o que é muito melhor do que pegar qualquer um na rua.Resumindo...adorei! voltaria outras vezes! Recomendo!",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        371,
+                        380
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        371,
+                        380
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1608": {
+        "text": "Serviço excelente!! Funcionários preparados para resolver tudo que você precisar.  O quarto é maravilhoso! Com vista para o Central Park, super aconchegante, com cama maravilhosa. O baneiro é ótimo, com produtos de higiene pessoal de ótima qualidade.  A localização não poderia ser melhor. Próximo ao metrô e pontos turísticos obrigatórios.  Ao lado do hotel, na parte de trás, tem um lugar ótimo para tomar café da manhã, que não está incluído na diária.",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "Serviço",
+                    "location": [
+                        0,
+                        7
+                    ]
+                },
+                "sentiment": {
+                    "term": "excelente",
+                    "location": [
+                        8,
+                        17
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0261": {
+        "text": "Quartos ridiculamente pequenos . Reservei um quarto com varanda e me colocaram na Suite Voyager que pelo preço e segundo o próprio funcionário do hotel é uma das melhores ... A suite tem o teto rebaixado de tal forma ( vide fotos ) que foi uma tortura para mim e meu marido ( temos mais de 1,80 m ) . O café da manhã cobrado a parte por 12 euros/pessoa parece lanche de avião ( a mesa do bufê que na foto parece linda só tem cereais...) Funcionários antipáticos e alguns até ríspidos .A localização do hotel é o ÜNICO ponto forte . É excelente , mas CERTAMENTE não recomendarei e nem ficarei novamente neste hotel. Room Tip: Não fiquem neste hotel. Eu não recomendo!",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Eu",
+                    "location": [
+                        649,
+                        651
+                    ]
+                },
+                "sentiment": {
+                    "term": "não recomendo",
+                    "location": [
+                        652,
+                        665
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1788": {
+        "text": "Perto de tudo, fizemos muitas coisas à pé. Próximo a vários restaurantes, dá pra ir à pé até a Times Square e várias peças da Broadway. Quartos bem grandes, cama ótima, banheiro ótimo com banheira. Tem microondas e cafeteira no quarto. Quarto muito limpo. Como a maioria dos hotéis de NY não tem café da manhã, porém tem uma Starbucks bem na frente. Wifi grátis. Kit de ammenities é uma delícia! Ficaria lá novamente.",
+        "annotations": [
+            {
+                "category": "others",
+                "aspect": {
+                    "term": "Wifi",
+                    "location": [
+                        350,
+                        354
+                    ]
+                },
+                "sentiment": {
+                    "term": "grátis",
+                    "location": [
+                        355,
+                        361
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0376": {
+        "text": "Hotel moderno, com ótimas instalações (suite pequena, mas bem distribuída) e balada na piscina todos os dias. Só vi jovens hospedados. Fica ao lado da Times Square, excelente localização. O café da manhã é caro referente ao que é oferecido, muito básico. Mas tem uma micro frigobar no quarto ou, se preferir, uma padaria na mesma rua. Funcionários atenciosos, quarto bem limpo diariamente. Recomendo! Eu nova oportunidade, me hospedarei novamente.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        390,
+                        399
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        390,
+                        399
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1481": {
+        "text": "O hotel não condiz com as fotos do site!!! Escolhemos ele como ultimo hotel pois pensamos que seria um hotel mto bom, por ser boutique hotel, e nos enganamos!!! O hotel eh mtooooo pequeno!!!! Não tem nem espaco para malas no quarto!!! O elevador parece que tem uns 50 anos... Demora mto para chegar!!!     Antes de ficar nesse hotel, ficamos no Plaza Tour Eifeil, bem mais barato e beeeemmmm melhor!!!!    A unica coisa boa desse hotel eh a localizacao!!!! Fica perto de tudo!!!",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "Demora",
+                    "location": [
+                        276,
+                        282
+                    ]
+                },
+                "sentiment": {
+                    "term": "mto",
+                    "location": [
+                        283,
+                        286
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1844": {
+        "text": "A única coisa que ainda passa é o café da manhã mediano. Os quartos são antigos e pequenos e o banheiro é de fazer você rir .. pois no mesmo espaço que vc toma banho pode fazer as necessidade fisiológicas simultaneas. Imagine a cena senta-se no vaso sanitário e abre o chuveiro e está tudo certo toma banho sentado. kkkk Parece piada mas é sério",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "café da manhã",
+                    "location": [
+                        34,
+                        47
+                    ]
+                },
+                "sentiment": {
+                    "term": "mediano",
+                    "location": [
+                        48,
+                        55
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEU",
+                "shared_elements": []
+            }
+        ]
+    },
+    "ex_1418": {
+        "text": "O hotel é simples. Bom para curtas estadias. Serviço de quarto não vale a pena, os pratos são congelados e pouco saborosos. Alguns restaurantes próximos com melhor custo benefício.Sempre fui bem atendido aqui.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "hotel",
+                    "location": [
+                        2,
+                        7
+                    ]
+                },
+                "sentiment": {
+                    "term": "simples",
+                    "location": [
+                        10,
+                        17
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEU",
+                "shared_elements": []
+            }
+        ]
+    },
+    "ex_1327": {
+        "text": "Hotel excelente, quarto limpíssimo, muito confortável e bem decorado. Possui vários restaurantes com vista muito agradável para o lago com gôndolas. Lojas bonitas. O hotel retrata muito bem Veneza. Sente-se o tempo inteiro o clima italiano, sendo possivel, inclusive, fazer um passeio de gôndola pelo hotel com gondoleiros importados diretamente da verdadeira Veneza.  Room Tip: Ficar hospedado em frente para o Hotel Treasure Islands.",
+        "annotations": [
+            {
+                "category": "others",
+                "aspect": {
+                    "term": "Lojas",
+                    "location": [
+                        149,
+                        154
+                    ]
+                },
+                "sentiment": {
+                    "term": "bonitas",
+                    "location": [
+                        155,
+                        162
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1690": {
+        "text": "Excelente localização há duas quadras do rockfeller , quarto limpo, ótimas camas. Travesseiros extras se pedir. Mais de duas pessoas no mesmo quarto: duas camas de casal pequenas tamanho full size. Mas ótimos colchões e roupas de cama. Bom atendimento, banheiro pequeno, mas limpissimo. Ficaria lá sempre!",
+        "annotations": [
+            {
+                "category": "structure",
+                "aspect": {
+                    "term": "Travesseiros",
+                    "location": [
+                        82,
+                        94
+                    ]
+                },
+                "sentiment": {
+                    "term": "extras",
+                    "location": [
+                        95,
+                        101
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEU",
+                "shared_elements": [
+                    "category"
+                ]
+            }
+        ]
+    },
+    "ex_0313": {
+        "text": "o hotel é bom e bonito, mas o serviço...  filas para o check in e check out: poucos funcionários; cansados e mal educados. Tivemos problemas com o cartão-chave do quarto e foi uma novela para resolver... Internet não funciona! Mesmo eles sabendo disso, nos dão uma senha furada, só para empurrar a discussão para frente! A atendente até desqualificou o funcionário que tentava reslover nosso problema na frente de todos! Uma vergonha! Quarto pequeno, banheioro minusculo. A localização é boa, perto da torre e metro... só! Room Tip: melhor tentar um quarto com vista para o Senna!",
+        "annotations": [
+            {
+                "category": "others",
+                "aspect": {
+                    "term": "Internet",
+                    "location": [
+                        204,
+                        212
+                    ]
+                },
+                "sentiment": {
+                    "term": "não funciona",
+                    "location": [
+                        213,
+                        225
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0811": {
+        "text": "amei!!! fui muito feliz na escolha do hotel. Tem excelente localização (perto de todo o centro comercial e de atrações para crianças e adultos se divertirem); os hóspedes são bem selecionados (educados e silenciosos); e seus funcionários são educados e prestativos. Fiquei em um andar alto, ouvi um pouco de barulho, mas não existe silêncio total em NYC, certo? Vale o preço.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "amei",
+                    "location": [
+                        0,
+                        4
+                    ]
+                },
+                "sentiment": {
+                    "term": "amei",
+                    "location": [
+                        0,
+                        4
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0561": {
+        "text": "Imagine um quarto que tem como vista em uma janela a igreja de Notre Dame e na outra a torre Eiffel. Foi com essa vista que acordava todos os dias nesse hotel que tem alem de quartos aconchegantes e confortáveis, camas macias e um café da manhã delicioso. Tudo isso pertinho do Jardim de Luxembourg. Tudo perfeito desde o primeiro minuto da estadia. Room Tip: O quarto triplo do ultimo andar tem a melhor vista possível de Paris.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Tudo",
+                    "location": [
+                        300,
+                        304
+                    ]
+                },
+                "sentiment": {
+                    "term": "perfeito",
+                    "location": [
+                        305,
+                        313
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0618": {
+        "text": "Hotel muito bem localizado na strip! Possui Monorail gratuito para o Belagio, Aria, Crystals e Vdara. Estrutura do hotel excelente e a conservação das áreas comuns idem, porém os apartamentos já estiveram melhores. Apartamentos tem cofre e secador de cabelos. Pontos fortes: Localização, área de lazer, estacionamento bom e gratuito. Pontos fracos: Internet é cobrada Não há geladeira nos apartamentos. Só está disponível após solicitação e pagamento de sobretaxa.",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "Monorail",
+                    "location": [
+                        44,
+                        52
+                    ]
+                },
+                "sentiment": {
+                    "term": "gratuito",
+                    "location": [
+                        53,
+                        61
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1191": {
+        "text": "Fiquei 7 dias com minha mulher. Adoramos. Quarto limpo e confortável. Banheiro muito bom. Café da manhã maravilhoso.. e o melhor: A alguns metros da estação do Metrô Gare de Lyon que te leva aos 4 cantos de Paris. Confesso que pretendo voltar várias vezes ainda à Paris e o Novotel Gare de Lyon com certeza será nosso local de descanso.   Muitas audades de lá...",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Adoramos",
+                    "location": [
+                        32,
+                        40
+                    ]
+                },
+                "sentiment": {
+                    "term": "Adoramos",
+                    "location": [
+                        32,
+                        40
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1350": {
+        "text": "Eu e minha família nos sentimos moradores de Paris neste simpático hotel na cidade. Muito bem localizado, entre Champ Elysee e George V, ao lado de estação do metro. Quarto novo, reformado, com forno e microondas bem como sofisticados utensílios para ter uma refeição no quarto como nativos. O atendimento é personalizado e apesar de não ter uma recepção tradicional, fomos muito bem acessorados pela gerência. Recomendo!",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        411,
+                        420
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        411,
+                        420
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1300": {
+        "text": "Sabemos que hoteis na Europa são fraquinhos, mas o Cardinal surpreendeu muito! Quarto com um espaço bom, cama confortável, limpissimo e um chuveiro SPA com jatos de agua de todos os lados até massageador nas costas. Delicioso!! Localização perfeita, No centro de Paris, perto da Notre Dame, atendimento da recepção muito bom.  Vale a pena!!",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Delicioso",
+                    "location": [
+                        216,
+                        225
+                    ]
+                },
+                "sentiment": {
+                    "term": "Delicioso",
+                    "location": [
+                        216,
+                        225
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0290": {
+        "text": "O hotel fica em ótima localização, com a sacada do quarto com vista para o Arco Triunfo,, o café da manha é bem servido, o quarto é confortável e com aquecimento central, tem frigobar e acesso a internet, fomos muito bem atendidas e as instalações são confortáveis, fica em uma região privilegiada, perto da Torre, tem supermercado na mesma avenida, ou seja, um hotel bem tradicional parisiense. Adoramos.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Adoramos",
+                    "location": [
+                        396,
+                        404
+                    ]
+                },
+                "sentiment": {
+                    "term": "Adoramos",
+                    "location": [
+                        396,
+                        404
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1134": {
+        "text": "O hotel é muito bem localizado, a uma quadra da Gare de Lyon, e 02 quadras do Carrefour. O quarto, apesar de pequeno, é maior do que os outros hotés que havia pesquisado, e é bem confortável. Idem para o banheiro. Tudo muito limpo e sempre bem arrumado. Internet grátis no hotel (voce se conecta por uma hora, mas pode renovar quantas vezes quiser). Fomos muito bem atendidos pelo pessoal da recepção, sempre muito prestativos. Recomendo.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Recomendo",
+                    "location": [
+                        428,
+                        437
+                    ]
+                },
+                "sentiment": {
+                    "term": "Recomendo",
+                    "location": [
+                        428,
+                        437
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    }
+}

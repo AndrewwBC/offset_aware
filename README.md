@@ -1,11 +1,16 @@
 # offset_aware
 
-Reproducibility package for aspect sentiment quad prediction (ASQP) annotation: the twelve models in `models.txt`, three configurations and two splits (train and test), 72 runs. Runs are committed as they finish; the split manifests list the completed set.
+Reproducibility package for aspect sentiment quad prediction (ASQP) annotation: the twelve models in `models.txt`, three configurations and two splits (train and test), 72 runs. `results/manifest.json` lists the runs with checksums and summaries.
 
 ## Contents
 
 - Annotation code, sentence segmentation, word-only token indexing, validation, four synthetic demonstrations and the Portuguese annotation guide.
-- All generated annotations in `results/train/` and `results/test/` (`*.json.gz`): predicted terms, labels, character offsets, unit outcomes, attempts and timing. Each split's `manifest.json` provides checksums and summaries.
+- All generated annotations in `results/`, one folder per model, all plain JSON:
+  - `runs/SPLIT.CONFIG.asqp.json`: the run log (predicted terms, labels, character offsets, unit outcomes, attempts and timing), without the review text;
+  - `complete/SPLIT.CONFIG.json`: every tuple of the run in the format of the human dataset (`{id: {text, annotations}}`, reviews in the original order);
+  - `identical/`, `similar/`, `different/` `SPLIT.CONFIG.json`: the tuples at each level of agreement with the human annotations, in the same format (see below);
+  - `summary.json`: identical, similar and different counts of every run of the model.
+  `results/manifest.json` provides checksums and summaries of the run logs.
 - Software and hardware details in `environment.json`.
 - Semantic audit of the annotations retained under `full` in `audit/`: the audit guide, the report with one table of all models, per-run rates and per-tuple verdicts, produced by `scripts/semantic_audit_sample.py` and `scripts/semantic_audit_report.py`.
 - The manuscript source in `paper/paper.tex`, including the semantic audit appendix generated as `audit/semantic_audit_appendix.tex`.
@@ -47,10 +52,10 @@ The launcher runs `full`, `no_retry`, and `no_tags` on ASQP. Full and direct off
 New runner checkpoints contain source text and are stored in ignored `private_runs/`. **Never commit these raw files directly.** Export a sanitized copy first:
 
 ```bash
-python3 scripts/export_result.py private_runs/MODEL.full.asqp.json exported.json.gz
+python3 scripts/export_result.py private_runs/MODEL.full.asqp.json exported.asqp.json
 ```
 
-To export every complete run of a split into `results/SPLIT/` and rewrite its manifest (incomplete checkpoints are skipped):
+To export every complete run of a split into `results/MODEL/runs/` and rewrite its entries in `results/manifest.json` (incomplete checkpoints are skipped):
 
 ```bash
 python3 scripts/export_split.py train private_runs/v2_train "$ASQP_DATA"
@@ -63,17 +68,17 @@ python3 run_experiment.py --dataset "$ASQP_DATA" --model Qwen/Qwen3.8-27B --base
 python3 run_ablation_direct_v3.py --config no_tags --dataset "$ASQP_DATA" --model Qwen/Qwen3.8-27B --base-url http://127.0.0.1:8030/v1 --output private_runs/direct.asqp.json --concurrency 200
 ```
 
-The historical runner filename is retained; the published direct-offset condition uses no token-ID cues. Release changes remove reference-agreement scoring, allow absent reference labels, restrict the CLI to published ablations and make server paths portable. The earlier results, produced at commit `3dbafa2` and removed from `results/`, used a tokenizer that indexed whitespace-separated tokens, so punctuation stayed attached to words (`más.`). That tokenizer could represent only 65% of the reference spans exactly, since reference spans never start or end with punctuation. The current code indexes only words (`\w+`) in the indexed-token conditions: punctuation stays in the text and offsets but has no token ID, so a selected span can contain inner punctuation (`wi-fi`, `R$ 50`) but can never start or end with it. 99.5% of reference spans are representable; the annotation guide, shared by all three configurations, also instructs the model not to include a period, comma, question mark, exclamation mark or other punctuation at the start or end of a span. Validation does not reject such spans. All runs in `results/train/` and `results/test/` were produced with this code.
+The historical runner filename is retained; the published direct-offset condition uses no token-ID cues. Release changes remove reference-agreement scoring, allow absent reference labels, restrict the CLI to published ablations and make server paths portable. The earlier results, produced at commit `3dbafa2` and removed from `results/`, used a tokenizer that indexed whitespace-separated tokens, so punctuation stayed attached to words (`más.`). That tokenizer could represent only 65% of the reference spans exactly, since reference spans never start or end with punctuation. The current code indexes only words (`\w+`) in the indexed-token conditions: punctuation stays in the text and offsets but has no token ID, so a selected span can contain inner punctuation (`wi-fi`, `R$ 50`) but can never start or end with it. 99.5% of reference spans are representable; the annotation guide, shared by all three configurations, also instructs the model not to include a period, comma, question mark, exclamation mark or other punctuation at the start or end of a span. Validation does not reject such spans. All runs in `results/` were produced with this code.
 
 ## Agreement with the human annotations and tuple review
 
-`scripts/tuple_review_export.py` compares every run (all three configs) with the human annotations. Each predicted tuple has four elements (category, aspect, expression, polarity) and takes the level of the human tuple in the same review that shares the most elements with it: identical (all four equal), similar (two or three) or different (at most one). Aspect and expression are equal when their offsets are; a human tuple without polarity (test reviews from `ote_acd.csv`) counts its polarity as equal. The 33 training reviews without human annotations are left out. `audit/tuple_review_counts.csv` records, per run, the identical, similar and different tuples. Each model has its own folder, `datasets/models/MODEL/`, with one subfolder per config holding `{train,test}.json` (all the model's tuples, written by `build_model_datasets.py` below) and `{train,test}.{identical,similar,different}.json` (the tuples of each level, with the elements they share with the closest human tuple), all in the format of the human dataset, plus `summary.json` with the counts of every run. These files contain review text and reproduce human annotations, so they stay in the ignored `datasets/` directory. The script also samples 10 similar and 10 different tuples per model from its `full` runs (seed 20261009) into a batch for the Gasann/anotai tuple-review page, where reviewers judge, blind to the model, whether each annotation makes sense; the batch contains review sentences and stays in `private_runs/`.
+`scripts/tuple_review_export.py` compares every run (all three configs) with the human annotations. Each predicted tuple has four elements (category, aspect, expression, polarity) and takes the level of the human tuple in the same review that shares the most elements with it: identical (all four equal), similar (two or three) or different (at most one). Aspect and expression are equal when their offsets are; a human tuple without polarity (test reviews from `ote_acd.csv`) counts its polarity as equal. The 33 training reviews without human annotations are left out. `audit/tuple_review_counts.csv` records, per run, the identical, similar and different tuples. It writes the tuples of each level to `results/MODEL/{identical,similar,different}/SPLIT.CONFIG.json` in the format of the human dataset, keeping only the reviews with a tuple at that level; each annotation carries `shared_elements`, the elements it shares with the closest human tuple. `results/MODEL/summary.json` holds the counts of every run of the model. The script also samples 10 similar and 10 different tuples per model from its `full` runs (seed 20261009) into a batch for the Gasann/anotai tuple-review page, where reviewers judge, blind to the model, whether each annotation makes sense; the batch contains review sentences and stays in `private_runs/`.
 
 ```bash
 python3 scripts/tuple_review_export.py --train "$ASQP_DATA" --test datasets/test.json
 ```
 
-`scripts/build_model_datasets.py` writes the annotations of every complete run as a dataset in the format of the human one, `datasets/models/MODEL/CONFIG/{train,test}.json` (same reviews and order, with the model's tuples as annotations).
+`scripts/build_model_datasets.py` writes the annotations of every complete run as a dataset in the format of the human one, `results/MODEL/complete/SPLIT.CONFIG.json` (same reviews and order, with the model's tuples as annotations).
 
 ```bash
 python3 scripts/build_model_datasets.py --train "$ASQP_DATA" --test datasets/test.json
@@ -82,7 +87,7 @@ python3 scripts/build_model_datasets.py --train "$ASQP_DATA" --test datasets/tes
 ## Audit offsets with original data obtained separately
 
 ```bash
-python3 scripts/audit_offsets.py results/train/Qwen__Qwen3.8-27B.full.asqp.json.gz "$ASQP_DATA"
+python3 scripts/audit_offsets.py results/Qwen__Qwen3.8-27B/runs/train.full.asqp.json "$ASQP_DATA"
 ```
 
 Offsets count Python Unicode characters, not UTF-8 bytes or model subwords, with an exclusive end. Only words receive token IDs, numbered consecutively: `competente.Tem` is two tokens (`competente`, `Tem`). Offsets come from each word's character position, so punctuation between selected words is kept in the span, while edge punctuation cannot be selected. In the direct-offset condition the guide's instruction is the only safeguard against edge punctuation. Exact source alignment does not guarantee a semantically appropriate span.

@@ -1,14 +1,14 @@
-import gzip,hashlib,json,pathlib
+import hashlib,json,pathlib
 root=pathlib.Path(__file__).resolve().parents[1]
 # documents and processing units of each dataset, by sha256
 SIZES={'615335780065212b1e155dddc76ee10c2d338b479966ae47a171d398e1d43daa':(763,3831),
        '4214afea6f51d4f158075aba2caa891ad9184f77f4f4b79bce93094d10114987':(506,2773)}
 print('split,model,task,config,documents,rejection_percent,tuples,empty_units,attempts_per_unit,minutes,tuples_per_minute')
+f=root/'results'/'manifest.json'
 for split in ['train','test']:
- f=root/'results'/split/'manifest.json'
- for entry in json.loads(f.read_text()) if f.exists() else []:
+ for entry in [e for e in json.loads(f.read_text()) if e['split']==split] if f.exists() else []:
   p=root/entry['file'];assert hashlib.sha256(p.read_bytes()).hexdigest()==entry['sha256']
-  d=json.loads(gzip.decompress(p.read_bytes()));s=d['summary'];rows=d['records'];u=[u for r in rows for u in r['units']]
+  d=json.loads(p.read_bytes());s=d['summary'];rows=d['records'];u=[u for r in rows for u in r['units']]
   docs,units=SIZES[s['dataset_sha256']]
   assert len(rows)==s['documents']==docs and len(u)==s['units']==units
   assert sum(len(r['predictions']) for r in rows)==s['retained_tuples']

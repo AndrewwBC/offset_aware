@@ -1,0 +1,32 @@
+{
+    "ex_0512": {
+        "text": "A localização é ótima, mas o serviço é muito ruim! Para entrar e sair do hotel tem que subir/descer uma escada caracol, e ninguém do hotel ajuda com as malas. O café da manhã é ridículo, colocado em cima de um armário pequeno. Os funcionários não foram muito simpáticos Room Tip: Não tenho muita informação! Os quartos que vi são muito pequenos!",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "localização",
+                    "location": [
+                        2,
+                        13
+                    ]
+                },
+                "sentiment": {
+                    "term": "ótima",
+                    "location": [
+                        16,
+                        21
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "category",
+                    "aspect",
+                    "expression",
+                    "polarity"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "ex_0057": {
+        "text": "Este foi o pior hotel que já fiquei em minha vida, tem mofos nas paredes, tentaram me por num apartamento abafado no subsolo que fedia a cigarro e é os corredores do hotel são um labirinto, pondo em risco os hóspedes em caso de incêndio. A localização é ótima, tem tudo muito próximo, shopping e supermercado, entretanto o atendimento do hotel foi péssimo e os quartos além de muito pequenos são muito mal conservados. Eu não recomendo a quem deseja o mínimo de higiene.",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "localização",
+                    "location": [
+                        240,
+                        251
+                    ]
+                },
+                "sentiment": {
+                    "term": "ótima",
+                    "location": [
+                        254,
+                        259
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "category",
+                    "aspect",
+                    "expression",
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1609": {
+        "text": "O ar condicionado só funciona no verão, isto não é relatado na hora que você verifica a descrição do quarto. A rua é um pouco barulhenta, então ou você morre de calor com a janela fechada ou não dorme por causa do barulho da rua.  A localização é ótima. Os preços como café da manhã é muito vantajoso e tem variedade.",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "localização",
+                    "location": [
+                        233,
+                        244
+                    ]
+                },
+                "sentiment": {
+                    "term": "ótima",
+                    "location": [
+                        247,
+                        252
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "category",
+                    "aspect",
+                    "expression",
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0072": {
+        "text": "Estive neste hotel entre 12/09/2012 a 17/09/2012 e adorei mesmo. A limpeza é impecável (limpeza todos os dias), o chuveiro é uma delicia. Lençois e toalhas limpas. A localização é ótima. Fui à Times Square, Central Park, Empire, Rockfeller, tudo a pé... Os funcionarios são prestativos e educados. O café da manha é muito gostoso. Quando retornar a NY, com certeza ficarei lá. Room Tip: Fiquei o 604 e estava ótimo. O 1 andar deve ser bem ruim.",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "localização",
+                    "location": [
+                        166,
+                        177
+                    ]
+                },
+                "sentiment": {
+                    "term": "ótima",
+                    "location": [
+                        180,
+                        185
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "category",
+                    "aspect",
+                    "expression",
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0222": {
+        "text": "O hotel é excelente e divertido! O check in e check out foram super rápidos. O hotel tem vários cassinos, bares e restaurantes! A localização é ótima: perto do bellagio, no centro da strip. O hotel tem vallet e ótimos serviços. Apenas a internet que é um pouco lenta, no mais adoramos o hotel. O quarto também é grande e confortável, apenas longe dos elevadores. Room Tip: ótimo hotel",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "localização",
+                    "location": [
+                        130,
+                        141
+                    ]
+                },
+                "sentiment": {
+                    "term": "ótima",
+                    "location": [
+                        144,
+                        149
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "category",
+                    "aspect",
+                    "expression",
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1462": {
+        "text": "O Hotel é muito bom, tudo organizado e limpo, as pessoas são prestativas e voluntariosas, que permite que mesmo sem um Inglês fluente você possa se sentir super a vontade.   A localização é ótima, vc consegue para todos os lugares a pé, enfim, show de bola e eu recomendo.      Fábio Silva  Room Tip: Optei por andares alto, assim não se ouve nada do transito, embora as janelas tenho sistema de bloqu...",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "localização",
+                    "location": [
+                        176,
+                        187
+                    ]
+                },
+                "sentiment": {
+                    "term": "ótima",
+                    "location": [
+                        190,
+                        195
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "category",
+                    "aspect",
+                    "expression",
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ote_0178": {
+        "text": "O pessoal do Concierge é muito atencioso, mas, infelizmente, nem todos os atendentes do Front Desk o são.    O hotel é bem estruturado e possui um shopping enorme e bons restaurantes.   A localização é ótima, pois fica no meio da Strip.   O serviço de quarto deixa um pouco a desejar. Eles demoram a arrumar os quartos e não são muito sorridentes.   O quarto é muito bom e bem equipado, mas tudo o que você usa é cobrado (ex.: rede wireless e cafeteira).",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "localização",
+                    "location": [
+                        188,
+                        199
+                    ]
+                },
+                "sentiment": {
+                    "term": "ótima",
+                    "location": [
+                        202,
+                        207
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "category",
+                    "aspect",
+                    "expression",
+                    "polarity"
+                ]
+            }
+        ]
+    }
+}

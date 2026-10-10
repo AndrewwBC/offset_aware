@@ -1,5 +1,5 @@
 """Export only generated fields; never copy original documents or gold labels."""
-import argparse,json,gzip,hashlib
+import argparse,json,hashlib
 
 def export(input,output):
  d=json.load(open(input));s=d['summary'];rows=[];units=[];spans=0
@@ -12,7 +12,7 @@ def export(input,output):
   us=[{k:u[k] for k in ['location','annotations','attempts','rejected','parse_errors','validation_errors']} for u in r['sentences']];units+=us
   rows.append({'id':r['id'],'source_sha256':hashlib.sha256(r['text'].encode()).hexdigest(),'predictions':r['predictions'],'units':us})
  summary={k:s[k] for k in ['model','task','config','documents','elapsed_seconds','dataset_sha256']};summary.update(units=len(units),rejected_units=sum(u['rejected'] for u in units),empty_units=sum(not u['rejected'] and not u['annotations'] for u in units),retained_tuples=sum(len(r['predictions']) for r in rows),attempts=sum(u['attempts'] for u in units),retained_spans_audited=spans)
- open(output,'wb').write(gzip.compress(json.dumps({'summary':summary,'records':rows},ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
+ open(output,'w',encoding='utf-8').write(json.dumps({'summary':summary,'records':rows},ensure_ascii=False,indent=1)+'\n')
  return summary
 
 if __name__=='__main__':

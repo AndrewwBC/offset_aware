@@ -1,0 +1,77 @@
+{
+ "model": "unsloth/gemma-3-4b-it",
+ "runs": [
+  {
+   "split": "train",
+   "config": "full",
+   "predicted": 1916,
+   "identical": 475,
+   "similar": 859,
+   "different": 582,
+   "human_tuples": 3436,
+   "excluded_unannotated": 81,
+   "sampled_similar": 7,
+   "sampled_different": 6
+  },
+  {
+   "split": "train",
+   "config": "no_retry",
+   "predicted": 1297,
+   "identical": 394,
+   "similar": 508,
+   "different": 395,
+   "human_tuples": 3436,
+   "excluded_unannotated": 42,
+   "sampled_similar": 0,
+   "sampled_different": 0
+  },
+  {
+   "split": "train",
+   "config": "no_tags",
+   "predicted": 16,
+   "identical": 0,
+   "similar": 8,
+   "different": 8,
+   "human_tuples": 3436,
+   "excluded_unannotated": 1,
+   "sampled_similar": 0,
+   "sampled_different": 0
+  },
+  {
+   "split": "test",
+   "config": "full",
+   "predicted": 1490,
+   "identical": 343,
+   "similar": 662,
+   "different": 485,
+   "human_tuples": 2313,
+   "excluded_unannotated": 0,
+   "sampled_similar": 3,
+   "sampled_different": 4
+  },
+  {
+   "split": "test",
+   "config": "no_retry",
+   "predicted": 987,
+   "identical": 273,
+   "similar": 391,
+   "different": 323,
+   "human_tuples": 2313,
+   "excluded_unannotated": 0,
+   "sampled_similar": 0,
+   "sampled_different": 0
+  },
+  {
+   "split": "test",
+   "config": "no_tags",
+   "predicted": 7,
+   "identical": 0,
+   "similar": 1,
+   "different": 6,
+   "human_tuples": 2313,
+   "excluded_unannotated": 0,
+   "sampled_similar": 0,
+   "sampled_different": 0
+  }
+ ]
+}

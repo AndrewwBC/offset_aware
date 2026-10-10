@@ -1,0 +1,781 @@
+{
+    "ex_0549": {
+        "text": "O hotel diz que foi recentemente renovado o que não é verdade. Está sujo, mal cuidado. Pia do banheiro entupida, carpete manchado, sujo, cofre sem porta. O chão do restaurante colava os sapatos de sujo. O cheiro é horrível. Paguei a conta e mudei de hotel. Esse nunca mais!",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "chão",
+                    "location": [
+                        156,
+                        160
+                    ]
+                },
+                "sentiment": {
+                    "term": "colava",
+                    "location": [
+                        176,
+                        182
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": [
+                    "polarity"
+                ]
+            },
+            {
+                "category": "structure",
+                "aspect": {
+                    "term": "sapatos",
+                    "location": [
+                        186,
+                        193
+                    ]
+                },
+                "sentiment": {
+                    "term": "de",
+                    "location": [
+                        194,
+                        196
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "category"
+                ]
+            }
+        ]
+    },
+    "ex_1039": {
+        "text": "Tradicional hotel em localização ótima para negócios no centro de Porto Alegre. Mas eles podiam fazer uma renovação! Os quartos continuam, em sua maioria, muito antigos, com pouco espaço, banheiros estreitos e com duchas fracas. Gostaria de voltar ao hotel e vê-lo em melhores condições!",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "renovação",
+                    "location": [
+                        106,
+                        115
+                    ]
+                },
+                "sentiment": {
+                    "term": "uma",
+                    "location": [
+                        102,
+                        105
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0198": {
+        "text": "O Hotel está ao lado do Memorial das Torres Gêmeas. O ambiente é fúnebre! É como ficar hospedado ao lado de um cemitério, ou pior. O atendimento é péssimo. No quarto cabem apenas duas pessoas, sem possibilidade de camas extra, apesar de prometerem isso.  Pedimos cobertores extra, não tinham. Pedimos taças para tomar champanhe no quarto, disseram que não poderiam fornecer. Certo dia fui usar os elevadores para descer um funcionário estava ocupando o elevador com cargas e ele me disse: 'Se não quiser esperar, use as escadas'.  Para fazer late check out cobram 35 dólares. Pedimos para guardarem as malas, demoraram 25 minutos para encontrá-as depois. Quase perdemos nosso vôo. O restaurante é caro e com pouca variedade. O quarto kichenet nada mais é do que um igual aos outros com um microondas. Não recomendo esse hotel a ninguém! Room Tip: O hotel está ao lado da reconstrução das torres gêmeas, o barulho durante o dia é insuportável. Nos...",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "Hotel",
+                    "location": [
+                        2,
+                        7
+                    ]
+                },
+                "sentiment": {
+                    "term": "está",
+                    "location": [
+                        8,
+                        12
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": []
+            },
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "Memorial",
+                    "location": [
+                        24,
+                        32
+                    ]
+                },
+                "sentiment": {
+                    "term": "das",
+                    "location": [
+                        33,
+                        36
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": []
+            },
+            {
+                "category": "structure",
+                "aspect": {
+                    "term": "Torres",
+                    "location": [
+                        37,
+                        43
+                    ]
+                },
+                "sentiment": {
+                    "term": "Gêmeas",
+                    "location": [
+                        44,
+                        50
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "category"
+                ]
+            }
+        ]
+    },
+    "ex_0277": {
+        "text": "meu nome não constava na lista de pedido de café da manhã, mesmo tento reservado e pago. passei pelo constrangimento de ser barrado e ter que ir até a recepção todos os dias da minha estadia. no banheiro a água do banho esfriava e esquentava sozinha.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "nome",
+                    "location": [
+                        4,
+                        8
+                    ]
+                },
+                "sentiment": {
+                    "term": "constava",
+                    "location": [
+                        13,
+                        21
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0677": {
+        "text": "O Audran fica pertinho do metrô e de Sacre-couer. Além de ter restaurantes próximos. Fiquei em quarto duplo, para dormir e descansar ele é ótimo, com um estilo clássico. Não tomamos café da manhã no hotel. O pessoal é muito simpático, não tivemos problemas. O hotel é barato, ficamos 4 dias, porém, as coisas em Paris são muito caras - água e comida. Tem wifi.",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "restaurantes",
+                    "location": [
+                        62,
+                        74
+                    ]
+                },
+                "sentiment": {
+                    "term": "próximos",
+                    "location": [
+                        75,
+                        83
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1593": {
+        "text": "Um ótimo hotel. Oferece transporte para a Disneyland (mas dá para ir a pé, cerca de 10 minutos).  Café da manhã muito bom e com variedade de pratos. Quartos amplos e limpos.Tem uma lavanderia com poucas máquinas, mas a facilidade ajuda. Estacionamento amplo. Atendentes muito cordiais e educados. Ficaria novamente numa próxima viagem, sem dúvida.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "hotel",
+                    "location": [
+                        9,
+                        14
+                    ]
+                },
+                "sentiment": {
+                    "term": "ótimo",
+                    "location": [
+                        3,
+                        8
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0161": {
+        "text": "Localização excelente!!!! Quartos apertados, banheiro mega minúsculo, moveis velhos, colchão terrível, frigobar nao funciona e é claro estava vazio. Mas como disse a localização é excelente! O elevador cabe no máximo 2 pessoas. Fiquei em um quarto no ultimo andar e nao tinha nem janela na parede. A janela era parte do telhado. É um hotel ótimo pra quem vai ficar nas ruas de Paris e só vai para o hotel dormir",
+        "annotations": [
+            {
+                "category": "structure",
+                "aspect": {
+                    "term": "janela",
+                    "location": [
+                        300,
+                        306
+                    ]
+                },
+                "sentiment": {
+                    "term": "parte",
+                    "location": [
+                        311,
+                        316
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0886": {
+        "text": "Reservei esse hotel através do pacote da TAM Viagens , era o único disponível para POA. Imaginei que deveria ser um hotel bom, pois a TAM não elegeria um ruim... Ledo engano!!O hotel é horrível.Pedi o quarto disponível para pessoas alérgicas. A única diferença para o quarto comum é que não tem carpete no chão. Na cama, um belo cobertor felpudo que me deixo com o nariz coçando. A cabeceira da cama era de carpet!! Horrível!! Mas a pior parte era o banheiro. Cinza, escuro, com o piso do chão cheio de manchas e quebrado. Quando entramos no quarto, tinha uma poça no chão. Liguei para a recepção reclamando, mas nada fizeram. Só secaram o piso... As toalhas são horríveis, cinzas, pequenas e duras. Para piorar tudo, a internet wi-fi é cobrada e não é barata. Não recomendo!!!!!!",
+        "annotations": [
+            {
+                "category": "structure",
+                "aspect": {
+                    "term": "cama",
+                    "location": [
+                        395,
+                        399
+                    ]
+                },
+                "sentiment": {
+                    "term": "de",
+                    "location": [
+                        404,
+                        406
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "category"
+                ]
+            },
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "carpet",
+                    "location": [
+                        407,
+                        413
+                    ]
+                },
+                "sentiment": {
+                    "term": "era",
+                    "location": [
+                        400,
+                        403
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "category"
+                ]
+            }
+        ]
+    },
+    "ex_1683": {
+        "text": "O hotel é muito bom! Os quartos não sao grandes mas sao completos e muito limpos.  A localização é excelente, tem muitos restaurantes ao redor do hotel, alem de ser muito perto do metro.  Os dois únicos problemas são que o elevador cabe só duas pessoas e dá para escutar do quarto.  É uma otima opção para casais.  Tem banheira e internet free.  O valor é bom e tem desconto para reservas pelo booking.com",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "hotel",
+                    "location": [
+                        2,
+                        7
+                    ]
+                },
+                "sentiment": {
+                    "term": "muito",
+                    "location": [
+                        10,
+                        15
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            },
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "banheira",
+                    "location": [
+                        319,
+                        327
+                    ]
+                },
+                "sentiment": {
+                    "term": "free",
+                    "location": [
+                        339,
+                        343
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0134": {
+        "text": "Hotel matavilhoso! Pessoal altamente treinado, gentil e disposto a ajudar. Localização perfeita. E o quarto? Imenso! Cama King size, lençóis e edredons fantásticos. Escrivaninha, cômoda, bar, armário e ainda sobrava muuuuito espaço para circular! Coisa rara em NY! Pode ir que não tem erro! Ficamos 8 dias e foi só alegria. Nosso quarto era o 2211 e o das crianças o 2210. Cuidado com o café da manhã que é muuuuito caro! Room Tip: 2211 perfeito!",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "matavilhoso",
+                    "location": [
+                        6,
+                        17
+                    ]
+                },
+                "sentiment": {
+                    "term": "Hotel",
+                    "location": [
+                        0,
+                        5
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": [
+                    "category"
+                ]
+            }
+        ]
+    },
+    "ex_1410": {
+        "text": "horel em reforma. quarto razoável ma so preco nao condis com o serviço prestado. nao fui avisado sobre taxa de garagem. 15 reais para guardar o carro. cafe da manha razoavel.ar condicionado miito barulhento",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "guardar",
+                    "location": [
+                        134,
+                        141
+                    ]
+                },
+                "sentiment": {
+                    "term": "carro",
+                    "location": [
+                        144,
+                        149
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": []
+            }
+        ]
+    },
+    "ex_0959": {
+        "text": "É uma otima opção para quem deseja uma injeção de puro rock de todos os tipos, cassino, vários restaurantes, lojas de roupas e espaço para vários shows! No hall de entrada tem várias peças de roupas de vários artistas ligados ao rock e nao se assuste se encontrar uma dançarina de cabeça para baixo no mastro no meio do cassino que fica logo na entrada para os quartos... música 24horas. Um show de fiel segmentação! Custoxbenefício perfeito!",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "fiel",
+                    "location": [
+                        399,
+                        403
+                    ]
+                },
+                "sentiment": {
+                    "term": "segmentação",
+                    "location": [
+                        404,
+                        415
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0031": {
+        "text": "Atendimento razoável. O café da manhã deve ser pago à parte e na maioria dos dias preferimos usufruir deste serviço em outros lugares da cidade. Os quartos são pequenos, porém, limpos. A acústica dos quartos não é muito boa, afinal, ouvíamos todo e qualquer barulho ocorrido nos corredores do andar ou quartos vizinhos. O hotel é longe das principais atrações da cidade, mas há um ponto de ônibus na porta do hotel e uma estação de metrô bem próxima.",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "quartos",
+                    "location": [
+                        200,
+                        207
+                    ]
+                },
+                "sentiment": {
+                    "term": "não",
+                    "location": [
+                        208,
+                        211
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_0337": {
+        "text": "O hotel eh super descolado. Tem um bar mexicano no proprio hotel, muito gostoso. O atendimento tb foi bacana. O quarto eh pequeno, mas nao vi necessidade nenhuma de ser maior! O banheiro era limpo e trocavam as toalhas todos os dias. A localizacao eh maravilhosa!!!!!! Do lado da grand central! Quem for para o aeroporto, pode ir de shuttle, um tipo de van que sai da rua em frente a entrada da grand central. Sai muuuuitooo mais barato que ir de taxi!!!!",
+        "annotations": [
+            {
+                "category": "location",
+                "aspect": {
+                    "term": "localizacao",
+                    "location": [
+                        236,
+                        247
+                    ]
+                },
+                "sentiment": {
+                    "term": "maravilhosa",
+                    "location": [
+                        251,
+                        262
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ex_1298": {
+        "text": "Hotel recém inaugurado, portanto tudo novinho em folha, atendimento cordial, apartamentos amplos,bom café da manhã e o melhor e mais dfícil de se encontrar atualmente no Brasil: preço justo. O ponto negativo, que pode ser positivo dependendo do ponto de vista, é a localização, próximo ao Shopping Total e a rodoviária. Ou seja, não é um lugar para passear a  pé, mas no Shopping Total tem praça de alimentação,que é útil já que o hotel não tem room service, com boas lanchonetes e alguns bons restaurantes. Não é tão distante da Calçada da Fama, que é um dos points da cidade. RECOMENDO e voltarei.",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "RECOMENDO",
+                    "location": [
+                        578,
+                        587
+                    ]
+                },
+                "sentiment": {
+                    "term": "voltarei",
+                    "location": [
+                        590,
+                        598
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": [
+                    "category"
+                ]
+            }
+        ]
+    },
+    "ex_1761": {
+        "text": "Se você vai sozinho para NY e não quer ficar em hostel e dividir o quarto com várias pessoas esse hotel é uma ótima opção. O hotel é bem localizado e não barulhento, com diversas opções para comer nas proximidades. O quarto era limpo e pequeno, a internet wi-fi era de boa qualidade, havia cofre no quarto, tv LCD, mas o quarto era sem banheiro, mas isso não foi problema, pois havia uma pia com espelhos que dava para escovar os dentes e fazer a barba. No andar que estava havia vários banheiros, sempre havendo banheiro disponível quando necessário. O banho era bom. O ambiente do hotel era bem legale a decoração também. Havia computadores e ipad´s disponíveis no lobby. Não tomava café da manhã no hotel, apesar de achar que o hotel oferecia esse serviço por uma taxa extra. O café eu tomava em um lugar bem interessante chamado Cafe Today, tipo buffet por quilo com tudo o que você pode imaginar, com frutas, grãos, iogurtes, salsichas, bacons, ovos, pães e etc. Esse local ficava uma rua acima da rua do hotel (52th). Uma curiosidade é que frequentemente tocava música brasileira nos altos-falantes localizados nos elevadores e no lobby.",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "banheiros",
+                    "location": [
+                        487,
+                        496
+                    ]
+                },
+                "sentiment": {
+                    "term": "disponível",
+                    "location": [
+                        522,
+                        532
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ote_0185": {
+        "text": "para quem quiser ficar em Paris a um passo do agito, porem fora dele, place de italie é uma pedida. tem metro proximo, um grande centro de compras. Da para caminhar ate os restaurantes de MontParnanasse. O café da manhã é excelente, para os meus padrões que já não posso comer quase mais nada. Antonio Brito - Campinas SP",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "quem",
+                    "location": [
+                        5,
+                        9
+                    ]
+                },
+                "sentiment": {
+                    "term": "quiser",
+                    "location": [
+                        10,
+                        16
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ote_0320": {
+        "text": "Hotel muito bem localizado, serviço bom e pessoal da recepção muito simpático e prestável. A única coisa menos mal foi a alta temperatura do quarto acrescida do facto de só termos um edredon para dormir, resultado uma noite mal dormida mesmo com janela aberta. Uma solução seria existir a possibilidade de dormir sem endredon e existirem lençóis e um cobertor de opção para pessoas que ñão consigam dormir com muito calor. De resto tudo óptimo.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "tudo",
+                    "location": [
+                        432,
+                        436
+                    ]
+                },
+                "sentiment": {
+                    "term": "óptimo",
+                    "location": [
+                        437,
+                        443
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ote_0404": {
+        "text": "Toda a parte de serviço muito bom.   Quartos impecaveis, mesmo tendo muitos fumantes no hotel, nao se sentia cheiro de fumaça nos quartos.  Quartos muito confortaveis,.  Bastante entretenimento no hotel cassino.  Atendeu minhas expectativas.  Room Tip: as suites das extremidades sao mais expaçosas e mais bem iluminadas.",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "expectativas",
+                    "location": [
+                        228,
+                        240
+                    ]
+                },
+                "sentiment": {
+                    "term": "minhas",
+                    "location": [
+                        221,
+                        227
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ote_0924": {
+        "text": "Um Hotel charmoso e elegante, bem parisiense!!!!!. Meu marido e eu passamos nosso aniversário de casamento, em Paris, cidade que adoro e acho muito romantica. Perfeita para uma comemoração a dois. Para mim, que conheço muito esta cidade linda, jantar e sair a pé, admirando os monumentos iluminados, a Tour Eiffel, deslumbrante, o Arco do Triunfo, é uma das melhores experiencias da minha vida.",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "conheço",
+                    "location": [
+                        211,
+                        218
+                    ]
+                },
+                "sentiment": {
+                    "term": "muito",
+                    "location": [
+                        219,
+                        224
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ote_1048": {
+        "text": "Achei o hotel muito bem localizado. O tratamento foi ótimo. Quando cheguei já estavam com as minhas encomendas, que haviam chegado da compra que fiz pela internet. Fiquei no quarto padrão com banheira, que é grande para os padrões de NY! Achei a cama muito confortável e o quarto era limpo. O iPad que fica no quarto ajuda muito, voce pode navegar pela internet através dele. Estava lá durante a passagem do furacão Sandy e me senti segura. Foram superatenciosos. Ficaria lá de novo com certeza!",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "tratamento",
+                    "location": [
+                        38,
+                        48
+                    ]
+                },
+                "sentiment": {
+                    "term": "ótimo",
+                    "location": [
+                        53,
+                        58
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ote_1184": {
+        "text": "Muito bom hotel, ótima localização, quarto confortável (cama nota dez), banheiro limpo. Senti falta de um frigobar, mas há a possibilidade de pegar gelo no lobby e colocar em recipiente térmico no quarto. Dica importante: na hora de ir embora, não pegue o táxi oferecido pelo funcionário do hotel. É bem mais caro. Chame você mesmo e economize alguns dólares!",
+        "annotations": [
+            {
+                "category": "price",
+                "aspect": {
+                    "term": "mais",
+                    "location": [
+                        304,
+                        308
+                    ]
+                },
+                "sentiment": {
+                    "term": "caro",
+                    "location": [
+                        309,
+                        313
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ote_1405": {
+        "text": "otima locslizacao. nao é o mais luxuoso de vegas. mas da pra se divertir muito. o quarto que fiquei so tem cama e banheiro nao tem nwm frigobar. mas tem tudo dentro do hotel. pizzarias. restaurantes. bares. metcado. lojas. preco otimo. piscina agradavel. ainda ganhei uma cortesia de cafe da manha. vale a pena pra quem nao pode gastar muito. super recomendo",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "super",
+                    "location": [
+                        343,
+                        348
+                    ]
+                },
+                "sentiment": {
+                    "term": "recomendo",
+                    "location": [
+                        349,
+                        358
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ote_1471": {
+        "text": "Tudo de bom ! Ótima localização , front desk nota DEZ e limpeza 1000 !  inham nos dito que era barulhento , mas que nada ... nossa suíte 1725 era bem tranquila !  Fomos 2 mães com as filhas pequenas , as meninsa adoraram a pequena cozinha ... assim quando chegávamos cansadas podíamos cozinhar algo para elas rapidinho !  Com certeza voltaria !",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "certeza",
+                    "location": [
+                        326,
+                        333
+                    ]
+                },
+                "sentiment": {
+                    "term": "voltaria",
+                    "location": [
+                        334,
+                        342
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "POS",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    },
+    "ote_1771": {
+        "text": "A melhor parte eh a localizacao! Perto de metro, da Times Square, da Broadway, de restaurantes... Como a maioria dos hoteis de NY, esse nao foge a regra: O cafe da manha nao estah incluido. Mas como todos, existe uma cafeteira no quarto. Com cafe do tipo americano. Mas dah para descansar bem nas camas, confortaveis. Um detalhe interessante: O hotel fica espremido entre dois predios. Se bobear, passa despercebido. Entre os pros e os contras: Valeu muito a pena.",
+        "annotations": [
+            {
+                "category": "service",
+                "aspect": {
+                    "term": "bobear",
+                    "location": [
+                        389,
+                        395
+                    ]
+                },
+                "sentiment": {
+                    "term": "despercebido",
+                    "location": [
+                        403,
+                        415
+                    ],
+                    "type": "explicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": [
+                    "polarity"
+                ]
+            }
+        ]
+    }
+}

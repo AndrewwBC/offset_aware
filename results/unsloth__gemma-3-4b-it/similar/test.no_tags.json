@@ -1,0 +1,30 @@
+{
+    "ote_0005": {
+        "text": "Péssima relação custo x benefício. Esta foi, com certeza, a pior hospedagem que tivemos nas reservas hoteispontocom. Fizemos a reserva por telefone para garantir que o apartamento que nos seria destinado deveria ser como o das imagens divulgadas no site: AMPLO, COM CAMA QUEEN, DE FRENTE PARA A RUA. SOMENTE APOS ESSAS CONFIRMAÇÕES TELEFONICAS FECHEI A RESERVA DE 8 DIAS, COM PAGAMENTO IMEDIATO. Quero ressaltar o péssimo atendimento que recebemos no Citadines. O atendente que fez o nosso check in e nosso check out, dentre outros atendimentos é totalmente descortes e desatento. Fizemos o check in por volta das 16h e mesmo apresentando os requisitos da reserva, fomos mandados para o apartamento 1605 (pequeno, com sofá-cama e voltado para área interna, com péssimo funcionamento do ar condicionado). Reclamamos e ele nos mandou para ap. 1114. Muito pior que o anterior: menor ainda, voltado para área interna, cama quebrada, super quente e com ar não funcionando. Reclamamos novamente. Entrou e saiu gente do quarto inúmeras vezes até por volta de 23h, sem nada resolver. Nessa hora outro atendente nos ofereceu outro apartamento no mesmo andar e nas mesmas condições do 1114. Não aceitamos. Decidimos aprontamos nossa bagagem para passar a noite no saguão do hotel e abandoná-lo tão logo amanhecesse. Ofereceram-nos, então, o ap. 3001. Ele fica no rés do chão, numa puxada que liga o bloco da recepção com o bloco 3 e está 50 cm abaixo do nível da recepção, voltado também para uma área interna. Muito cansados, aceitamos, mas não valeu a pena. Tivemos uma péssima estadia que durou longas 8 noites. O carpete estava sempre muito sujo. A limpeza básica diária não era feita (apesar de estarmos pagando diária). A limpeza GERAL, que só ficamos sabendo no check in que ocorreria a cada 3 dias, também era péssima. A cozinha jamais foi limpa. Os itens de banho (xampu, condicionador, sabonete e até as desgastadas e mínimas toalhas) não eram repostos no banheiro, além da limpeza que não era feita. Os itens da cozinha (chá, café, açucar, adoçante, leite) também não eram repostos e nada nela era lavado. Todas as noites quando chegávamos o quarto tinha um odor terrível de cigarro, o que impregnou em todas as nossas roupas limpas que estavam na prateleira. NÃO RECOMENDO. Room Tip: Nunca pague a diária desse hotel antecipadamente como nós fizemos junto a hoteispontocom. Eles não d...",
+        "annotations": [
+            {
+                "category": "general",
+                "aspect": {
+                    "term": "Reclamamos",
+                    "location": [
+                        968,
+                        978
+                    ]
+                },
+                "sentiment": {
+                    "term": "Reclamamos",
+                    "location": [
+                        968,
+                        978
+                    ],
+                    "type": "implicit"
+                },
+                "polarity": "NEG",
+                "shared_elements": [
+                    "category",
+                    "polarity"
+                ]
+            }
+        ]
+    }
+}
